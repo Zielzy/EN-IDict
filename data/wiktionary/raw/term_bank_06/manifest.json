@@ -1,0 +1,1809 @@
+{
+  "source": "C:/aa/Project/kamus/wiktionary-en-en/wiktionary_filter/term_bank_6.json",
+  "bank": 6,
+  "totalEntries": 10000,
+  "splitCount": 200,
+  "partSize": 50,
+  "parts": [
+    {
+      "part": 1,
+      "fileName": "term_bank_06_part_01.json",
+      "count": 50,
+      "startIndex": 0,
+      "endIndexExclusive": 50,
+      "firstTerm": "Doerner",
+      "lastTerm": "dogges"
+    },
+    {
+      "part": 2,
+      "fileName": "term_bank_06_part_02.json",
+      "count": 50,
+      "startIndex": 50,
+      "endIndexExclusive": 100,
+      "firstTerm": "Doggett",
+      "lastTerm": "dogwood"
+    },
+    {
+      "part": 3,
+      "fileName": "term_bank_06_part_03.json",
+      "count": 50,
+      "startIndex": 100,
+      "endIndexExclusive": 150,
+      "firstTerm": "dogwoods",
+      "lastTerm": "Dolan"
+    },
+    {
+      "part": 4,
+      "fileName": "term_bank_06_part_04.json",
+      "count": 50,
+      "startIndex": 150,
+      "endIndexExclusive": 200,
+      "firstTerm": "Dolan",
+      "lastTerm": "dollmaking"
+    },
+    {
+      "part": 5,
+      "fileName": "term_bank_06_part_05.json",
+      "count": 50,
+      "startIndex": 200,
+      "endIndexExclusive": 250,
+      "firstTerm": "dollman",
+      "lastTerm": "domains"
+    },
+    {
+      "part": 6,
+      "fileName": "term_bank_06_part_06.json",
+      "count": 50,
+      "startIndex": 250,
+      "endIndexExclusive": 300,
+      "firstTerm": "Doman",
+      "lastTerm": "dominatrix"
+    },
+    {
+      "part": 7,
+      "fileName": "term_bank_06_part_07.json",
+      "count": 50,
+      "startIndex": 300,
+      "endIndexExclusive": 350,
+      "firstTerm": "dominatrixes",
+      "lastTerm": "Don"
+    },
+    {
+      "part": 8,
+      "fileName": "term_bank_06_part_08.json",
+      "count": 50,
+      "startIndex": 350,
+      "endIndexExclusive": 400,
+      "firstTerm": "DON",
+      "lastTerm": "donees"
+    },
+    {
+      "part": 9,
+      "fileName": "term_bank_06_part_09.json",
+      "count": 50,
+      "startIndex": 400,
+      "endIndexExclusive": 450,
+      "firstTerm": "Donegal",
+      "lastTerm": "Donlon"
+    },
+    {
+      "part": 10,
+      "fileName": "term_bank_06_part_10.json",
+      "count": 50,
+      "startIndex": 450,
+      "endIndexExclusive": 500,
+      "firstTerm": "Donn",
+      "lastTerm": "doodad"
+    },
+    {
+      "part": 11,
+      "fileName": "term_bank_06_part_11.json",
+      "count": 50,
+      "startIndex": 500,
+      "endIndexExclusive": 550,
+      "firstTerm": "doodads",
+      "lastTerm": "Doonan"
+    },
+    {
+      "part": 12,
+      "fileName": "term_bank_06_part_12.json",
+      "count": 50,
+      "startIndex": 550,
+      "endIndexExclusive": 600,
+      "firstTerm": "Doonbeg",
+      "lastTerm": "dope"
+    },
+    {
+      "part": 13,
+      "fileName": "term_bank_06_part_13.json",
+      "count": 50,
+      "startIndex": 600,
+      "endIndexExclusive": 650,
+      "firstTerm": "dope",
+      "lastTerm": "Dorian"
+    },
+    {
+      "part": 14,
+      "fileName": "term_bank_06_part_14.json",
+      "count": 50,
+      "startIndex": 650,
+      "endIndexExclusive": 700,
+      "firstTerm": "dorians",
+      "lastTerm": "Dorrance"
+    },
+    {
+      "part": 15,
+      "fileName": "term_bank_06_part_15.json",
+      "count": 50,
+      "startIndex": 700,
+      "endIndexExclusive": 750,
+      "firstTerm": "Dorrell",
+      "lastTerm": "dose"
+    },
+    {
+      "part": 16,
+      "fileName": "term_bank_06_part_16.json",
+      "count": 50,
+      "startIndex": 750,
+      "endIndexExclusive": 800,
+      "firstTerm": "doser",
+      "lastTerm": "dotel"
+    },
+    {
+      "part": 17,
+      "fileName": "term_bank_06_part_17.json",
+      "count": 50,
+      "startIndex": 800,
+      "endIndexExclusive": 850,
+      "firstTerm": "dotes",
+      "lastTerm": "doublespeak"
+    },
+    {
+      "part": 18,
+      "fileName": "term_bank_06_part_18.json",
+      "count": 50,
+      "startIndex": 850,
+      "endIndexExclusive": 900,
+      "firstTerm": "doublet",
+      "lastTerm": "Dougherty"
+    },
+    {
+      "part": 19,
+      "fileName": "term_bank_06_part_19.json",
+      "count": 50,
+      "startIndex": 900,
+      "endIndexExclusive": 950,
+      "firstTerm": "Doughman",
+      "lastTerm": "Dover"
+    },
+    {
+      "part": 20,
+      "fileName": "term_bank_06_part_20.json",
+      "count": 50,
+      "startIndex": 950,
+      "endIndexExclusive": 1000,
+      "firstTerm": "Dovercourt",
+      "lastTerm": "downblouse"
+    },
+    {
+      "part": 21,
+      "fileName": "term_bank_06_part_21.json",
+      "count": 50,
+      "startIndex": 1000,
+      "endIndexExclusive": 1050,
+      "firstTerm": "downblouse",
+      "lastTerm": "Downie"
+    },
+    {
+      "part": 22,
+      "fileName": "term_bank_06_part_22.json",
+      "count": 50,
+      "startIndex": 1050,
+      "endIndexExclusive": 1100,
+      "firstTerm": "Downieville",
+      "lastTerm": "downs"
+    },
+    {
+      "part": 23,
+      "fileName": "term_bank_06_part_23.json",
+      "count": 50,
+      "startIndex": 1100,
+      "endIndexExclusive": 1150,
+      "firstTerm": "Downs",
+      "lastTerm": "downtrodden"
+    },
+    {
+      "part": 24,
+      "fileName": "term_bank_06_part_24.json",
+      "count": 50,
+      "startIndex": 1150,
+      "endIndexExclusive": 1200,
+      "firstTerm": "downtube",
+      "lastTerm": "Doyles"
+    },
+    {
+      "part": 25,
+      "fileName": "term_bank_06_part_25.json",
+      "count": 50,
+      "startIndex": 1200,
+      "endIndexExclusive": 1250,
+      "firstTerm": "Doylestown",
+      "lastTerm": "DPR"
+    },
+    {
+      "part": 26,
+      "fileName": "term_bank_06_part_26.json",
+      "count": 50,
+      "startIndex": 1250,
+      "endIndexExclusive": 1300,
+      "firstTerm": "DPR",
+      "lastTerm": "drafted"
+    },
+    {
+      "part": 27,
+      "fileName": "term_bank_06_part_27.json",
+      "count": 50,
+      "startIndex": 1300,
+      "endIndexExclusive": 1350,
+      "firstTerm": "draftee",
+      "lastTerm": "Dragos"
+    },
+    {
+      "part": 28,
+      "fileName": "term_bank_06_part_28.json",
+      "count": 50,
+      "startIndex": 1350,
+      "endIndexExclusive": 1400,
+      "firstTerm": "dragqueens",
+      "lastTerm": "dramatization"
+    },
+    {
+      "part": 29,
+      "fileName": "term_bank_06_part_29.json",
+      "count": 50,
+      "startIndex": 1400,
+      "endIndexExclusive": 1450,
+      "firstTerm": "dramatizations",
+      "lastTerm": "Drave"
+    },
+    {
+      "part": 30,
+      "fileName": "term_bank_06_part_30.json",
+      "count": 50,
+      "startIndex": 1450,
+      "endIndexExclusive": 1500,
+      "firstTerm": "Draven",
+      "lastTerm": "Dre"
+    },
+    {
+      "part": 31,
+      "fileName": "term_bank_06_part_31.json",
+      "count": 50,
+      "startIndex": 1500,
+      "endIndexExclusive": 1550,
+      "firstTerm": "DRE",
+      "lastTerm": "drearily"
+    },
+    {
+      "part": 32,
+      "fileName": "term_bank_06_part_32.json",
+      "count": 50,
+      "startIndex": 1550,
+      "endIndexExclusive": 1600,
+      "firstTerm": "dreariness",
+      "lastTerm": "Dressel"
+    },
+    {
+      "part": 33,
+      "fileName": "term_bank_06_part_33.json",
+      "count": 50,
+      "startIndex": 1600,
+      "endIndexExclusive": 1650,
+      "firstTerm": "dresser",
+      "lastTerm": "drifts"
+    },
+    {
+      "part": 34,
+      "fileName": "term_bank_06_part_34.json",
+      "count": 50,
+      "startIndex": 1650,
+      "endIndexExclusive": 1700,
+      "firstTerm": "driftwood",
+      "lastTerm": "DRIPs"
+    },
+    {
+      "part": 35,
+      "fileName": "term_bank_06_part_35.json",
+      "count": 50,
+      "startIndex": 1700,
+      "endIndexExclusive": 1750,
+      "firstTerm": "DRIs",
+      "lastTerm": "Drogheda"
+    },
+    {
+      "part": 36,
+      "fileName": "term_bank_06_part_36.json",
+      "count": 50,
+      "startIndex": 1750,
+      "endIndexExclusive": 1800,
+      "firstTerm": "drogue",
+      "lastTerm": "droperidol"
+    },
+    {
+      "part": 37,
+      "fileName": "term_bank_06_part_37.json",
+      "count": 50,
+      "startIndex": 1800,
+      "endIndexExclusive": 1850,
+      "firstTerm": "dropkick",
+      "lastTerm": "Drowns"
+    },
+    {
+      "part": 38,
+      "fileName": "term_bank_06_part_38.json",
+      "count": 50,
+      "startIndex": 1850,
+      "endIndexExclusive": 1900,
+      "firstTerm": "drowsily",
+      "lastTerm": "Druitt"
+    },
+    {
+      "part": 39,
+      "fileName": "term_bank_06_part_39.json",
+      "count": 50,
+      "startIndex": 1900,
+      "endIndexExclusive": 1950,
+      "firstTerm": "druk",
+      "lastTerm": "druthers"
+    },
+    {
+      "part": 40,
+      "fileName": "term_bank_06_part_40.json",
+      "count": 50,
+      "startIndex": 1950,
+      "endIndexExclusive": 2000,
+      "firstTerm": "Druze",
+      "lastTerm": "drywell"
+    },
+    {
+      "part": 41,
+      "fileName": "term_bank_06_part_41.json",
+      "count": 50,
+      "startIndex": 2000,
+      "endIndexExclusive": 2050,
+      "firstTerm": "drywipe",
+      "lastTerm": "DSSs"
+    },
+    {
+      "part": 42,
+      "fileName": "term_bank_06_part_42.json",
+      "count": 50,
+      "startIndex": 2050,
+      "endIndexExclusive": 2100,
+      "firstTerm": "dst",
+      "lastTerm": "DTS"
+    },
+    {
+      "part": 43,
+      "fileName": "term_bank_06_part_43.json",
+      "count": 50,
+      "startIndex": 2100,
+      "endIndexExclusive": 2150,
+      "firstTerm": "DTT",
+      "lastTerm": "Dubbo"
+    },
+    {
+      "part": 44,
+      "fileName": "term_bank_06_part_44.json",
+      "count": 50,
+      "startIndex": 2150,
+      "endIndexExclusive": 2200,
+      "firstTerm": "dubbs",
+      "lastTerm": "duce"
+    },
+    {
+      "part": 45,
+      "fileName": "term_bank_06_part_45.json",
+      "count": 50,
+      "startIndex": 2200,
+      "endIndexExclusive": 2250,
+      "firstTerm": "Duce",
+      "lastTerm": "ducting"
+    },
+    {
+      "part": 46,
+      "fileName": "term_bank_06_part_46.json",
+      "count": 50,
+      "startIndex": 2250,
+      "endIndexExclusive": 2300,
+      "firstTerm": "duction",
+      "lastTerm": "Duerst"
+    },
+    {
+      "part": 47,
+      "fileName": "term_bank_06_part_47.json",
+      "count": 50,
+      "startIndex": 2300,
+      "endIndexExclusive": 2350,
+      "firstTerm": "dues",
+      "lastTerm": "Duggan"
+    },
+    {
+      "part": 48,
+      "fileName": "term_bank_06_part_48.json",
+      "count": 50,
+      "startIndex": 2350,
+      "endIndexExclusive": 2400,
+      "firstTerm": "Duggar",
+      "lastTerm": "dulce"
+    },
+    {
+      "part": 49,
+      "fileName": "term_bank_06_part_49.json",
+      "count": 50,
+      "startIndex": 2400,
+      "endIndexExclusive": 2450,
+      "firstTerm": "dulce",
+      "lastTerm": "dumbed"
+    },
+    {
+      "part": 50,
+      "fileName": "term_bank_06_part_50.json",
+      "count": 50,
+      "startIndex": 2450,
+      "endIndexExclusive": 2500,
+      "firstTerm": "dumbek",
+      "lastTerm": "dun"
+    },
+    {
+      "part": 51,
+      "fileName": "term_bank_06_part_51.json",
+      "count": 50,
+      "startIndex": 2500,
+      "endIndexExclusive": 2550,
+      "firstTerm": "dun",
+      "lastTerm": "dungarees"
+    },
+    {
+      "part": 52,
+      "fileName": "term_bank_06_part_52.json",
+      "count": 50,
+      "startIndex": 2550,
+      "endIndexExclusive": 2600,
+      "firstTerm": "Dungarvan",
+      "lastTerm": "dunnage"
+    },
+    {
+      "part": 53,
+      "fileName": "term_bank_06_part_53.json",
+      "count": 50,
+      "startIndex": 2600,
+      "endIndexExclusive": 2650,
+      "firstTerm": "Dunnam",
+      "lastTerm": "duotone"
+    },
+    {
+      "part": 54,
+      "fileName": "term_bank_06_part_54.json",
+      "count": 50,
+      "startIndex": 2650,
+      "endIndexExclusive": 2700,
+      "firstTerm": "duotone",
+      "lastTerm": "Duques"
+    },
+    {
+      "part": 55,
+      "fileName": "term_bank_06_part_55.json",
+      "count": 50,
+      "startIndex": 2700,
+      "endIndexExclusive": 2750,
+      "firstTerm": "Duquesne",
+      "lastTerm": "Durham"
+    },
+    {
+      "part": 56,
+      "fileName": "term_bank_06_part_56.json",
+      "count": 50,
+      "startIndex": 2750,
+      "endIndexExclusive": 2800,
+      "firstTerm": "durian",
+      "lastTerm": "Dusek"
+    },
+    {
+      "part": 57,
+      "fileName": "term_bank_06_part_57.json",
+      "count": 50,
+      "startIndex": 2800,
+      "endIndexExclusive": 2850,
+      "firstTerm": "Dusenberry",
+      "lastTerm": "Dutcher"
+    },
+    {
+      "part": 58,
+      "fileName": "term_bank_06_part_58.json",
+      "count": 50,
+      "startIndex": 2850,
+      "endIndexExclusive": 2900,
+      "firstTerm": "Dutcher",
+      "lastTerm": "DVDs"
+    },
+    {
+      "part": 59,
+      "fileName": "term_bank_06_part_59.json",
+      "count": 50,
+      "startIndex": 2900,
+      "endIndexExclusive": 2950,
+      "firstTerm": "DVE",
+      "lastTerm": "DWF"
+    },
+    {
+      "part": 60,
+      "fileName": "term_bank_06_part_60.json",
+      "count": 50,
+      "startIndex": 2950,
+      "endIndexExclusive": 3000,
+      "firstTerm": "dwg",
+      "lastTerm": "Dyche"
+    },
+    {
+      "part": 61,
+      "fileName": "term_bank_06_part_61.json",
+      "count": 50,
+      "startIndex": 3000,
+      "endIndexExclusive": 3050,
+      "firstTerm": "Dyck",
+      "lastTerm": "dynamist"
+    },
+    {
+      "part": 62,
+      "fileName": "term_bank_06_part_62.json",
+      "count": 50,
+      "startIndex": 3050,
+      "endIndexExclusive": 3100,
+      "firstTerm": "dynamite",
+      "lastTerm": "dysphoric"
+    },
+    {
+      "part": 63,
+      "fileName": "term_bank_06_part_63.json",
+      "count": 50,
+      "startIndex": 3100,
+      "endIndexExclusive": 3150,
+      "firstTerm": "dysphoric",
+      "lastTerm": "each"
+    },
+    {
+      "part": 64,
+      "fileName": "term_bank_06_part_64.json",
+      "count": 50,
+      "startIndex": 3150,
+      "endIndexExclusive": 3200,
+      "firstTerm": "each",
+      "lastTerm": "Ealing"
+    },
+    {
+      "part": 65,
+      "fileName": "term_bank_06_part_65.json",
+      "count": 50,
+      "startIndex": 3200,
+      "endIndexExclusive": 3250,
+      "firstTerm": "Ealy",
+      "lastTerm": "Earline"
+    },
+    {
+      "part": 66,
+      "fileName": "term_bank_06_part_66.json",
+      "count": 50,
+      "startIndex": 3250,
+      "endIndexExclusive": 3300,
+      "firstTerm": "earliness",
+      "lastTerm": "EARs"
+    },
+    {
+      "part": 67,
+      "fileName": "term_bank_06_part_67.json",
+      "count": 50,
+      "startIndex": 3300,
+      "endIndexExclusive": 3350,
+      "firstTerm": "earset",
+      "lastTerm": "earthship"
+    },
+    {
+      "part": 68,
+      "fileName": "term_bank_06_part_68.json",
+      "count": 50,
+      "startIndex": 3350,
+      "endIndexExclusive": 3400,
+      "firstTerm": "Earthship",
+      "lastTerm": "Eason"
+    },
+    {
+      "part": 69,
+      "fileName": "term_bank_06_part_69.json",
+      "count": 50,
+      "startIndex": 3400,
+      "endIndexExclusive": 3450,
+      "firstTerm": "east",
+      "lastTerm": "Eastman"
+    },
+    {
+      "part": 70,
+      "fileName": "term_bank_06_part_70.json",
+      "count": 50,
+      "startIndex": 3450,
+      "endIndexExclusive": 3500,
+      "firstTerm": "Eastmond",
+      "lastTerm": "EAU"
+    },
+    {
+      "part": 71,
+      "fileName": "term_bank_06_part_71.json",
+      "count": 50,
+      "startIndex": 3500,
+      "endIndexExclusive": 3550,
+      "firstTerm": "EAV",
+      "lastTerm": "Eber"
+    },
+    {
+      "part": 72,
+      "fileName": "term_bank_06_part_72.json",
+      "count": 50,
+      "startIndex": 3550,
+      "endIndexExclusive": 3600,
+      "firstTerm": "Eberhardt",
+      "lastTerm": "Ebrahimi"
+    },
+    {
+      "part": 73,
+      "fileName": "term_bank_06_part_73.json",
+      "count": 50,
+      "startIndex": 3600,
+      "endIndexExclusive": 3650,
+      "firstTerm": "ebrary",
+      "lastTerm": "ecclesia"
+    },
+    {
+      "part": 74,
+      "fileName": "term_bank_06_part_74.json",
+      "count": 50,
+      "startIndex": 3650,
+      "endIndexExclusive": 3700,
+      "firstTerm": "ecclesiae",
+      "lastTerm": "echium"
+    },
+    {
+      "part": 75,
+      "fileName": "term_bank_06_part_75.json",
+      "count": 50,
+      "startIndex": 3700,
+      "endIndexExclusive": 3750,
+      "firstTerm": "Echlin",
+      "lastTerm": "ECL"
+    },
+    {
+      "part": 76,
+      "fileName": "term_bank_06_part_76.json",
+      "count": 50,
+      "startIndex": 3750,
+      "endIndexExclusive": 3800,
+      "firstTerm": "eclair",
+      "lastTerm": "ecology"
+    },
+    {
+      "part": 77,
+      "fileName": "term_bank_06_part_77.json",
+      "count": 50,
+      "startIndex": 3800,
+      "endIndexExclusive": 3850,
+      "firstTerm": "ecommerce",
+      "lastTerm": "ecozone"
+    },
+    {
+      "part": 78,
+      "fileName": "term_bank_06_part_78.json",
+      "count": 50,
+      "startIndex": 3850,
+      "endIndexExclusive": 3900,
+      "firstTerm": "ECP",
+      "lastTerm": "ecurie"
+    },
+    {
+      "part": 79,
+      "fileName": "term_bank_06_part_79.json",
+      "count": 50,
+      "startIndex": 3900,
+      "endIndexExclusive": 3950,
+      "firstTerm": "Ecurie",
+      "lastTerm": "Eden"
+    },
+    {
+      "part": 80,
+      "fileName": "term_bank_06_part_80.json",
+      "count": 50,
+      "startIndex": 3950,
+      "endIndexExclusive": 4000,
+      "firstTerm": "Edenbridge",
+      "lastTerm": "Edgewater"
+    },
+    {
+      "part": 81,
+      "fileName": "term_bank_06_part_81.json",
+      "count": 50,
+      "startIndex": 4000,
+      "endIndexExclusive": 4050,
+      "firstTerm": "edgewear",
+      "lastTerm": "edit"
+    },
+    {
+      "part": 82,
+      "fileName": "term_bank_06_part_82.json",
+      "count": 50,
+      "startIndex": 4050,
+      "endIndexExclusive": 4100,
+      "firstTerm": "editable",
+      "lastTerm": "Edo"
+    },
+    {
+      "part": 83,
+      "fileName": "term_bank_06_part_83.json",
+      "count": 50,
+      "startIndex": 4100,
+      "endIndexExclusive": 4150,
+      "firstTerm": "EDO",
+      "lastTerm": "eduction"
+    },
+    {
+      "part": 84,
+      "fileName": "term_bank_06_part_84.json",
+      "count": 50,
+      "startIndex": 4150,
+      "endIndexExclusive": 4200,
+      "firstTerm": "edutainment",
+      "lastTerm": "eens"
+    },
+    {
+      "part": 85,
+      "fileName": "term_bank_06_part_85.json",
+      "count": 50,
+      "startIndex": 4200,
+      "endIndexExclusive": 4250,
+      "firstTerm": "EEO",
+      "lastTerm": "effectivity"
+    },
+    {
+      "part": 86,
+      "fileName": "term_bank_06_part_86.json",
+      "count": 50,
+      "startIndex": 4250,
+      "endIndexExclusive": 4300,
+      "firstTerm": "effector",
+      "lastTerm": "efforts"
+    },
+    {
+      "part": 87,
+      "fileName": "term_bank_06_part_87.json",
+      "count": 50,
+      "startIndex": 4300,
+      "endIndexExclusive": 4350,
+      "firstTerm": "effrontery",
+      "lastTerm": "egalitarians"
+    },
+    {
+      "part": 88,
+      "fileName": "term_bank_06_part_88.json",
+      "count": 50,
+      "startIndex": 4350,
+      "endIndexExclusive": 4400,
+      "firstTerm": "Egan",
+      "lastTerm": "Egli"
+    },
+    {
+      "part": 89,
+      "fileName": "term_bank_06_part_89.json",
+      "count": 50,
+      "startIndex": 4400,
+      "endIndexExclusive": 4450,
+      "firstTerm": "Eglinton",
+      "lastTerm": "eh"
+    },
+    {
+      "part": 90,
+      "fileName": "term_bank_06_part_90.json",
+      "count": 50,
+      "startIndex": 4450,
+      "endIndexExclusive": 4500,
+      "firstTerm": "eh",
+      "lastTerm": "EHV"
+    },
+    {
+      "part": 91,
+      "fileName": "term_bank_06_part_91.json",
+      "count": 50,
+      "startIndex": 4500,
+      "endIndexExclusive": 4550,
+      "firstTerm": "EHV",
+      "lastTerm": "Eifert"
+    },
+    {
+      "part": 92,
+      "fileName": "term_bank_06_part_92.json",
+      "count": 50,
+      "startIndex": 4550,
+      "endIndexExclusive": 4600,
+      "firstTerm": "Eiffel",
+      "lastTerm": "Eilish"
+    },
+    {
+      "part": 93,
+      "fileName": "term_bank_06_part_93.json",
+      "count": 50,
+      "startIndex": 4600,
+      "endIndexExclusive": 4650,
+      "firstTerm": "Eilon",
+      "lastTerm": "Eisenhower"
+    },
+    {
+      "part": 94,
+      "fileName": "term_bank_06_part_94.json",
+      "count": 50,
+      "startIndex": 4650,
+      "endIndexExclusive": 4700,
+      "firstTerm": "Eisenhut",
+      "lastTerm": "eke"
+    },
+    {
+      "part": 95,
+      "fileName": "term_bank_06_part_95.json",
+      "count": 50,
+      "startIndex": 4700,
+      "endIndexExclusive": 4750,
+      "firstTerm": "eke",
+      "lastTerm": "elan"
+    },
+    {
+      "part": 96,
+      "fileName": "term_bank_06_part_96.json",
+      "count": 50,
+      "startIndex": 4750,
+      "endIndexExclusive": 4800,
+      "firstTerm": "Elan",
+      "lastTerm": "Elbrus"
+    },
+    {
+      "part": 97,
+      "fileName": "term_bank_06_part_97.json",
+      "count": 50,
+      "startIndex": 4800,
+      "endIndexExclusive": 4850,
+      "firstTerm": "Elche",
+      "lastTerm": "elections"
+    },
+    {
+      "part": 98,
+      "fileName": "term_bank_06_part_98.json",
+      "count": 50,
+      "startIndex": 4850,
+      "endIndexExclusive": 4900,
+      "firstTerm": "elective",
+      "lastTerm": "electrocute"
+    },
+    {
+      "part": 99,
+      "fileName": "term_bank_06_part_99.json",
+      "count": 50,
+      "startIndex": 4900,
+      "endIndexExclusive": 4950,
+      "firstTerm": "electrocution",
+      "lastTerm": "electronegative"
+    },
+    {
+      "part": 100,
+      "fileName": "term_bank_06_part_100.json",
+      "count": 50,
+      "startIndex": 4950,
+      "endIndexExclusive": 5000,
+      "firstTerm": "electronegativity",
+      "lastTerm": "elegant"
+    },
+    {
+      "part": 101,
+      "fileName": "term_bank_06_part_101.json",
+      "count": 50,
+      "startIndex": 5000,
+      "endIndexExclusive": 5050,
+      "firstTerm": "elegante",
+      "lastTerm": "eleventh"
+    },
+    {
+      "part": 102,
+      "fileName": "term_bank_06_part_102.json",
+      "count": 50,
+      "startIndex": 5050,
+      "endIndexExclusive": 5100,
+      "firstTerm": "eleventh",
+      "lastTerm": "Elim"
+    },
+    {
+      "part": 103,
+      "fileName": "term_bank_06_part_103.json",
+      "count": 50,
+      "startIndex": 5100,
+      "endIndexExclusive": 5150,
+      "firstTerm": "Elim",
+      "lastTerm": "Elizaveta"
+    },
+    {
+      "part": 104,
+      "fileName": "term_bank_06_part_104.json",
+      "count": 50,
+      "startIndex": 5150,
+      "endIndexExclusive": 5200,
+      "firstTerm": "Elizondo",
+      "lastTerm": "Ellerman"
+    },
+    {
+      "part": 105,
+      "fileName": "term_bank_06_part_105.json",
+      "count": 50,
+      "startIndex": 5200,
+      "endIndexExclusive": 5250,
+      "firstTerm": "ellers",
+      "lastTerm": "ells"
+    },
+    {
+      "part": 106,
+      "fileName": "term_bank_06_part_106.json",
+      "count": 50,
+      "startIndex": 5250,
+      "endIndexExclusive": 5300,
+      "firstTerm": "Ells",
+      "lastTerm": "elopement"
+    },
+    {
+      "part": 107,
+      "fileName": "term_bank_06_part_107.json",
+      "count": 50,
+      "startIndex": 5300,
+      "endIndexExclusive": 5350,
+      "firstTerm": "eloping",
+      "lastTerm": "Elstow"
+    },
+    {
+      "part": 108,
+      "fileName": "term_bank_06_part_108.json",
+      "count": 50,
+      "startIndex": 5350,
+      "endIndexExclusive": 5400,
+      "firstTerm": "Elstree",
+      "lastTerm": "ELVs"
+    },
+    {
+      "part": 109,
+      "fileName": "term_bank_06_part_109.json",
+      "count": 50,
+      "startIndex": 5400,
+      "endIndexExclusive": 5450,
+      "firstTerm": "Elvy",
+      "lastTerm": "emancipate"
+    },
+    {
+      "part": 110,
+      "fileName": "term_bank_06_part_110.json",
+      "count": 50,
+      "startIndex": 5450,
+      "endIndexExclusive": 5500,
+      "firstTerm": "emancipated",
+      "lastTerm": "embayments"
+    },
+    {
+      "part": 111,
+      "fileName": "term_bank_06_part_111.json",
+      "count": 50,
+      "startIndex": 5500,
+      "endIndexExclusive": 5550,
+      "firstTerm": "Embden",
+      "lastTerm": "embolization"
+    },
+    {
+      "part": 112,
+      "fileName": "term_bank_06_part_112.json",
+      "count": 50,
+      "startIndex": 5550,
+      "endIndexExclusive": 5600,
+      "firstTerm": "embolus",
+      "lastTerm": "Emei"
+    },
+    {
+      "part": 113,
+      "fileName": "term_bank_06_part_113.json",
+      "count": 50,
+      "startIndex": 5600,
+      "endIndexExclusive": 5650,
+      "firstTerm": "Emel",
+      "lastTerm": "EMF"
+    },
+    {
+      "part": 114,
+      "fileName": "term_bank_06_part_114.json",
+      "count": 50,
+      "startIndex": 5650,
+      "endIndexExclusive": 5700,
+      "firstTerm": "EMFs",
+      "lastTerm": "EML"
+    },
+    {
+      "part": 115,
+      "fileName": "term_bank_06_part_115.json",
+      "count": 50,
+      "startIndex": 5700,
+      "endIndexExclusive": 5750,
+      "firstTerm": "EMLA",
+      "lastTerm": "emote"
+    },
+    {
+      "part": 116,
+      "fileName": "term_bank_06_part_116.json",
+      "count": 50,
+      "startIndex": 5750,
+      "endIndexExclusive": 5800,
+      "firstTerm": "emote",
+      "lastTerm": "empiricism"
+    },
+    {
+      "part": 117,
+      "fileName": "term_bank_06_part_117.json",
+      "count": 50,
+      "startIndex": 5800,
+      "endIndexExclusive": 5850,
+      "firstTerm": "empiricist",
+      "lastTerm": "empty"
+    },
+    {
+      "part": 118,
+      "fileName": "term_bank_06_part_118.json",
+      "count": 50,
+      "startIndex": 5850,
+      "endIndexExclusive": 5900,
+      "firstTerm": "empty",
+      "lastTerm": "enablement"
+    },
+    {
+      "part": 119,
+      "fileName": "term_bank_06_part_119.json",
+      "count": 50,
+      "startIndex": 5900,
+      "endIndexExclusive": 5950,
+      "firstTerm": "enabler",
+      "lastTerm": "encaustic"
+    },
+    {
+      "part": 120,
+      "fileName": "term_bank_06_part_120.json",
+      "count": 50,
+      "startIndex": 5950,
+      "endIndexExclusive": 6000,
+      "firstTerm": "enceinte",
+      "lastTerm": "ENCODE"
+    },
+    {
+      "part": 121,
+      "fileName": "term_bank_06_part_121.json",
+      "count": 50,
+      "startIndex": 6000,
+      "endIndexExclusive": 6050,
+      "firstTerm": "encoder",
+      "lastTerm": "encyclopedia"
+    },
+    {
+      "part": 122,
+      "fileName": "term_bank_06_part_122.json",
+      "count": 50,
+      "startIndex": 6050,
+      "endIndexExclusive": 6100,
+      "firstTerm": "encyclopedias",
+      "lastTerm": "endian"
+    },
+    {
+      "part": 123,
+      "fileName": "term_bank_06_part_123.json",
+      "count": 50,
+      "startIndex": 6100,
+      "endIndexExclusive": 6150,
+      "firstTerm": "endianness",
+      "lastTerm": "endonuclease"
+    },
+    {
+      "part": 124,
+      "fileName": "term_bank_06_part_124.json",
+      "count": 50,
+      "startIndex": 6150,
+      "endIndexExclusive": 6200,
+      "firstTerm": "endonucleases",
+      "lastTerm": "endpapers"
+    },
+    {
+      "part": 125,
+      "fileName": "term_bank_06_part_125.json",
+      "count": 50,
+      "startIndex": 6200,
+      "endIndexExclusive": 6250,
+      "firstTerm": "endplate",
+      "lastTerm": "enervated"
+    },
+    {
+      "part": 126,
+      "fileName": "term_bank_06_part_126.json",
+      "count": 50,
+      "startIndex": 6250,
+      "endIndexExclusive": 6300,
+      "firstTerm": "enervating",
+      "lastTerm": "Engelhardt"
+    },
+    {
+      "part": 127,
+      "fileName": "term_bank_06_part_127.json",
+      "count": 50,
+      "startIndex": 6300,
+      "endIndexExclusive": 6350,
+      "firstTerm": "Engelhart",
+      "lastTerm": "Englishmen"
+    },
+    {
+      "part": 128,
+      "fileName": "term_bank_06_part_128.json",
+      "count": 50,
+      "startIndex": 6350,
+      "endIndexExclusive": 6400,
+      "firstTerm": "Englishness",
+      "lastTerm": "enigmatically"
+    },
+    {
+      "part": 129,
+      "fileName": "term_bank_06_part_129.json",
+      "count": 50,
+      "startIndex": 6400,
+      "endIndexExclusive": 6450,
+      "firstTerm": "Eniwetok",
+      "lastTerm": "enneagram"
+    },
+    {
+      "part": 130,
+      "fileName": "term_bank_06_part_130.json",
+      "count": 50,
+      "startIndex": 6450,
+      "endIndexExclusive": 6500,
+      "firstTerm": "Ennen",
+      "lastTerm": "Enquist"
+    },
+    {
+      "part": 131,
+      "fileName": "term_bank_06_part_131.json",
+      "count": 50,
+      "startIndex": 6500,
+      "endIndexExclusive": 6550,
+      "firstTerm": "ENR",
+      "lastTerm": "ensnare"
+    },
+    {
+      "part": 132,
+      "fileName": "term_bank_06_part_132.json",
+      "count": 50,
+      "startIndex": 6550,
+      "endIndexExclusive": 6600,
+      "firstTerm": "ensnaring",
+      "lastTerm": "Enterline"
+    },
+    {
+      "part": 133,
+      "fileName": "term_bank_06_part_133.json",
+      "count": 50,
+      "startIndex": 6600,
+      "endIndexExclusive": 6650,
+      "firstTerm": "entero",
+      "lastTerm": "enthronement"
+    },
+    {
+      "part": 134,
+      "fileName": "term_bank_06_part_134.json",
+      "count": 50,
+      "startIndex": 6650,
+      "endIndexExclusive": 6700,
+      "firstTerm": "enthuse",
+      "lastTerm": "entrances"
+    },
+    {
+      "part": 135,
+      "fileName": "term_bank_06_part_135.json",
+      "count": 50,
+      "startIndex": 6700,
+      "endIndexExclusive": 6750,
+      "firstTerm": "entranceway",
+      "lastTerm": "entz"
+    },
+    {
+      "part": 136,
+      "fileName": "term_bank_06_part_136.json",
+      "count": 50,
+      "startIndex": 6750,
+      "endIndexExclusive": 6800,
+      "firstTerm": "Entz",
+      "lastTerm": "Envis"
+    },
+    {
+      "part": 137,
+      "fileName": "term_bank_06_part_137.json",
+      "count": 50,
+      "startIndex": 6800,
+      "endIndexExclusive": 6850,
+      "firstTerm": "envisage",
+      "lastTerm": "Eolia"
+    },
+    {
+      "part": 138,
+      "fileName": "term_bank_06_part_138.json",
+      "count": 50,
+      "startIndex": 6850,
+      "endIndexExclusive": 6900,
+      "firstTerm": "eolian",
+      "lastTerm": "ependymal"
+    },
+    {
+      "part": 139,
+      "fileName": "term_bank_06_part_139.json",
+      "count": 50,
+      "startIndex": 6900,
+      "endIndexExclusive": 6950,
+      "firstTerm": "ependymoma",
+      "lastTerm": "Epictetus"
+    },
+    {
+      "part": 140,
+      "fileName": "term_bank_06_part_140.json",
+      "count": 50,
+      "startIndex": 6950,
+      "endIndexExclusive": 7000,
+      "firstTerm": "epicure",
+      "lastTerm": "epilator"
+    },
+    {
+      "part": 141,
+      "fileName": "term_bank_06_part_141.json",
+      "count": 50,
+      "startIndex": 7000,
+      "endIndexExclusive": 7050,
+      "firstTerm": "epilators",
+      "lastTerm": "Episcopal"
+    },
+    {
+      "part": 142,
+      "fileName": "term_bank_06_part_142.json",
+      "count": 50,
+      "startIndex": 7050,
+      "endIndexExclusive": 7100,
+      "firstTerm": "episcopalian",
+      "lastTerm": "epitomy"
+    },
+    {
+      "part": 143,
+      "fileName": "term_bank_06_part_143.json",
+      "count": 50,
+      "startIndex": 7100,
+      "endIndexExclusive": 7150,
+      "firstTerm": "epitonic",
+      "lastTerm": "Eppler"
+    },
+    {
+      "part": 144,
+      "fileName": "term_bank_06_part_144.json",
+      "count": 50,
+      "startIndex": 7150,
+      "endIndexExclusive": 7200,
+      "firstTerm": "Eppley",
+      "lastTerm": "equable"
+    },
+    {
+      "part": 145,
+      "fileName": "term_bank_06_part_145.json",
+      "count": 50,
+      "startIndex": 7200,
+      "endIndexExclusive": 7250,
+      "firstTerm": "Equador",
+      "lastTerm": "equine"
+    },
+    {
+      "part": 146,
+      "fileName": "term_bank_06_part_146.json",
+      "count": 50,
+      "startIndex": 7250,
+      "endIndexExclusive": 7300,
+      "firstTerm": "equines",
+      "lastTerm": "ER"
+    },
+    {
+      "part": 147,
+      "fileName": "term_bank_06_part_147.json",
+      "count": 50,
+      "startIndex": 7300,
+      "endIndexExclusive": 7350,
+      "firstTerm": "ER",
+      "lastTerm": "ere"
+    },
+    {
+      "part": 148,
+      "fileName": "term_bank_06_part_148.json",
+      "count": 50,
+      "startIndex": 7350,
+      "endIndexExclusive": 7400,
+      "firstTerm": "ere",
+      "lastTerm": "ERGs"
+    },
+    {
+      "part": 149,
+      "fileName": "term_bank_06_part_149.json",
+      "count": 50,
+      "startIndex": 7400,
+      "endIndexExclusive": 7450,
+      "firstTerm": "Ergun",
+      "lastTerm": "erlenmeyer"
+    },
+    {
+      "part": 150,
+      "fileName": "term_bank_06_part_150.json",
+      "count": 50,
+      "startIndex": 7450,
+      "endIndexExclusive": 7500,
+      "firstTerm": "Erlenmeyer",
+      "lastTerm": "EROS"
+    },
+    {
+      "part": 151,
+      "fileName": "term_bank_06_part_151.json",
+      "count": 50,
+      "startIndex": 7500,
+      "endIndexExclusive": 7550,
+      "firstTerm": "erosion",
+      "lastTerm": "erstwhile"
+    },
+    {
+      "part": 152,
+      "fileName": "term_bank_06_part_152.json",
+      "count": 50,
+      "startIndex": 7550,
+      "endIndexExclusive": 7600,
+      "firstTerm": "erstwhile",
+      "lastTerm": "erythromycin"
+    },
+    {
+      "part": 153,
+      "fileName": "term_bank_06_part_153.json",
+      "count": 50,
+      "startIndex": 7600,
+      "endIndexExclusive": 7650,
+      "firstTerm": "erythronium",
+      "lastTerm": "escapee"
+    },
+    {
+      "part": 154,
+      "fileName": "term_bank_06_part_154.json",
+      "count": 50,
+      "startIndex": 7650,
+      "endIndexExclusive": 7700,
+      "firstTerm": "escapees",
+      "lastTerm": "escribanos"
+    },
+    {
+      "part": 155,
+      "fileName": "term_bank_06_part_155.json",
+      "count": 50,
+      "startIndex": 7700,
+      "endIndexExclusive": 7750,
+      "firstTerm": "Escribanos",
+      "lastTerm": "Eskimos"
+    },
+    {
+      "part": 156,
+      "fileName": "term_bank_06_part_156.json",
+      "count": 50,
+      "startIndex": 7750,
+      "endIndexExclusive": 7800,
+      "firstTerm": "Eskisehir",
+      "lastTerm": "especially"
+    },
+    {
+      "part": 157,
+      "fileName": "term_bank_06_part_157.json",
+      "count": 50,
+      "startIndex": 7800,
+      "endIndexExclusive": 7850,
+      "firstTerm": "Espejo",
+      "lastTerm": "ESRI"
+    },
+    {
+      "part": 158,
+      "fileName": "term_bank_06_part_158.json",
+      "count": 50,
+      "startIndex": 7850,
+      "endIndexExclusive": 7900,
+      "firstTerm": "ESRIN",
+      "lastTerm": "est"
+    },
+    {
+      "part": 159,
+      "fileName": "term_bank_06_part_159.json",
+      "count": 50,
+      "startIndex": 7900,
+      "endIndexExclusive": 7950,
+      "firstTerm": "est",
+      "lastTerm": "Estevez"
+    },
+    {
+      "part": 160,
+      "fileName": "term_bank_06_part_160.json",
+      "count": 50,
+      "startIndex": 7950,
+      "endIndexExclusive": 8000,
+      "firstTerm": "Estey",
+      "lastTerm": "estrone"
+    },
+    {
+      "part": 161,
+      "fileName": "term_bank_06_part_161.json",
+      "count": 50,
+      "startIndex": 8000,
+      "endIndexExclusive": 8050,
+      "firstTerm": "estrous",
+      "lastTerm": "Etchingham"
+    },
+    {
+      "part": 162,
+      "fileName": "term_bank_06_part_162.json",
+      "count": 50,
+      "startIndex": 8050,
+      "endIndexExclusive": 8100,
+      "firstTerm": "etchings",
+      "lastTerm": "ethernets"
+    },
+    {
+      "part": 163,
+      "fileName": "term_bank_06_part_163.json",
+      "count": 50,
+      "startIndex": 8100,
+      "endIndexExclusive": 8150,
+      "firstTerm": "Ethernets",
+      "lastTerm": "ethnomusicologist"
+    },
+    {
+      "part": 164,
+      "fileName": "term_bank_06_part_164.json",
+      "count": 50,
+      "startIndex": 8150,
+      "endIndexExclusive": 8200,
+      "firstTerm": "ethnomusicology",
+      "lastTerm": "etouffee"
+    },
+    {
+      "part": 165,
+      "fileName": "term_bank_06_part_165.json",
+      "count": 50,
+      "startIndex": 8200,
+      "endIndexExclusive": 8250,
+      "firstTerm": "Etowah",
+      "lastTerm": "eucalypts"
+    },
+    {
+      "part": 166,
+      "fileName": "term_bank_06_part_166.json",
+      "count": 50,
+      "startIndex": 8250,
+      "endIndexExclusive": 8300,
+      "firstTerm": "eucalyptus",
+      "lastTerm": "eulogies"
+    },
+    {
+      "part": 167,
+      "fileName": "term_bank_06_part_167.json",
+      "count": 50,
+      "startIndex": 8300,
+      "endIndexExclusive": 8350,
+      "firstTerm": "eulogize",
+      "lastTerm": "Eurobank"
+    },
+    {
+      "part": 168,
+      "fileName": "term_bank_06_part_168.json",
+      "count": 50,
+      "startIndex": 8350,
+      "endIndexExclusive": 8400,
+      "firstTerm": "Eurobarometer",
+      "lastTerm": "eurosids"
+    },
+    {
+      "part": 169,
+      "fileName": "term_bank_06_part_169.json",
+      "count": 50,
+      "startIndex": 8400,
+      "endIndexExclusive": 8450,
+      "firstTerm": "Eurostar",
+      "lastTerm": "Eva"
+    },
+    {
+      "part": 170,
+      "fileName": "term_bank_06_part_170.json",
+      "count": 50,
+      "startIndex": 8450,
+      "endIndexExclusive": 8500,
+      "firstTerm": "EVA",
+      "lastTerm": "evangelization"
+    },
+    {
+      "part": 171,
+      "fileName": "term_bank_06_part_171.json",
+      "count": 50,
+      "startIndex": 8500,
+      "endIndexExclusive": 8550,
+      "firstTerm": "evangelize",
+      "lastTerm": "evenness"
+    },
+    {
+      "part": 172,
+      "fileName": "term_bank_06_part_172.json",
+      "count": 50,
+      "startIndex": 8550,
+      "endIndexExclusive": 8600,
+      "firstTerm": "evens",
+      "lastTerm": "Everly"
+    },
+    {
+      "part": 173,
+      "fileName": "term_bank_06_part_173.json",
+      "count": 50,
+      "startIndex": 8600,
+      "endIndexExclusive": 8650,
+      "firstTerm": "Everman",
+      "lastTerm": "evidential"
+    },
+    {
+      "part": 174,
+      "fileName": "term_bank_06_part_174.json",
+      "count": 50,
+      "startIndex": 8650,
+      "endIndexExclusive": 8700,
+      "firstTerm": "evidential",
+      "lastTerm": "EVs"
+    },
+    {
+      "part": 175,
+      "fileName": "term_bank_06_part_175.json",
+      "count": 50,
+      "startIndex": 8700,
+      "endIndexExclusive": 8750,
+      "firstTerm": "EVT",
+      "lastTerm": "exact"
+    },
+    {
+      "part": 176,
+      "fileName": "term_bank_06_part_176.json",
+      "count": 50,
+      "startIndex": 8750,
+      "endIndexExclusive": 8800,
+      "firstTerm": "exacta",
+      "lastTerm": "excavate"
+    },
+    {
+      "part": 177,
+      "fileName": "term_bank_06_part_177.json",
+      "count": 50,
+      "startIndex": 8800,
+      "endIndexExclusive": 8850,
+      "firstTerm": "excavation",
+      "lastTerm": "excerpted"
+    },
+    {
+      "part": 178,
+      "fileName": "term_bank_06_part_178.json",
+      "count": 50,
+      "startIndex": 8850,
+      "endIndexExclusive": 8900,
+      "firstTerm": "excerpting",
+      "lastTerm": "excitons"
+    },
+    {
+      "part": 179,
+      "fileName": "term_bank_06_part_179.json",
+      "count": 50,
+      "startIndex": 8900,
+      "endIndexExclusive": 8950,
+      "firstTerm": "excitotoxic",
+      "lastTerm": "exculpatory"
+    },
+    {
+      "part": 180,
+      "fileName": "term_bank_06_part_180.json",
+      "count": 50,
+      "startIndex": 8950,
+      "endIndexExclusive": 9000,
+      "firstTerm": "excursion",
+      "lastTerm": "exemplification"
+    },
+    {
+      "part": 181,
+      "fileName": "term_bank_06_part_181.json",
+      "count": 50,
+      "startIndex": 9000,
+      "endIndexExclusive": 9050,
+      "firstTerm": "exemplify",
+      "lastTerm": "exhausting"
+    },
+    {
+      "part": 182,
+      "fileName": "term_bank_06_part_182.json",
+      "count": 50,
+      "startIndex": 9050,
+      "endIndexExclusive": 9100,
+      "firstTerm": "exhaustion",
+      "lastTerm": "existential"
+    },
+    {
+      "part": 183,
+      "fileName": "term_bank_06_part_183.json",
+      "count": 50,
+      "startIndex": 9100,
+      "endIndexExclusive": 9150,
+      "firstTerm": "existentialism",
+      "lastTerm": "exor"
+    },
+    {
+      "part": 184,
+      "fileName": "term_bank_06_part_184.json",
+      "count": 50,
+      "startIndex": 9150,
+      "endIndexExclusive": 9200,
+      "firstTerm": "exorbitant",
+      "lastTerm": "expatriate"
+    },
+    {
+      "part": 185,
+      "fileName": "term_bank_06_part_185.json",
+      "count": 50,
+      "startIndex": 9200,
+      "endIndexExclusive": 9250,
+      "firstTerm": "expatriates",
+      "lastTerm": "expendable"
+    },
+    {
+      "part": 186,
+      "fileName": "term_bank_06_part_186.json",
+      "count": 50,
+      "startIndex": 9250,
+      "endIndexExclusive": 9300,
+      "firstTerm": "expendable",
+      "lastTerm": "expired"
+    },
+    {
+      "part": 187,
+      "fileName": "term_bank_06_part_187.json",
+      "count": 50,
+      "startIndex": 9300,
+      "endIndexExclusive": 9350,
+      "firstTerm": "expiring",
+      "lastTerm": "explorative"
+    },
+    {
+      "part": 188,
+      "fileName": "term_bank_06_part_188.json",
+      "count": 50,
+      "startIndex": 9350,
+      "endIndexExclusive": 9400,
+      "firstTerm": "explorator",
+      "lastTerm": "expounding"
+    },
+    {
+      "part": 189,
+      "fileName": "term_bank_06_part_189.json",
+      "count": 50,
+      "startIndex": 9400,
+      "endIndexExclusive": 9450,
+      "firstTerm": "express",
+      "lastTerm": "extemporaneously"
+    },
+    {
+      "part": 190,
+      "fileName": "term_bank_06_part_190.json",
+      "count": 50,
+      "startIndex": 9450,
+      "endIndexExclusive": 9500,
+      "firstTerm": "extempore",
+      "lastTerm": "externalize"
+    },
+    {
+      "part": 191,
+      "fileName": "term_bank_06_part_191.json",
+      "count": 50,
+      "startIndex": 9500,
+      "endIndexExclusive": 9550,
+      "firstTerm": "externally",
+      "lastTerm": "extractor"
+    },
+    {
+      "part": 192,
+      "fileName": "term_bank_06_part_192.json",
+      "count": 50,
+      "startIndex": 9550,
+      "endIndexExclusive": 9600,
+      "firstTerm": "extractors",
+      "lastTerm": "extravaganzas"
+    },
+    {
+      "part": 193,
+      "fileName": "term_bank_06_part_193.json",
+      "count": 50,
+      "startIndex": 9600,
+      "endIndexExclusive": 9650,
+      "firstTerm": "extravasation",
+      "lastTerm": "extrusions"
+    },
+    {
+      "part": 194,
+      "fileName": "term_bank_06_part_194.json",
+      "count": 50,
+      "startIndex": 9650,
+      "endIndexExclusive": 9700,
+      "firstTerm": "extrusive",
+      "lastTerm": "eyecup"
+    },
+    {
+      "part": 195,
+      "fileName": "term_bank_06_part_195.json",
+      "count": 50,
+      "startIndex": 9700,
+      "endIndexExclusive": 9750,
+      "firstTerm": "eyecups",
+      "lastTerm": "Eynsham"
+    },
+    {
+      "part": 196,
+      "fileName": "term_bank_06_part_196.json",
+      "count": 50,
+      "startIndex": 9750,
+      "endIndexExclusive": 9800,
+      "firstTerm": "EYP",
+      "lastTerm": "Fabia"
+    },
+    {
+      "part": 197,
+      "fileName": "term_bank_06_part_197.json",
+      "count": 50,
+      "startIndex": 9800,
+      "endIndexExclusive": 9850,
+      "firstTerm": "fabian",
+      "lastTerm": "Facebook"
+    },
+    {
+      "part": 198,
+      "fileName": "term_bank_06_part_198.json",
+      "count": 50,
+      "startIndex": 9850,
+      "endIndexExclusive": 9900,
+      "firstTerm": "Facebook",
+      "lastTerm": "facilitate"
+    },
+    {
+      "part": 199,
+      "fileName": "term_bank_06_part_199.json",
+      "count": 50,
+      "startIndex": 9900,
+      "endIndexExclusive": 9950,
+      "firstTerm": "facilitated",
+      "lastTerm": "Factor"
+    },
+    {
+      "part": 200,
+      "fileName": "term_bank_06_part_200.json",
+      "count": 50,
+      "startIndex": 9950,
+      "endIndexExclusive": 10000,
+      "firstTerm": "factorial",
+      "lastTerm": "fae"
+    }
+  ]
+}

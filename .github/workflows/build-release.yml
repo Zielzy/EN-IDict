@@ -1,0 +1,123 @@
+name: Build & Package EN-IDict Yomitan
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g. 1.1.0 or v1.1.0). Leave blank to auto-detect from dict/index.json'
+        required: false
+        default: ''
+        type: string
+      create_release:
+        description: 'Create GitHub Release and attach zip asset'
+        required: false
+        default: true
+        type: boolean
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    name: Package Yomitan Dictionary
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Determine Version & Output Name
+        id: prep
+        run: |
+          INPUT_VER="${{ github.event.inputs.version }}"
+          
+          if [ -n "$INPUT_VER" ]; then
+            CLEAN_VER="${INPUT_VER#v}"
+          elif [[ "${{ github.ref }}" == refs/tags/v* ]]; then
+            TAG_NAME="${GITHUB_REF_NAME}"
+            CLEAN_VER="${TAG_NAME#v}"
+          else
+            CLEAN_VER=$(python3 -c "
+          import json, re
+          try:
+              with open('dict/index.json', 'r', encoding='utf-8') as f:
+                  data = json.load(f)
+              rev = str(data.get('revision', ''))
+              match = re.search(r'(\d+\.\d+(?:\.\d+)?)', rev)
+              if match:
+                  print(match.group(1))
+              else:
+                  print('1.1.0')
+          except Exception:
+              print('1.1.0')
+          ")
+          fi
+
+          VERSION="v${CLEAN_VER}"
+          ZIP_NAME="EN-IDict.zip"
+
+          echo "CLEAN_VER=${CLEAN_VER}" >> $GITHUB_OUTPUT
+          echo "VERSION=${VERSION}" >> $GITHUB_OUTPUT
+          echo "ZIP_NAME=${ZIP_NAME}" >> $GITHUB_OUTPUT
+          echo "::notice ::Building Yomitan Package: ${ZIP_NAME} for version ${VERSION}"
+
+      - name: Inject Yomitan Auto-Update URLs into dict/index.json
+        run: |
+          python3 -c "
+          import json
+
+          index_path = 'dict/index.json'
+          clean_ver = '${{ steps.prep.outputs.CLEAN_VER }}'
+
+          with open(index_path, 'r', encoding='utf-8') as f:
+              data = json.load(f)
+
+          data['revision'] = clean_ver
+          data['indexUrl'] = 'https://raw.githubusercontent.com/Zielzy/EN-IDict/main/dict/index.json'
+          data['downloadUrl'] = 'https://github.com/Zielzy/EN-IDict/releases/latest/download/EN-IDict.zip'
+
+          with open(index_path, 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+
+          print('Updated dict/index.json for release build:')
+          print(json.dumps(data, indent=2))
+          "
+
+      - name: Compress dict directory into single EN-IDict.zip
+        run: |
+          cd dict
+          zip -r "../EN-IDict.zip" .
+          cd ..
+          ls -lh EN-IDict.zip
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: EN-IDict-v${{ steps.prep.outputs.CLEAN_VER }}
+          path: EN-IDict.zip
+          retention-days: 90
+
+      - name: Create GitHub Release
+        if: ${{ github.event_name == 'push' || github.event.inputs.create_release == 'true' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.prep.outputs.VERSION }}
+          name: ${{ steps.prep.outputs.VERSION }}
+          body: |
+            Kamus Bahasa Inggris - Indonesia siap pakai untuk ekstensi Yomitan.
+
+            ### Cara Install:
+            1. Unduh file `EN-IDict.zip` di bawah.
+            2. Buka ekstensi **Yomitan** -> **Settings** -> **Dictionaries** -> **Configure installed and enabled dictionaries...**
+            3. Klik **Import Dictionary...** dan pilih file `EN-IDict.zip`.
+          files: EN-IDict.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

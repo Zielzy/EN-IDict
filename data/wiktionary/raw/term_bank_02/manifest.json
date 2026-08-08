@@ -1,0 +1,1809 @@
+{
+  "source": "C:/aa/Project/kamus/wiktionary-en-en/wiktionary_filter/term_bank_2.json",
+  "bank": 2,
+  "totalEntries": 10000,
+  "splitCount": 200,
+  "partSize": 50,
+  "parts": [
+    {
+      "part": 1,
+      "fileName": "term_bank_02_part_01.json",
+      "count": 50,
+      "startIndex": 0,
+      "endIndexExclusive": 50,
+      "firstTerm": "Ast",
+      "lastTerm": "astir"
+    },
+    {
+      "part": 2,
+      "fileName": "term_bank_02_part_02.json",
+      "count": 50,
+      "startIndex": 50,
+      "endIndexExclusive": 100,
+      "firstTerm": "Astle",
+      "lastTerm": "astrocytes"
+    },
+    {
+      "part": 3,
+      "fileName": "term_bank_02_part_03.json",
+      "count": 50,
+      "startIndex": 100,
+      "endIndexExclusive": 150,
+      "firstTerm": "astrocytic",
+      "lastTerm": "Asturian"
+    },
+    {
+      "part": 4,
+      "fileName": "term_bank_02_part_04.json",
+      "count": 50,
+      "startIndex": 150,
+      "endIndexExclusive": 200,
+      "firstTerm": "Asturian",
+      "lastTerm": "asynchronously"
+    },
+    {
+      "part": 5,
+      "fileName": "term_bank_02_part_05.json",
+      "count": 50,
+      "startIndex": 200,
+      "endIndexExclusive": 250,
+      "firstTerm": "asynchrony",
+      "lastTerm": "ate"
+    },
+    {
+      "part": 6,
+      "fileName": "term_bank_02_part_06.json",
+      "count": 50,
+      "startIndex": 250,
+      "endIndexExclusive": 300,
+      "firstTerm": "atef",
+      "lastTerm": "Athenian"
+    },
+    {
+      "part": 7,
+      "fileName": "term_bank_02_part_07.json",
+      "count": 50,
+      "startIndex": 300,
+      "endIndexExclusive": 350,
+      "firstTerm": "Athenian",
+      "lastTerm": "Atlantans"
+    },
+    {
+      "part": 8,
+      "fileName": "term_bank_02_part_08.json",
+      "count": 50,
+      "startIndex": 350,
+      "endIndexExclusive": 400,
+      "firstTerm": "Atlantean",
+      "lastTerm": "atomization"
+    },
+    {
+      "part": 9,
+      "fileName": "term_bank_02_part_09.json",
+      "count": 50,
+      "startIndex": 400,
+      "endIndexExclusive": 450,
+      "firstTerm": "atomize",
+      "lastTerm": "atropine"
+    },
+    {
+      "part": 10,
+      "fileName": "term_bank_02_part_10.json",
+      "count": 50,
+      "startIndex": 450,
+      "endIndexExclusive": 500,
+      "firstTerm": "Atropos",
+      "lastTerm": "Attar"
+    },
+    {
+      "part": 11,
+      "fileName": "term_bank_02_part_11.json",
+      "count": 50,
+      "startIndex": 500,
+      "endIndexExclusive": 550,
+      "firstTerm": "Attard",
+      "lastTerm": "Attic"
+    },
+    {
+      "part": 12,
+      "fileName": "term_bank_02_part_12.json",
+      "count": 50,
+      "startIndex": 550,
+      "endIndexExclusive": 600,
+      "firstTerm": "Attica",
+      "lastTerm": "attributive"
+    },
+    {
+      "part": 13,
+      "fileName": "term_bank_02_part_13.json",
+      "count": 50,
+      "startIndex": 600,
+      "endIndexExclusive": 650,
+      "firstTerm": "attributive",
+      "lastTerm": "Auberry"
+    },
+    {
+      "part": 14,
+      "fileName": "term_bank_02_part_14.json",
+      "count": 50,
+      "startIndex": 650,
+      "endIndexExclusive": 700,
+      "firstTerm": "Aubert",
+      "lastTerm": "audibly"
+    },
+    {
+      "part": 15,
+      "fileName": "term_bank_02_part_15.json",
+      "count": 50,
+      "startIndex": 700,
+      "endIndexExclusive": 750,
+      "firstTerm": "Audie",
+      "lastTerm": "auditions"
+    },
+    {
+      "part": 16,
+      "fileName": "term_bank_02_part_16.json",
+      "count": 50,
+      "startIndex": 750,
+      "endIndexExclusive": 800,
+      "firstTerm": "auditor",
+      "lastTerm": "augments"
+    },
+    {
+      "part": 17,
+      "fileName": "term_bank_02_part_17.json",
+      "count": 50,
+      "startIndex": 800,
+      "endIndexExclusive": 850,
+      "firstTerm": "Augsburg",
+      "lastTerm": "aunt"
+    },
+    {
+      "part": 18,
+      "fileName": "term_bank_02_part_18.json",
+      "count": 50,
+      "startIndex": 850,
+      "endIndexExclusive": 900,
+      "firstTerm": "auntie",
+      "lastTerm": "Aus"
+    },
+    {
+      "part": 19,
+      "fileName": "term_bank_02_part_19.json",
+      "count": 50,
+      "startIndex": 900,
+      "endIndexExclusive": 950,
+      "firstTerm": "AUs",
+      "lastTerm": "Australian"
+    },
+    {
+      "part": 20,
+      "fileName": "term_bank_02_part_20.json",
+      "count": 50,
+      "startIndex": 950,
+      "endIndexExclusive": 1000,
+      "firstTerm": "Australiana",
+      "lastTerm": "authoritarian"
+    },
+    {
+      "part": 21,
+      "fileName": "term_bank_02_part_21.json",
+      "count": 50,
+      "startIndex": 1000,
+      "endIndexExclusive": 1050,
+      "firstTerm": "authoritarian",
+      "lastTerm": "autoclaves"
+    },
+    {
+      "part": 22,
+      "fileName": "term_bank_02_part_22.json",
+      "count": 50,
+      "startIndex": 1050,
+      "endIndexExclusive": 1100,
+      "firstTerm": "autoclaving",
+      "lastTerm": "autograph"
+    },
+    {
+      "part": 23,
+      "fileName": "term_bank_02_part_23.json",
+      "count": 50,
+      "startIndex": 1100,
+      "endIndexExclusive": 1150,
+      "firstTerm": "autograph",
+      "lastTerm": "automatization"
+    },
+    {
+      "part": 24,
+      "fileName": "term_bank_02_part_24.json",
+      "count": 50,
+      "startIndex": 1150,
+      "endIndexExclusive": 1200,
+      "firstTerm": "automaton",
+      "lastTerm": "autoreactive"
+    },
+    {
+      "part": 25,
+      "fileName": "term_bank_02_part_25.json",
+      "count": 50,
+      "startIndex": 1200,
+      "endIndexExclusive": 1250,
+      "firstTerm": "autoregression",
+      "lastTerm": "autumns"
+    },
+    {
+      "part": 26,
+      "fileName": "term_bank_02_part_26.json",
+      "count": 50,
+      "startIndex": 1250,
+      "endIndexExclusive": 1300,
+      "firstTerm": "Autumns",
+      "lastTerm": "Avalos"
+    },
+    {
+      "part": 27,
+      "fileName": "term_bank_02_part_27.json",
+      "count": 50,
+      "startIndex": 1300,
+      "endIndexExclusive": 1350,
+      "firstTerm": "avant",
+      "lastTerm": "avenging"
+    },
+    {
+      "part": 28,
+      "fileName": "term_bank_02_part_28.json",
+      "count": 50,
+      "startIndex": 1350,
+      "endIndexExclusive": 1400,
+      "firstTerm": "avens",
+      "lastTerm": "Avesta"
+    },
+    {
+      "part": 29,
+      "fileName": "term_bank_02_part_29.json",
+      "count": 50,
+      "startIndex": 1400,
+      "endIndexExclusive": 1450,
+      "firstTerm": "Avestan",
+      "lastTerm": "AVMs"
+    },
+    {
+      "part": 30,
+      "fileName": "term_bank_02_part_30.json",
+      "count": 50,
+      "startIndex": 1450,
+      "endIndexExclusive": 1500,
+      "firstTerm": "AVN",
+      "lastTerm": "aw"
+    },
+    {
+      "part": 31,
+      "fileName": "term_bank_02_part_31.json",
+      "count": 50,
+      "startIndex": 1500,
+      "endIndexExclusive": 1550,
+      "firstTerm": "aw",
+      "lastTerm": "awesome"
+    },
+    {
+      "part": 32,
+      "fileName": "term_bank_02_part_32.json",
+      "count": 50,
+      "startIndex": 1550,
+      "endIndexExclusive": 1600,
+      "firstTerm": "awesome",
+      "lastTerm": "Ax"
+    },
+    {
+      "part": 33,
+      "fileName": "term_bank_02_part_33.json",
+      "count": 50,
+      "startIndex": 1600,
+      "endIndexExclusive": 1650,
+      "firstTerm": "Axbridge",
+      "lastTerm": "axonal"
+    },
+    {
+      "part": 34,
+      "fileName": "term_bank_02_part_34.json",
+      "count": 50,
+      "startIndex": 1650,
+      "endIndexExclusive": 1700,
+      "firstTerm": "axone",
+      "lastTerm": "Ayesha"
+    },
+    {
+      "part": 35,
+      "fileName": "term_bank_02_part_35.json",
+      "count": 50,
+      "startIndex": 1700,
+      "endIndexExclusive": 1750,
+      "firstTerm": "Ayeyarwady",
+      "lastTerm": "Ayurveda"
+    },
+    {
+      "part": 36,
+      "fileName": "term_bank_02_part_36.json",
+      "count": 50,
+      "startIndex": 1750,
+      "endIndexExclusive": 1800,
+      "firstTerm": "ayurvedic",
+      "lastTerm": "Azim"
+    },
+    {
+      "part": 37,
+      "fileName": "term_bank_02_part_37.json",
+      "count": 50,
+      "startIndex": 1800,
+      "endIndexExclusive": 1850,
+      "firstTerm": "Azimi",
+      "lastTerm": "Azzam"
+    },
+    {
+      "part": 38,
+      "fileName": "term_bank_02_part_38.json",
+      "count": 50,
+      "startIndex": 1850,
+      "endIndexExclusive": 1900,
+      "firstTerm": "Azzarello",
+      "lastTerm": "Babbitt"
+    },
+    {
+      "part": 39,
+      "fileName": "term_bank_02_part_39.json",
+      "count": 50,
+      "startIndex": 1900,
+      "endIndexExclusive": 1950,
+      "firstTerm": "babble",
+      "lastTerm": "babul"
+    },
+    {
+      "part": 40,
+      "fileName": "term_bank_02_part_40.json",
+      "count": 50,
+      "startIndex": 1950,
+      "endIndexExclusive": 2000,
+      "firstTerm": "babushka",
+      "lastTerm": "bacchanalian"
+    },
+    {
+      "part": 41,
+      "fileName": "term_bank_02_part_41.json",
+      "count": 50,
+      "startIndex": 2000,
+      "endIndexExclusive": 2050,
+      "firstTerm": "Bacchanalian",
+      "lastTerm": "backbiting"
+    },
+    {
+      "part": 42,
+      "fileName": "term_bank_02_part_42.json",
+      "count": 50,
+      "startIndex": 2050,
+      "endIndexExclusive": 2100,
+      "firstTerm": "backboard",
+      "lastTerm": "backflow"
+    },
+    {
+      "part": 43,
+      "fileName": "term_bank_02_part_43.json",
+      "count": 50,
+      "startIndex": 2100,
+      "endIndexExclusive": 2150,
+      "firstTerm": "backflow",
+      "lastTerm": "backman"
+    },
+    {
+      "part": 44,
+      "fileName": "term_bank_02_part_44.json",
+      "count": 50,
+      "startIndex": 2150,
+      "endIndexExclusive": 2200,
+      "firstTerm": "Backman",
+      "lastTerm": "backshell"
+    },
+    {
+      "part": 45,
+      "fileName": "term_bank_02_part_45.json",
+      "count": 50,
+      "startIndex": 2200,
+      "endIndexExclusive": 2250,
+      "firstTerm": "backside",
+      "lastTerm": "backtesting"
+    },
+    {
+      "part": 46,
+      "fileName": "term_bank_02_part_46.json",
+      "count": 50,
+      "startIndex": 2250,
+      "endIndexExclusive": 2300,
+      "firstTerm": "backtick",
+      "lastTerm": "bactericidal"
+    },
+    {
+      "part": 47,
+      "fileName": "term_bank_02_part_47.json",
+      "count": 50,
+      "startIndex": 2300,
+      "endIndexExclusive": 2350,
+      "firstTerm": "bactericidal",
+      "lastTerm": "badger"
+    },
+    {
+      "part": 48,
+      "fileName": "term_bank_02_part_48.json",
+      "count": 50,
+      "startIndex": 2350,
+      "endIndexExclusive": 2400,
+      "firstTerm": "badger",
+      "lastTerm": "Baedeker"
+    },
+    {
+      "part": 49,
+      "fileName": "term_bank_02_part_49.json",
+      "count": 50,
+      "startIndex": 2400,
+      "endIndexExclusive": 2450,
+      "firstTerm": "Baehr",
+      "lastTerm": "Baggett"
+    },
+    {
+      "part": 50,
+      "fileName": "term_bank_02_part_50.json",
+      "count": 50,
+      "startIndex": 2450,
+      "endIndexExclusive": 2500,
+      "firstTerm": "baggie",
+      "lastTerm": "baguette"
+    },
+    {
+      "part": 51,
+      "fileName": "term_bank_02_part_51.json",
+      "count": 50,
+      "startIndex": 2500,
+      "endIndexExclusive": 2550,
+      "firstTerm": "baguettes",
+      "lastTerm": "Bai"
+    },
+    {
+      "part": 52,
+      "fileName": "term_bank_02_part_52.json",
+      "count": 50,
+      "startIndex": 2550,
+      "endIndexExclusive": 2600,
+      "firstTerm": "baidarka",
+      "lastTerm": "bails"
+    },
+    {
+      "part": 53,
+      "fileName": "term_bank_02_part_53.json",
+      "count": 50,
+      "startIndex": 2600,
+      "endIndexExclusive": 2650,
+      "firstTerm": "Bails",
+      "lastTerm": "bak"
+    },
+    {
+      "part": 54,
+      "fileName": "term_bank_02_part_54.json",
+      "count": 50,
+      "startIndex": 2650,
+      "endIndexExclusive": 2700,
+      "firstTerm": "bak",
+      "lastTerm": "BAL"
+    },
+    {
+      "part": 55,
+      "fileName": "term_bank_02_part_55.json",
+      "count": 50,
+      "startIndex": 2700,
+      "endIndexExclusive": 2750,
+      "firstTerm": "Bala",
+      "lastTerm": "balcony"
+    },
+    {
+      "part": 56,
+      "fileName": "term_bank_02_part_56.json",
+      "count": 50,
+      "startIndex": 2750,
+      "endIndexExclusive": 2800,
+      "firstTerm": "bald",
+      "lastTerm": "baler"
+    },
+    {
+      "part": 57,
+      "fileName": "term_bank_02_part_57.json",
+      "count": 50,
+      "startIndex": 2800,
+      "endIndexExclusive": 2850,
+      "firstTerm": "Baler",
+      "lastTerm": "Ballachulish"
+    },
+    {
+      "part": 58,
+      "fileName": "term_bank_02_part_58.json",
+      "count": 50,
+      "startIndex": 2850,
+      "endIndexExclusive": 2900,
+      "firstTerm": "ballad",
+      "lastTerm": "ballet"
+    },
+    {
+      "part": 59,
+      "fileName": "term_bank_02_part_59.json",
+      "count": 50,
+      "startIndex": 2900,
+      "endIndexExclusive": 2950,
+      "firstTerm": "balletic",
+      "lastTerm": "ballpark"
+    },
+    {
+      "part": 60,
+      "fileName": "term_bank_02_part_60.json",
+      "count": 50,
+      "startIndex": 2950,
+      "endIndexExclusive": 3000,
+      "firstTerm": "ballpark",
+      "lastTerm": "Balochistan"
+    },
+    {
+      "part": 61,
+      "fileName": "term_bank_02_part_61.json",
+      "count": 50,
+      "startIndex": 3000,
+      "endIndexExclusive": 3050,
+      "firstTerm": "Balog",
+      "lastTerm": "Baltzer"
+    },
+    {
+      "part": 62,
+      "fileName": "term_bank_02_part_62.json",
+      "count": 50,
+      "startIndex": 3050,
+      "endIndexExclusive": 3100,
+      "firstTerm": "Baluch",
+      "lastTerm": "Bamford"
+    },
+    {
+      "part": 63,
+      "fileName": "term_bank_02_part_63.json",
+      "count": 50,
+      "startIndex": 3100,
+      "endIndexExclusive": 3150,
+      "firstTerm": "Bamiyan",
+      "lastTerm": "bandage"
+    },
+    {
+      "part": 64,
+      "fileName": "term_bank_02_part_64.json",
+      "count": 50,
+      "startIndex": 3150,
+      "endIndexExclusive": 3200,
+      "firstTerm": "bandage",
+      "lastTerm": "bandolero"
+    },
+    {
+      "part": 65,
+      "fileName": "term_bank_02_part_65.json",
+      "count": 50,
+      "startIndex": 3200,
+      "endIndexExclusive": 3250,
+      "firstTerm": "bandolier",
+      "lastTerm": "Bange"
+    },
+    {
+      "part": 66,
+      "fileName": "term_bank_02_part_66.json",
+      "count": 50,
+      "startIndex": 3250,
+      "endIndexExclusive": 3300,
+      "firstTerm": "banged",
+      "lastTerm": "banjos"
+    },
+    {
+      "part": 67,
+      "fileName": "term_bank_02_part_67.json",
+      "count": 50,
+      "startIndex": 3300,
+      "endIndexExclusive": 3350,
+      "firstTerm": "Banjul",
+      "lastTerm": "Banner"
+    },
+    {
+      "part": 68,
+      "fileName": "term_bank_02_part_68.json",
+      "count": 50,
+      "startIndex": 3350,
+      "endIndexExclusive": 3400,
+      "firstTerm": "bannerless",
+      "lastTerm": "Bantu"
+    },
+    {
+      "part": 69,
+      "fileName": "term_bank_02_part_69.json",
+      "count": 50,
+      "startIndex": 3400,
+      "endIndexExclusive": 3450,
+      "firstTerm": "bantz",
+      "lastTerm": "baptizing"
+    },
+    {
+      "part": 70,
+      "fileName": "term_bank_02_part_70.json",
+      "count": 50,
+      "startIndex": 3450,
+      "endIndexExclusive": 3500,
+      "firstTerm": "bapu",
+      "lastTerm": "Barbadoes"
+    },
+    {
+      "part": 71,
+      "fileName": "term_bank_02_part_71.json",
+      "count": 50,
+      "startIndex": 3500,
+      "endIndexExclusive": 3550,
+      "firstTerm": "Barbados",
+      "lastTerm": "barbershop"
+    },
+    {
+      "part": 72,
+      "fileName": "term_bank_02_part_72.json",
+      "count": 50,
+      "startIndex": 3550,
+      "endIndexExclusive": 3600,
+      "firstTerm": "barbershops",
+      "lastTerm": "Barcroft"
+    },
+    {
+      "part": 73,
+      "fileName": "term_bank_02_part_73.json",
+      "count": 50,
+      "startIndex": 3600,
+      "endIndexExclusive": 3650,
+      "firstTerm": "bard",
+      "lastTerm": "bareheaded"
+    },
+    {
+      "part": 74,
+      "fileName": "term_bank_02_part_74.json",
+      "count": 50,
+      "startIndex": 3650,
+      "endIndexExclusive": 3700,
+      "firstTerm": "bareheaded",
+      "lastTerm": "Baril"
+    },
+    {
+      "part": 75,
+      "fileName": "term_bank_02_part_75.json",
+      "count": 50,
+      "startIndex": 3700,
+      "endIndexExclusive": 3750,
+      "firstTerm": "Barile",
+      "lastTerm": "Barks"
+    },
+    {
+      "part": 76,
+      "fileName": "term_bank_02_part_76.json",
+      "count": 50,
+      "startIndex": 3750,
+      "endIndexExclusive": 3800,
+      "firstTerm": "Barksdale",
+      "lastTerm": "Barner"
+    },
+    {
+      "part": 77,
+      "fileName": "term_bank_02_part_77.json",
+      "count": 50,
+      "startIndex": 3800,
+      "endIndexExclusive": 3850,
+      "firstTerm": "barnes",
+      "lastTerm": "barnyardgrass"
+    },
+    {
+      "part": 78,
+      "fileName": "term_bank_02_part_78.json",
+      "count": 50,
+      "startIndex": 3850,
+      "endIndexExclusive": 3900,
+      "firstTerm": "Baro",
+      "lastTerm": "Barraco"
+    },
+    {
+      "part": 79,
+      "fileName": "term_bank_02_part_79.json",
+      "count": 50,
+      "startIndex": 3900,
+      "endIndexExclusive": 3950,
+      "firstTerm": "barracuda",
+      "lastTerm": "barrettes"
+    },
+    {
+      "part": 80,
+      "fileName": "term_bank_02_part_80.json",
+      "count": 50,
+      "startIndex": 3950,
+      "endIndexExclusive": 4000,
+      "firstTerm": "Barrettes",
+      "lastTerm": "Barsac"
+    },
+    {
+      "part": 81,
+      "fileName": "term_bank_02_part_81.json",
+      "count": 50,
+      "startIndex": 4000,
+      "endIndexExclusive": 4050,
+      "firstTerm": "Barsac",
+      "lastTerm": "Bartlesville"
+    },
+    {
+      "part": 82,
+      "fileName": "term_bank_02_part_82.json",
+      "count": 50,
+      "startIndex": 4050,
+      "endIndexExclusive": 4100,
+      "firstTerm": "Bartlett",
+      "lastTerm": "BAS"
+    },
+    {
+      "part": 83,
+      "fileName": "term_bank_02_part_83.json",
+      "count": 50,
+      "startIndex": 4100,
+      "endIndexExclusive": 4150,
+      "firstTerm": "basa",
+      "lastTerm": "basename"
+    },
+    {
+      "part": 84,
+      "fileName": "term_bank_02_part_84.json",
+      "count": 50,
+      "startIndex": 4150,
+      "endIndexExclusive": 4200,
+      "firstTerm": "baseness",
+      "lastTerm": "basic"
+    },
+    {
+      "part": 85,
+      "fileName": "term_bank_02_part_85.json",
+      "count": 50,
+      "startIndex": 4200,
+      "endIndexExclusive": 4250,
+      "firstTerm": "basic",
+      "lastTerm": "Baskett"
+    },
+    {
+      "part": 86,
+      "fileName": "term_bank_02_part_86.json",
+      "count": 50,
+      "startIndex": 4250,
+      "endIndexExclusive": 4300,
+      "firstTerm": "basketware",
+      "lastTerm": "bassett"
+    },
+    {
+      "part": 87,
+      "fileName": "term_bank_02_part_87.json",
+      "count": 50,
+      "startIndex": 4300,
+      "endIndexExclusive": 4350,
+      "firstTerm": "bassett",
+      "lastTerm": "Bastida"
+    },
+    {
+      "part": 88,
+      "fileName": "term_bank_02_part_88.json",
+      "count": 50,
+      "startIndex": 4350,
+      "endIndexExclusive": 4400,
+      "firstTerm": "bastide",
+      "lastTerm": "Batch"
+    },
+    {
+      "part": 89,
+      "fileName": "term_bank_02_part_89.json",
+      "count": 50,
+      "startIndex": 4400,
+      "endIndexExclusive": 4450,
+      "firstTerm": "batched",
+      "lastTerm": "bathtub"
+    },
+    {
+      "part": 90,
+      "fileName": "term_bank_02_part_90.json",
+      "count": 50,
+      "startIndex": 4450,
+      "endIndexExclusive": 4500,
+      "firstTerm": "bathtubs",
+      "lastTerm": "Batta"
+    },
+    {
+      "part": 91,
+      "fileName": "term_bank_02_part_91.json",
+      "count": 50,
+      "startIndex": 4500,
+      "endIndexExclusive": 4550,
+      "firstTerm": "Battaglia",
+      "lastTerm": "battlecraft"
+    },
+    {
+      "part": 92,
+      "fileName": "term_bank_02_part_92.json",
+      "count": 50,
+      "startIndex": 4550,
+      "endIndexExclusive": 4600,
+      "firstTerm": "battlecruiser",
+      "lastTerm": "Bauder"
+    },
+    {
+      "part": 93,
+      "fileName": "term_bank_02_part_93.json",
+      "count": 50,
+      "startIndex": 4600,
+      "endIndexExclusive": 4650,
+      "firstTerm": "Baudette",
+      "lastTerm": "bawd"
+    },
+    {
+      "part": 94,
+      "fileName": "term_bank_02_part_94.json",
+      "count": 50,
+      "startIndex": 4650,
+      "endIndexExclusive": 4700,
+      "firstTerm": "bawd",
+      "lastTerm": "Bayle"
+    },
+    {
+      "part": 95,
+      "fileName": "term_bank_02_part_95.json",
+      "count": 50,
+      "startIndex": 4700,
+      "endIndexExclusive": 4750,
+      "firstTerm": "Baylee",
+      "lastTerm": "bazil"
+    },
+    {
+      "part": 96,
+      "fileName": "term_bank_02_part_96.json",
+      "count": 50,
+      "startIndex": 4750,
+      "endIndexExclusive": 4800,
+      "firstTerm": "Bazil",
+      "lastTerm": "BBSs"
+    },
+    {
+      "part": 97,
+      "fileName": "term_bank_02_part_97.json",
+      "count": 50,
+      "startIndex": 4800,
+      "endIndexExclusive": 4850,
+      "firstTerm": "BBT",
+      "lastTerm": "BCP"
+    },
+    {
+      "part": 98,
+      "fileName": "term_bank_02_part_98.json",
+      "count": 50,
+      "startIndex": 4850,
+      "endIndexExclusive": 4900,
+      "firstTerm": "BCPC",
+      "lastTerm": "beachball"
+    },
+    {
+      "part": 99,
+      "fileName": "term_bank_02_part_99.json",
+      "count": 50,
+      "startIndex": 4900,
+      "endIndexExclusive": 4950,
+      "firstTerm": "beachcomber",
+      "lastTerm": "Beaird"
+    },
+    {
+      "part": 100,
+      "fileName": "term_bank_02_part_100.json",
+      "count": 50,
+      "startIndex": 4950,
+      "endIndexExclusive": 5000,
+      "firstTerm": "beak",
+      "lastTerm": "Beaner"
+    },
+    {
+      "part": 101,
+      "fileName": "term_bank_02_part_101.json",
+      "count": 50,
+      "startIndex": 5000,
+      "endIndexExclusive": 5050,
+      "firstTerm": "beanery",
+      "lastTerm": "bearish"
+    },
+    {
+      "part": 102,
+      "fileName": "term_bank_02_part_102.json",
+      "count": 50,
+      "startIndex": 5050,
+      "endIndexExclusive": 5100,
+      "firstTerm": "bearly",
+      "lastTerm": "beatific"
+    },
+    {
+      "part": 103,
+      "fileName": "term_bank_02_part_103.json",
+      "count": 50,
+      "startIndex": 5100,
+      "endIndexExclusive": 5150,
+      "firstTerm": "beatification",
+      "lastTerm": "Beaujolais"
+    },
+    {
+      "part": 104,
+      "fileName": "term_bank_02_part_104.json",
+      "count": 50,
+      "startIndex": 5150,
+      "endIndexExclusive": 5200,
+      "firstTerm": "Beaulieu",
+      "lastTerm": "Beavis"
+    },
+    {
+      "part": 105,
+      "fileName": "term_bank_02_part_105.json",
+      "count": 50,
+      "startIndex": 5200,
+      "endIndexExclusive": 5250,
+      "firstTerm": "Beazer",
+      "lastTerm": "Beckles"
+    },
+    {
+      "part": 106,
+      "fileName": "term_bank_02_part_106.json",
+      "count": 50,
+      "startIndex": 5250,
+      "endIndexExclusive": 5300,
+      "firstTerm": "Beckley",
+      "lastTerm": "bedded"
+    },
+    {
+      "part": 107,
+      "fileName": "term_bank_02_part_107.json",
+      "count": 50,
+      "startIndex": 5300,
+      "endIndexExclusive": 5350,
+      "firstTerm": "Beddgelert",
+      "lastTerm": "Bedouin"
+    },
+    {
+      "part": 108,
+      "fileName": "term_bank_02_part_108.json",
+      "count": 50,
+      "startIndex": 5350,
+      "endIndexExclusive": 5400,
+      "firstTerm": "bedouins",
+      "lastTerm": "Beebe"
+    },
+    {
+      "part": 109,
+      "fileName": "term_bank_02_part_109.json",
+      "count": 50,
+      "startIndex": 5400,
+      "endIndexExclusive": 5450,
+      "firstTerm": "beebee",
+      "lastTerm": "Beekmans"
+    },
+    {
+      "part": 110,
+      "fileName": "term_bank_02_part_110.json",
+      "count": 50,
+      "startIndex": 5450,
+      "endIndexExclusive": 5500,
+      "firstTerm": "beeks",
+      "lastTerm": "beetle"
+    },
+    {
+      "part": 111,
+      "fileName": "term_bank_02_part_111.json",
+      "count": 50,
+      "startIndex": 5500,
+      "endIndexExclusive": 5550,
+      "firstTerm": "Beetle",
+      "lastTerm": "begay"
+    },
+    {
+      "part": 112,
+      "fileName": "term_bank_02_part_112.json",
+      "count": 50,
+      "startIndex": 5550,
+      "endIndexExclusive": 5600,
+      "firstTerm": "Begbie",
+      "lastTerm": "begum"
+    },
+    {
+      "part": 113,
+      "fileName": "term_bank_02_part_113.json",
+      "count": 50,
+      "startIndex": 5600,
+      "endIndexExclusive": 5650,
+      "firstTerm": "begum",
+      "lastTerm": "beholder"
+    },
+    {
+      "part": 114,
+      "fileName": "term_bank_02_part_114.json",
+      "count": 50,
+      "startIndex": 5650,
+      "endIndexExclusive": 5700,
+      "firstTerm": "beholders",
+      "lastTerm": "Beitler"
+    },
+    {
+      "part": 115,
+      "fileName": "term_bank_02_part_115.json",
+      "count": 50,
+      "startIndex": 5700,
+      "endIndexExclusive": 5750,
+      "firstTerm": "Beitz",
+      "lastTerm": "Belcarra"
+    },
+    {
+      "part": 116,
+      "fileName": "term_bank_02_part_116.json",
+      "count": 50,
+      "startIndex": 5750,
+      "endIndexExclusive": 5800,
+      "firstTerm": "belch",
+      "lastTerm": "believability"
+    },
+    {
+      "part": 117,
+      "fileName": "term_bank_02_part_117.json",
+      "count": 50,
+      "startIndex": 5800,
+      "endIndexExclusive": 5850,
+      "firstTerm": "believable",
+      "lastTerm": "bellbird"
+    },
+    {
+      "part": 118,
+      "fileName": "term_bank_02_part_118.json",
+      "count": 50,
+      "startIndex": 5850,
+      "endIndexExclusive": 5900,
+      "firstTerm": "bellboy",
+      "lastTerm": "Bellini"
+    },
+    {
+      "part": 119,
+      "fileName": "term_bank_02_part_119.json",
+      "count": 50,
+      "startIndex": 5900,
+      "endIndexExclusive": 5950,
+      "firstTerm": "Bellino",
+      "lastTerm": "Belmond"
+    },
+    {
+      "part": 120,
+      "fileName": "term_bank_02_part_120.json",
+      "count": 50,
+      "startIndex": 5950,
+      "endIndexExclusive": 6000,
+      "firstTerm": "Belmont",
+      "lastTerm": "Belton"
+    },
+    {
+      "part": 121,
+      "fileName": "term_bank_02_part_121.json",
+      "count": 50,
+      "startIndex": 6000,
+      "endIndexExclusive": 6050,
+      "firstTerm": "beltpack",
+      "lastTerm": "bemusement"
+    },
+    {
+      "part": 122,
+      "fileName": "term_bank_02_part_122.json",
+      "count": 50,
+      "startIndex": 6050,
+      "endIndexExclusive": 6100,
+      "firstTerm": "ben",
+      "lastTerm": "benders"
+    },
+    {
+      "part": 123,
+      "fileName": "term_bank_02_part_123.json",
+      "count": 50,
+      "startIndex": 6100,
+      "endIndexExclusive": 6150,
+      "firstTerm": "Bendigo",
+      "lastTerm": "benefit"
+    },
+    {
+      "part": 124,
+      "fileName": "term_bank_02_part_124.json",
+      "count": 50,
+      "startIndex": 6150,
+      "endIndexExclusive": 6200,
+      "firstTerm": "benefit",
+      "lastTerm": "benignly"
+    },
+    {
+      "part": 125,
+      "fileName": "term_bank_02_part_125.json",
+      "count": 50,
+      "startIndex": 6200,
+      "endIndexExclusive": 6250,
+      "firstTerm": "Benigno",
+      "lastTerm": "beno"
+    },
+    {
+      "part": 126,
+      "fileName": "term_bank_02_part_126.json",
+      "count": 50,
+      "startIndex": 6250,
+      "endIndexExclusive": 6300,
+      "firstTerm": "Beno",
+      "lastTerm": "Benyon"
+    },
+    {
+      "part": 127,
+      "fileName": "term_bank_02_part_127.json",
+      "count": 50,
+      "startIndex": 6300,
+      "endIndexExclusive": 6350,
+      "firstTerm": "Benz",
+      "lastTerm": "Berard"
+    },
+    {
+      "part": 128,
+      "fileName": "term_bank_02_part_128.json",
+      "count": 50,
+      "startIndex": 6350,
+      "endIndexExclusive": 6400,
+      "firstTerm": "Berardi",
+      "lastTerm": "Bergamasco"
+    },
+    {
+      "part": 129,
+      "fileName": "term_bank_02_part_129.json",
+      "count": 50,
+      "startIndex": 6400,
+      "endIndexExclusive": 6450,
+      "firstTerm": "Bergamo",
+      "lastTerm": "Berkley"
+    },
+    {
+      "part": 130,
+      "fileName": "term_bank_02_part_130.json",
+      "count": 50,
+      "startIndex": 6450,
+      "endIndexExclusive": 6500,
+      "firstTerm": "Berkman",
+      "lastTerm": "Bernalillo"
+    },
+    {
+      "part": 131,
+      "fileName": "term_bank_02_part_131.json",
+      "count": 50,
+      "startIndex": 6500,
+      "endIndexExclusive": 6550,
+      "firstTerm": "bernard",
+      "lastTerm": "berried"
+    },
+    {
+      "part": 132,
+      "fileName": "term_bank_02_part_132.json",
+      "count": 50,
+      "startIndex": 6550,
+      "endIndexExclusive": 6600,
+      "firstTerm": "Berrien",
+      "lastTerm": "Bertone"
+    },
+    {
+      "part": 133,
+      "fileName": "term_bank_02_part_133.json",
+      "count": 50,
+      "startIndex": 6600,
+      "endIndexExclusive": 6650,
+      "firstTerm": "bertram",
+      "lastTerm": "bespin"
+    },
+    {
+      "part": 134,
+      "fileName": "term_bank_02_part_134.json",
+      "count": 50,
+      "startIndex": 6650,
+      "endIndexExclusive": 6700,
+      "firstTerm": "bespoke",
+      "lastTerm": "bet"
+    },
+    {
+      "part": 135,
+      "fileName": "term_bank_02_part_135.json",
+      "count": 50,
+      "startIndex": 6700,
+      "endIndexExclusive": 6750,
+      "firstTerm": "bet",
+      "lastTerm": "betimes"
+    },
+    {
+      "part": 136,
+      "fileName": "term_bank_02_part_136.json",
+      "count": 50,
+      "startIndex": 6750,
+      "endIndexExclusive": 6800,
+      "firstTerm": "Betjeman",
+      "lastTerm": "Bettis"
+    },
+    {
+      "part": 137,
+      "fileName": "term_bank_02_part_137.json",
+      "count": 50,
+      "startIndex": 6800,
+      "endIndexExclusive": 6850,
+      "firstTerm": "Betton",
+      "lastTerm": "Beveren"
+    },
+    {
+      "part": 138,
+      "fileName": "term_bank_02_part_138.json",
+      "count": 50,
+      "startIndex": 6850,
+      "endIndexExclusive": 6900,
+      "firstTerm": "beveridge",
+      "lastTerm": "Beyer"
+    },
+    {
+      "part": 139,
+      "fileName": "term_bank_02_part_139.json",
+      "count": 50,
+      "startIndex": 6900,
+      "endIndexExclusive": 6950,
+      "firstTerm": "Beyers",
+      "lastTerm": "BGA"
+    },
+    {
+      "part": 140,
+      "fileName": "term_bank_02_part_140.json",
+      "count": 50,
+      "startIndex": 6950,
+      "endIndexExclusive": 7000,
+      "firstTerm": "BGA",
+      "lastTerm": "Bhatinda"
+    },
+    {
+      "part": 141,
+      "fileName": "term_bank_02_part_141.json",
+      "count": 50,
+      "startIndex": 7000,
+      "endIndexExclusive": 7050,
+      "firstTerm": "Bhatnagar",
+      "lastTerm": "Bhusawal"
+    },
+    {
+      "part": 142,
+      "fileName": "term_bank_02_part_142.json",
+      "count": 50,
+      "startIndex": 7050,
+      "endIndexExclusive": 7100,
+      "firstTerm": "Bhutan",
+      "lastTerm": "Bibb"
+    },
+    {
+      "part": 143,
+      "fileName": "term_bank_02_part_143.json",
+      "count": 50,
+      "startIndex": 7100,
+      "endIndexExclusive": 7150,
+      "firstTerm": "Bibb",
+      "lastTerm": "bicentennial"
+    },
+    {
+      "part": 144,
+      "fileName": "term_bank_02_part_144.json",
+      "count": 50,
+      "startIndex": 7150,
+      "endIndexExclusive": 7200,
+      "firstTerm": "bicentennial",
+      "lastTerm": "bicycles"
+    },
+    {
+      "part": 145,
+      "fileName": "term_bank_02_part_145.json",
+      "count": 50,
+      "startIndex": 7200,
+      "endIndexExclusive": 7250,
+      "firstTerm": "bicyclette",
+      "lastTerm": "Bidston"
+    },
+    {
+      "part": 146,
+      "fileName": "term_bank_02_part_146.json",
+      "count": 50,
+      "startIndex": 7250,
+      "endIndexExclusive": 7300,
+      "firstTerm": "Bidwell",
+      "lastTerm": "biffy"
+    },
+    {
+      "part": 147,
+      "fileName": "term_bank_02_part_147.json",
+      "count": 50,
+      "startIndex": 7300,
+      "endIndexExclusive": 7350,
+      "firstTerm": "bifid",
+      "lastTerm": "biggin"
+    },
+    {
+      "part": 148,
+      "fileName": "term_bank_02_part_148.json",
+      "count": 50,
+      "startIndex": 7350,
+      "endIndexExclusive": 7400,
+      "firstTerm": "biggins",
+      "lastTerm": "bijou"
+    },
+    {
+      "part": 149,
+      "fileName": "term_bank_02_part_149.json",
+      "count": 50,
+      "startIndex": 7400,
+      "endIndexExclusive": 7450,
+      "firstTerm": "bijou",
+      "lastTerm": "Biles"
+    },
+    {
+      "part": 150,
+      "fileName": "term_bank_02_part_150.json",
+      "count": 50,
+      "startIndex": 7450,
+      "endIndexExclusive": 7500,
+      "firstTerm": "bilevel",
+      "lastTerm": "billeting"
+    },
+    {
+      "part": 151,
+      "fileName": "term_bank_02_part_151.json",
+      "count": 50,
+      "startIndex": 7500,
+      "endIndexExclusive": 7550,
+      "firstTerm": "billets",
+      "lastTerm": "Bills"
+    },
+    {
+      "part": 152,
+      "fileName": "term_bank_02_part_152.json",
+      "count": 50,
+      "startIndex": 7550,
+      "endIndexExclusive": 7600,
+      "firstTerm": "Billund",
+      "lastTerm": "Bin"
+    },
+    {
+      "part": 153,
+      "fileName": "term_bank_02_part_153.json",
+      "count": 50,
+      "startIndex": 7600,
+      "endIndexExclusive": 7650,
+      "firstTerm": "Bina",
+      "lastTerm": "Bingley"
+    },
+    {
+      "part": 154,
+      "fileName": "term_bank_02_part_154.json",
+      "count": 50,
+      "startIndex": 7650,
+      "endIndexExclusive": 7700,
+      "firstTerm": "Bingman",
+      "lastTerm": "Bins"
+    },
+    {
+      "part": 155,
+      "fileName": "term_bank_02_part_155.json",
+      "count": 50,
+      "startIndex": 7700,
+      "endIndexExclusive": 7750,
+      "firstTerm": "binsize",
+      "lastTerm": "biocide"
+    },
+    {
+      "part": 156,
+      "fileName": "term_bank_02_part_156.json",
+      "count": 50,
+      "startIndex": 7750,
+      "endIndexExclusive": 7800,
+      "firstTerm": "biocides",
+      "lastTerm": "biofeedback"
+    },
+    {
+      "part": 157,
+      "fileName": "term_bank_02_part_157.json",
+      "count": 50,
+      "startIndex": 7800,
+      "endIndexExclusive": 7850,
+      "firstTerm": "biofilm",
+      "lastTerm": "Biola"
+    },
+    {
+      "part": 158,
+      "fileName": "term_bank_02_part_158.json",
+      "count": 50,
+      "startIndex": 7850,
+      "endIndexExclusive": 7900,
+      "firstTerm": "biolab",
+      "lastTerm": "Biondi"
+    },
+    {
+      "part": 159,
+      "fileName": "term_bank_02_part_159.json",
+      "count": 50,
+      "startIndex": 7900,
+      "endIndexExclusive": 7950,
+      "firstTerm": "Biondo",
+      "lastTerm": "bios"
+    },
+    {
+      "part": 160,
+      "fileName": "term_bank_02_part_160.json",
+      "count": 50,
+      "startIndex": 7950,
+      "endIndexExclusive": 8000,
+      "firstTerm": "BIOS",
+      "lastTerm": "biotic"
+    },
+    {
+      "part": 161,
+      "fileName": "term_bank_02_part_161.json",
+      "count": 50,
+      "startIndex": 8000,
+      "endIndexExclusive": 8050,
+      "firstTerm": "biotic",
+      "lastTerm": "bipolarity"
+    },
+    {
+      "part": 162,
+      "fileName": "term_bank_02_part_162.json",
+      "count": 50,
+      "startIndex": 8050,
+      "endIndexExclusive": 8100,
+      "firstTerm": "BIPs",
+      "lastTerm": "birdies"
+    },
+    {
+      "part": 163,
+      "fileName": "term_bank_02_part_163.json",
+      "count": 50,
+      "startIndex": 8100,
+      "endIndexExclusive": 8150,
+      "firstTerm": "birding",
+      "lastTerm": "Birkin"
+    },
+    {
+      "part": 164,
+      "fileName": "term_bank_02_part_164.json",
+      "count": 50,
+      "startIndex": 8150,
+      "endIndexExclusive": 8200,
+      "firstTerm": "Birkinshaw",
+      "lastTerm": "birthplaces"
+    },
+    {
+      "part": 165,
+      "fileName": "term_bank_02_part_165.json",
+      "count": 50,
+      "startIndex": 8200,
+      "endIndexExclusive": 8250,
+      "firstTerm": "birthrate",
+      "lastTerm": "bishonen"
+    },
+    {
+      "part": 166,
+      "fileName": "term_bank_02_part_166.json",
+      "count": 50,
+      "startIndex": 8250,
+      "endIndexExclusive": 8300,
+      "firstTerm": "bishop",
+      "lastTerm": "Bissau"
+    },
+    {
+      "part": 167,
+      "fileName": "term_bank_02_part_167.json",
+      "count": 50,
+      "startIndex": 8300,
+      "endIndexExclusive": 8350,
+      "firstTerm": "bissel",
+      "lastTerm": "bitfield"
+    },
+    {
+      "part": 168,
+      "fileName": "term_bank_02_part_168.json",
+      "count": 50,
+      "startIndex": 8350,
+      "endIndexExclusive": 8400,
+      "firstTerm": "bitfields",
+      "lastTerm": "bitties"
+    },
+    {
+      "part": 169,
+      "fileName": "term_bank_02_part_169.json",
+      "count": 50,
+      "startIndex": 8400,
+      "endIndexExclusive": 8450,
+      "firstTerm": "bitting",
+      "lastTerm": "biz"
+    },
+    {
+      "part": 170,
+      "fileName": "term_bank_02_part_170.json",
+      "count": 50,
+      "startIndex": 8450,
+      "endIndexExclusive": 8500,
+      "firstTerm": "bizarre",
+      "lastTerm": "blabbing"
+    },
+    {
+      "part": 171,
+      "fileName": "term_bank_02_part_171.json",
+      "count": 50,
+      "startIndex": 8500,
+      "endIndexExclusive": 8550,
+      "firstTerm": "Blaby",
+      "lastTerm": "blackeye"
+    },
+    {
+      "part": 172,
+      "fileName": "term_bank_02_part_172.json",
+      "count": 50,
+      "startIndex": 8550,
+      "endIndexExclusive": 8600,
+      "firstTerm": "blackeyed",
+      "lastTerm": "blacklist"
+    },
+    {
+      "part": 173,
+      "fileName": "term_bank_02_part_173.json",
+      "count": 50,
+      "startIndex": 8600,
+      "endIndexExclusive": 8650,
+      "firstTerm": "blacklist",
+      "lastTerm": "blackstrap"
+    },
+    {
+      "part": 174,
+      "fileName": "term_bank_02_part_174.json",
+      "count": 50,
+      "startIndex": 8650,
+      "endIndexExclusive": 8700,
+      "firstTerm": "blacktail",
+      "lastTerm": "Blagojevic"
+    },
+    {
+      "part": 175,
+      "fileName": "term_bank_02_part_175.json",
+      "count": 50,
+      "startIndex": 8700,
+      "endIndexExclusive": 8750,
+      "firstTerm": "Blagojevich",
+      "lastTerm": "blam"
+    },
+    {
+      "part": 176,
+      "fileName": "term_bank_02_part_176.json",
+      "count": 50,
+      "startIndex": 8750,
+      "endIndexExclusive": 8800,
+      "firstTerm": "BLAM",
+      "lastTerm": "blank"
+    },
+    {
+      "part": 177,
+      "fileName": "term_bank_02_part_177.json",
+      "count": 50,
+      "startIndex": 8800,
+      "endIndexExclusive": 8850,
+      "firstTerm": "blank",
+      "lastTerm": "blasphemer"
+    },
+    {
+      "part": 178,
+      "fileName": "term_bank_02_part_178.json",
+      "count": 50,
+      "startIndex": 8850,
+      "endIndexExclusive": 8900,
+      "firstTerm": "blasphemers",
+      "lastTerm": "Blavatsky"
+    },
+    {
+      "part": 179,
+      "fileName": "term_bank_02_part_179.json",
+      "count": 50,
+      "startIndex": 8900,
+      "endIndexExclusive": 8950,
+      "firstTerm": "blawg",
+      "lastTerm": "Bleakley"
+    },
+    {
+      "part": 180,
+      "fileName": "term_bank_02_part_180.json",
+      "count": 50,
+      "startIndex": 8950,
+      "endIndexExclusive": 9000,
+      "firstTerm": "bleakly",
+      "lastTerm": "blemish"
+    },
+    {
+      "part": 181,
+      "fileName": "term_bank_02_part_181.json",
+      "count": 50,
+      "startIndex": 9000,
+      "endIndexExclusive": 9050,
+      "firstTerm": "blemished",
+      "lastTerm": "Bley"
+    },
+    {
+      "part": 182,
+      "fileName": "term_bank_02_part_182.json",
+      "count": 50,
+      "startIndex": 9050,
+      "endIndexExclusive": 9100,
+      "firstTerm": "bleys",
+      "lastTerm": "blinding"
+    },
+    {
+      "part": 183,
+      "fileName": "term_bank_02_part_183.json",
+      "count": 50,
+      "startIndex": 9100,
+      "endIndexExclusive": 9150,
+      "firstTerm": "blinding",
+      "lastTerm": "blistered"
+    },
+    {
+      "part": 184,
+      "fileName": "term_bank_02_part_184.json",
+      "count": 50,
+      "startIndex": 9150,
+      "endIndexExclusive": 9200,
+      "firstTerm": "blistering",
+      "lastTerm": "bloatware"
+    },
+    {
+      "part": 185,
+      "fileName": "term_bank_02_part_185.json",
+      "count": 50,
+      "startIndex": 9200,
+      "endIndexExclusive": 9250,
+      "firstTerm": "blob",
+      "lastTerm": "Bloemen"
+    },
+    {
+      "part": 186,
+      "fileName": "term_bank_02_part_186.json",
+      "count": 50,
+      "startIndex": 9250,
+      "endIndexExclusive": 9300,
+      "firstTerm": "Bloemfontein",
+      "lastTerm": "Blomgren"
+    },
+    {
+      "part": 187,
+      "fileName": "term_bank_02_part_187.json",
+      "count": 50,
+      "startIndex": 9300,
+      "endIndexExclusive": 9350,
+      "firstTerm": "Blomquist",
+      "lastTerm": "bloodstone"
+    },
+    {
+      "part": 188,
+      "fileName": "term_bank_02_part_188.json",
+      "count": 50,
+      "startIndex": 9350,
+      "endIndexExclusive": 9400,
+      "firstTerm": "bloodstream",
+      "lastTerm": "blossom"
+    },
+    {
+      "part": 189,
+      "fileName": "term_bank_02_part_189.json",
+      "count": 50,
+      "startIndex": 9400,
+      "endIndexExclusive": 9450,
+      "firstTerm": "blossom",
+      "lastTerm": "blowhard"
+    },
+    {
+      "part": 190,
+      "fileName": "term_bank_02_part_190.json",
+      "count": 50,
+      "startIndex": 9450,
+      "endIndexExclusive": 9500,
+      "firstTerm": "blowhards",
+      "lastTerm": "blue"
+    },
+    {
+      "part": 191,
+      "fileName": "term_bank_02_part_191.json",
+      "count": 50,
+      "startIndex": 9500,
+      "endIndexExclusive": 9550,
+      "firstTerm": "blue",
+      "lastTerm": "blueprints"
+    },
+    {
+      "part": 192,
+      "fileName": "term_bank_02_part_192.json",
+      "count": 50,
+      "startIndex": 9550,
+      "endIndexExclusive": 9600,
+      "firstTerm": "blues",
+      "lastTerm": "blumpkin"
+    },
+    {
+      "part": 193,
+      "fileName": "term_bank_02_part_193.json",
+      "count": 50,
+      "startIndex": 9600,
+      "endIndexExclusive": 9650,
+      "firstTerm": "Blumstein",
+      "lastTerm": "bluster"
+    },
+    {
+      "part": 194,
+      "fileName": "term_bank_02_part_194.json",
+      "count": 50,
+      "startIndex": 9650,
+      "endIndexExclusive": 9700,
+      "firstTerm": "bluster",
+      "lastTerm": "BMX"
+    },
+    {
+      "part": 195,
+      "fileName": "term_bank_02_part_195.json",
+      "count": 50,
+      "startIndex": 9700,
+      "endIndexExclusive": 9750,
+      "firstTerm": "BMX",
+      "lastTerm": "boarding"
+    },
+    {
+      "part": 196,
+      "fileName": "term_bank_02_part_196.json",
+      "count": 50,
+      "startIndex": 9750,
+      "endIndexExclusive": 9800,
+      "firstTerm": "boardinghouse",
+      "lastTerm": "boats"
+    },
+    {
+      "part": 197,
+      "fileName": "term_bank_02_part_197.json",
+      "count": 50,
+      "startIndex": 9800,
+      "endIndexExclusive": 9850,
+      "firstTerm": "BOATs",
+      "lastTerm": "Bobigny"
+    },
+    {
+      "part": 198,
+      "fileName": "term_bank_02_part_198.json",
+      "count": 50,
+      "startIndex": 9850,
+      "endIndexExclusive": 9900,
+      "firstTerm": "bobo",
+      "lastTerm": "bodacious"
+    },
+    {
+      "part": 199,
+      "fileName": "term_bank_02_part_199.json",
+      "count": 50,
+      "startIndex": 9900,
+      "endIndexExclusive": 9950,
+      "firstTerm": "bodacious",
+      "lastTerm": "Bodleian"
+    },
+    {
+      "part": 200,
+      "fileName": "term_bank_02_part_200.json",
+      "count": 50,
+      "startIndex": 9950,
+      "endIndexExclusive": 10000,
+      "firstTerm": "Bodley",
+      "lastTerm": "bodywarmer"
+    }
+  ]
+}

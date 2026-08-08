@@ -1,0 +1,1620 @@
+{
+  "source": "C:/aa/Project/kamus/wiktionary-en-en/wiktionary_filter/term_bank_20.json",
+  "bank": 20,
+  "totalEntries": 8941,
+  "splitCount": 179,
+  "partSize": 50,
+  "parts": [
+    {
+      "part": 1,
+      "fileName": "term_bank_20_part_01.json",
+      "count": 50,
+      "startIndex": 0,
+      "endIndexExclusive": 50,
+      "firstTerm": "vlog",
+      "lastTerm": "VOBs"
+    },
+    {
+      "part": 2,
+      "fileName": "term_bank_20_part_02.json",
+      "count": 50,
+      "startIndex": 50,
+      "endIndexExclusive": 100,
+      "firstTerm": "Voc",
+      "lastTerm": "Voegele"
+    },
+    {
+      "part": 3,
+      "fileName": "term_bank_20_part_03.json",
+      "count": 50,
+      "startIndex": 100,
+      "endIndexExclusive": 150,
+      "firstTerm": "Voegeli",
+      "lastTerm": "voiding"
+    },
+    {
+      "part": 4,
+      "fileName": "term_bank_20_part_04.json",
+      "count": 50,
+      "startIndex": 150,
+      "endIndexExclusive": 200,
+      "firstTerm": "voidness",
+      "lastTerm": "volcanoes"
+    },
+    {
+      "part": 5,
+      "fileName": "term_bank_20_part_05.json",
+      "count": 50,
+      "startIndex": 200,
+      "endIndexExclusive": 250,
+      "firstTerm": "volcanogenic",
+      "lastTerm": "Volos"
+    },
+    {
+      "part": 6,
+      "fileName": "term_bank_20_part_06.json",
+      "count": 50,
+      "startIndex": 250,
+      "endIndexExclusive": 300,
+      "firstTerm": "Volpe",
+      "lastTerm": "volute"
+    },
+    {
+      "part": 7,
+      "fileName": "term_bank_20_part_07.json",
+      "count": 50,
+      "startIndex": 300,
+      "endIndexExclusive": 350,
+      "firstTerm": "volution",
+      "lastTerm": "Vores"
+    },
+    {
+      "part": 8,
+      "fileName": "term_bank_20_part_08.json",
+      "count": 50,
+      "startIndex": 350,
+      "endIndexExclusive": 400,
+      "firstTerm": "voriconazole",
+      "lastTerm": "voting"
+    },
+    {
+      "part": 9,
+      "fileName": "term_bank_20_part_09.json",
+      "count": 50,
+      "startIndex": 400,
+      "endIndexExclusive": 450,
+      "firstTerm": "votings",
+      "lastTerm": "voyeurism"
+    },
+    {
+      "part": 10,
+      "fileName": "term_bank_20_part_10.json",
+      "count": 50,
+      "startIndex": 450,
+      "endIndexExclusive": 500,
+      "firstTerm": "voyeurisms",
+      "lastTerm": "vrom"
+    },
+    {
+      "part": 11,
+      "fileName": "term_bank_20_part_11.json",
+      "count": 50,
+      "startIndex": 500,
+      "endIndexExclusive": 550,
+      "firstTerm": "Vroman",
+      "lastTerm": "VT"
+    },
+    {
+      "part": 12,
+      "fileName": "term_bank_20_part_12.json",
+      "count": 50,
+      "startIndex": 550,
+      "endIndexExclusive": 600,
+      "firstTerm": "VT",
+      "lastTerm": "Vulgate"
+    },
+    {
+      "part": 13,
+      "fileName": "term_bank_20_part_13.json",
+      "count": 50,
+      "startIndex": 600,
+      "endIndexExclusive": 650,
+      "firstTerm": "vuln",
+      "lastTerm": "vying"
+    },
+    {
+      "part": 14,
+      "fileName": "term_bank_20_part_14.json",
+      "count": 50,
+      "startIndex": 650,
+      "endIndexExclusive": 700,
+      "firstTerm": "Vyrnwy",
+      "lastTerm": "Wachter"
+    },
+    {
+      "part": 15,
+      "fileName": "term_bank_20_part_15.json",
+      "count": 50,
+      "startIndex": 700,
+      "endIndexExclusive": 750,
+      "firstTerm": "Wachusett",
+      "lastTerm": "wadge"
+    },
+    {
+      "part": 16,
+      "fileName": "term_bank_20_part_16.json",
+      "count": 50,
+      "startIndex": 750,
+      "endIndexExclusive": 800,
+      "firstTerm": "Wadham",
+      "lastTerm": "Wagenknecht"
+    },
+    {
+      "part": 17,
+      "fileName": "term_bank_20_part_17.json",
+      "count": 50,
+      "startIndex": 800,
+      "endIndexExclusive": 850,
+      "firstTerm": "wager",
+      "lastTerm": "Wahabism"
+    },
+    {
+      "part": 18,
+      "fileName": "term_bank_20_part_18.json",
+      "count": 50,
+      "startIndex": 850,
+      "endIndexExclusive": 900,
+      "firstTerm": "Wahba",
+      "lastTerm": "Waimakariri"
+    },
+    {
+      "part": 19,
+      "fileName": "term_bank_20_part_19.json",
+      "count": 50,
+      "startIndex": 900,
+      "endIndexExclusive": 950,
+      "firstTerm": "Waimalu",
+      "lastTerm": "Waiters"
+    },
+    {
+      "part": 20,
+      "fileName": "term_bank_20_part_20.json",
+      "count": 50,
+      "startIndex": 950,
+      "endIndexExclusive": 1000,
+      "firstTerm": "Waites",
+      "lastTerm": "wakening"
+    },
+    {
+      "part": 21,
+      "fileName": "term_bank_20_part_21.json",
+      "count": 50,
+      "startIndex": 1000,
+      "endIndexExclusive": 1050,
+      "firstTerm": "wakeover",
+      "lastTerm": "Waldmann"
+    },
+    {
+      "part": 22,
+      "fileName": "term_bank_20_part_22.json",
+      "count": 50,
+      "startIndex": 1050,
+      "endIndexExclusive": 1100,
+      "firstTerm": "Waldner",
+      "lastTerm": "walking"
+    },
+    {
+      "part": 23,
+      "fileName": "term_bank_20_part_23.json",
+      "count": 50,
+      "startIndex": 1100,
+      "endIndexExclusive": 1150,
+      "firstTerm": "walking",
+      "lastTerm": "Wallas"
+    },
+    {
+      "part": 24,
+      "fileName": "term_bank_20_part_24.json",
+      "count": 50,
+      "startIndex": 1150,
+      "endIndexExclusive": 1200,
+      "firstTerm": "Wallasey",
+      "lastTerm": "walloping"
+    },
+    {
+      "part": 25,
+      "fileName": "term_bank_20_part_25.json",
+      "count": 50,
+      "startIndex": 1200,
+      "endIndexExclusive": 1250,
+      "firstTerm": "wallops",
+      "lastTerm": "walt"
+    },
+    {
+      "part": 26,
+      "fileName": "term_bank_20_part_26.json",
+      "count": 50,
+      "startIndex": 1250,
+      "endIndexExclusive": 1300,
+      "firstTerm": "walt",
+      "lastTerm": "Wandell"
+    },
+    {
+      "part": 27,
+      "fileName": "term_bank_20_part_27.json",
+      "count": 50,
+      "startIndex": 1300,
+      "endIndexExclusive": 1350,
+      "firstTerm": "wander",
+      "lastTerm": "wanks"
+    },
+    {
+      "part": 28,
+      "fileName": "term_bank_20_part_28.json",
+      "count": 50,
+      "startIndex": 1350,
+      "endIndexExclusive": 1400,
+      "firstTerm": "wanksta",
+      "lastTerm": "wapiti"
+    },
+    {
+      "part": 29,
+      "fileName": "term_bank_20_part_29.json",
+      "count": 50,
+      "startIndex": 1400,
+      "endIndexExclusive": 1450,
+      "firstTerm": "Waples",
+      "lastTerm": "Warde"
+    },
+    {
+      "part": 30,
+      "fileName": "term_bank_20_part_30.json",
+      "count": 50,
+      "startIndex": 1450,
+      "endIndexExclusive": 1500,
+      "firstTerm": "warded",
+      "lastTerm": "Warfield"
+    },
+    {
+      "part": 31,
+      "fileName": "term_bank_20_part_31.json",
+      "count": 50,
+      "startIndex": 1500,
+      "endIndexExclusive": 1550,
+      "firstTerm": "warfighter",
+      "lastTerm": "Warlpiri"
+    },
+    {
+      "part": 32,
+      "fileName": "term_bank_20_part_32.json",
+      "count": 50,
+      "startIndex": 1550,
+      "endIndexExclusive": 1600,
+      "firstTerm": "warly",
+      "lastTerm": "Warns"
+    },
+    {
+      "part": 33,
+      "fileName": "term_bank_20_part_33.json",
+      "count": 50,
+      "startIndex": 1600,
+      "endIndexExclusive": 1650,
+      "firstTerm": "Waroona",
+      "lastTerm": "warriors"
+    },
+    {
+      "part": 34,
+      "fileName": "term_bank_20_part_34.json",
+      "count": 50,
+      "startIndex": 1650,
+      "endIndexExclusive": 1700,
+      "firstTerm": "Warriors",
+      "lastTerm": "washboard"
+    },
+    {
+      "part": 35,
+      "fileName": "term_bank_20_part_35.json",
+      "count": 50,
+      "startIndex": 1700,
+      "endIndexExclusive": 1750,
+      "firstTerm": "Washbourne",
+      "lastTerm": "Wasp"
+    },
+    {
+      "part": 36,
+      "fileName": "term_bank_20_part_36.json",
+      "count": 50,
+      "startIndex": 1750,
+      "endIndexExclusive": 1800,
+      "firstTerm": "WASP",
+      "lastTerm": "Wat"
+    },
+    {
+      "part": 37,
+      "fileName": "term_bank_20_part_37.json",
+      "count": 50,
+      "startIndex": 1800,
+      "endIndexExclusive": 1850,
+      "firstTerm": "WAT",
+      "lastTerm": "waterbed"
+    },
+    {
+      "part": 38,
+      "fileName": "term_bank_20_part_38.json",
+      "count": 50,
+      "startIndex": 1850,
+      "endIndexExclusive": 1900,
+      "firstTerm": "waterbeds",
+      "lastTerm": "watergrass"
+    },
+    {
+      "part": 39,
+      "fileName": "term_bank_20_part_39.json",
+      "count": 50,
+      "startIndex": 1900,
+      "endIndexExclusive": 1950,
+      "firstTerm": "waterhead",
+      "lastTerm": "waterscape"
+    },
+    {
+      "part": 40,
+      "fileName": "term_bank_20_part_40.json",
+      "count": 50,
+      "startIndex": 1950,
+      "endIndexExclusive": 2000,
+      "firstTerm": "waterscapes",
+      "lastTerm": "Watlington"
+    },
+    {
+      "part": 41,
+      "fileName": "term_bank_20_part_41.json",
+      "count": 50,
+      "startIndex": 2000,
+      "endIndexExclusive": 2050,
+      "firstTerm": "Watney",
+      "lastTerm": "wave"
+    },
+    {
+      "part": 42,
+      "fileName": "term_bank_20_part_42.json",
+      "count": 50,
+      "startIndex": 2050,
+      "endIndexExclusive": 2100,
+      "firstTerm": "wave",
+      "lastTerm": "Wawa"
+    },
+    {
+      "part": 43,
+      "fileName": "term_bank_20_part_43.json",
+      "count": 50,
+      "startIndex": 2100,
+      "endIndexExclusive": 2150,
+      "firstTerm": "Wawona",
+      "lastTerm": "Waylon"
+    },
+    {
+      "part": 44,
+      "fileName": "term_bank_20_part_44.json",
+      "count": 50,
+      "startIndex": 2150,
+      "endIndexExclusive": 2200,
+      "firstTerm": "Wayman",
+      "lastTerm": "WBY"
+    },
+    {
+      "part": 45,
+      "fileName": "term_bank_20_part_45.json",
+      "count": 50,
+      "startIndex": 2200,
+      "endIndexExclusive": 2250,
+      "firstTerm": "wc",
+      "lastTerm": "weakfish"
+    },
+    {
+      "part": 46,
+      "fileName": "term_bank_20_part_46.json",
+      "count": 50,
+      "startIndex": 2250,
+      "endIndexExclusive": 2300,
+      "firstTerm": "Weakland",
+      "lastTerm": "weariness"
+    },
+    {
+      "part": 47,
+      "fileName": "term_bank_20_part_47.json",
+      "count": 50,
+      "startIndex": 2300,
+      "endIndexExclusive": 2350,
+      "firstTerm": "wearing",
+      "lastTerm": "Weatherwax"
+    },
+    {
+      "part": 48,
+      "fileName": "term_bank_20_part_48.json",
+      "count": 50,
+      "startIndex": 2350,
+      "endIndexExclusive": 2400,
+      "firstTerm": "weatherwise",
+      "lastTerm": "weber"
+    },
+    {
+      "part": 49,
+      "fileName": "term_bank_20_part_49.json",
+      "count": 50,
+      "startIndex": 2400,
+      "endIndexExclusive": 2450,
+      "firstTerm": "Weber",
+      "lastTerm": "webserver"
+    },
+    {
+      "part": 50,
+      "fileName": "term_bank_20_part_50.json",
+      "count": 50,
+      "startIndex": 2450,
+      "endIndexExclusive": 2500,
+      "firstTerm": "webservers",
+      "lastTerm": "Wedell"
+    },
+    {
+      "part": 51,
+      "fileName": "term_bank_20_part_51.json",
+      "count": 50,
+      "startIndex": 2500,
+      "endIndexExclusive": 2550,
+      "firstTerm": "Wedemeyer",
+      "lastTerm": "weekday"
+    },
+    {
+      "part": 52,
+      "fileName": "term_bank_20_part_52.json",
+      "count": 50,
+      "startIndex": 2550,
+      "endIndexExclusive": 2600,
+      "firstTerm": "weekdays",
+      "lastTerm": "weevil"
+    },
+    {
+      "part": 53,
+      "fileName": "term_bank_20_part_53.json",
+      "count": 50,
+      "startIndex": 2600,
+      "endIndexExclusive": 2650,
+      "firstTerm": "weevils",
+      "lastTerm": "Weigh"
+    },
+    {
+      "part": 54,
+      "fileName": "term_bank_20_part_54.json",
+      "count": 50,
+      "startIndex": 2650,
+      "endIndexExclusive": 2700,
+      "firstTerm": "weighbridge",
+      "lastTerm": "Weingartner"
+    },
+    {
+      "part": 55,
+      "fileName": "term_bank_20_part_55.json",
+      "count": 50,
+      "startIndex": 2700,
+      "endIndexExclusive": 2750,
+      "firstTerm": "Weinheimer",
+      "lastTerm": "Weissman"
+    },
+    {
+      "part": 56,
+      "fileName": "term_bank_20_part_56.json",
+      "count": 50,
+      "startIndex": 2750,
+      "endIndexExclusive": 2800,
+      "firstTerm": "Weissmann",
+      "lastTerm": "Welham"
+    },
+    {
+      "part": 57,
+      "fileName": "term_bank_20_part_57.json",
+      "count": 50,
+      "startIndex": 2800,
+      "endIndexExclusive": 2850,
+      "firstTerm": "welk",
+      "lastTerm": "Wells"
+    },
+    {
+      "part": 58,
+      "fileName": "term_bank_20_part_58.json",
+      "count": 50,
+      "startIndex": 2850,
+      "endIndexExclusive": 2900,
+      "firstTerm": "Wellsboro",
+      "lastTerm": "wen"
+    },
+    {
+      "part": 59,
+      "fileName": "term_bank_20_part_59.json",
+      "count": 50,
+      "startIndex": 2900,
+      "endIndexExclusive": 2950,
+      "firstTerm": "wen",
+      "lastTerm": "Wensum"
+    },
+    {
+      "part": 60,
+      "fileName": "term_bank_20_part_60.json",
+      "count": 50,
+      "startIndex": 2950,
+      "endIndexExclusive": 3000,
+      "firstTerm": "went",
+      "lastTerm": "Wesak"
+    },
+    {
+      "part": 61,
+      "fileName": "term_bank_20_part_61.json",
+      "count": 50,
+      "startIndex": 3000,
+      "endIndexExclusive": 3050,
+      "firstTerm": "Wesche",
+      "lastTerm": "westerlies"
+    },
+    {
+      "part": 62,
+      "fileName": "term_bank_20_part_62.json",
+      "count": 50,
+      "startIndex": 3050,
+      "endIndexExclusive": 3100,
+      "firstTerm": "westerly",
+      "lastTerm": "Westley"
+    },
+    {
+      "part": 63,
+      "fileName": "term_bank_20_part_63.json",
+      "count": 50,
+      "startIndex": 3100,
+      "endIndexExclusive": 3150,
+      "firstTerm": "westling",
+      "lastTerm": "Wetherall"
+    },
+    {
+      "part": 64,
+      "fileName": "term_bank_20_part_64.json",
+      "count": 50,
+      "startIndex": 3150,
+      "endIndexExclusive": 3200,
+      "firstTerm": "Wetherbee",
+      "lastTerm": "Weymouth"
+    },
+    {
+      "part": 65,
+      "fileName": "term_bank_20_part_65.json",
+      "count": 50,
+      "startIndex": 3200,
+      "endIndexExclusive": 3250,
+      "firstTerm": "Weyrich",
+      "lastTerm": "whale"
+    },
+    {
+      "part": 66,
+      "fileName": "term_bank_20_part_66.json",
+      "count": 50,
+      "startIndex": 3250,
+      "endIndexExclusive": 3300,
+      "firstTerm": "Whale",
+      "lastTerm": "whatchamacallit"
+    },
+    {
+      "part": 67,
+      "fileName": "term_bank_20_part_67.json",
+      "count": 50,
+      "startIndex": 3300,
+      "endIndexExclusive": 3350,
+      "firstTerm": "whatchu",
+      "lastTerm": "wheats"
+    },
+    {
+      "part": 68,
+      "fileName": "term_bank_20_part_68.json",
+      "count": 50,
+      "startIndex": 3350,
+      "endIndexExclusive": 3400,
+      "firstTerm": "Wheats",
+      "lastTerm": "wheeze"
+    },
+    {
+      "part": 69,
+      "fileName": "term_bank_20_part_69.json",
+      "count": 50,
+      "startIndex": 3400,
+      "endIndexExclusive": 3450,
+      "firstTerm": "wheezes",
+      "lastTerm": "wheres"
+    },
+    {
+      "part": 70,
+      "fileName": "term_bank_20_part_70.json",
+      "count": 50,
+      "startIndex": 3450,
+      "endIndexExclusive": 3500,
+      "firstTerm": "wheresoever",
+      "lastTerm": "whiff"
+    },
+    {
+      "part": 71,
+      "fileName": "term_bank_20_part_71.json",
+      "count": 50,
+      "startIndex": 3500,
+      "endIndexExclusive": 3550,
+      "firstTerm": "whiff",
+      "lastTerm": "whinny"
+    },
+    {
+      "part": 72,
+      "fileName": "term_bank_20_part_72.json",
+      "count": 50,
+      "startIndex": 3550,
+      "endIndexExclusive": 3600,
+      "firstTerm": "WHINSEC",
+      "lastTerm": "whirry"
+    },
+    {
+      "part": 73,
+      "fileName": "term_bank_20_part_73.json",
+      "count": 50,
+      "startIndex": 3600,
+      "endIndexExclusive": 3650,
+      "firstTerm": "whirry",
+      "lastTerm": "Whiston"
+    },
+    {
+      "part": 74,
+      "fileName": "term_bank_20_part_74.json",
+      "count": 50,
+      "startIndex": 3650,
+      "endIndexExclusive": 3700,
+      "firstTerm": "whit",
+      "lastTerm": "Whitehead"
+    },
+    {
+      "part": 75,
+      "fileName": "term_bank_20_part_75.json",
+      "count": 50,
+      "startIndex": 3700,
+      "endIndexExclusive": 3750,
+      "firstTerm": "Whitehead",
+      "lastTerm": "whitethorn"
+    },
+    {
+      "part": 76,
+      "fileName": "term_bank_20_part_76.json",
+      "count": 50,
+      "startIndex": 3750,
+      "endIndexExclusive": 3800,
+      "firstTerm": "Whitethorn",
+      "lastTerm": "Whitsitt"
+    },
+    {
+      "part": 77,
+      "fileName": "term_bank_20_part_77.json",
+      "count": 50,
+      "startIndex": 3800,
+      "endIndexExclusive": 3850,
+      "firstTerm": "Whitson",
+      "lastTerm": "WHO"
+    },
+    {
+      "part": 78,
+      "fileName": "term_bank_20_part_78.json",
+      "count": 50,
+      "startIndex": 3850,
+      "endIndexExclusive": 3900,
+      "firstTerm": "whoa",
+      "lastTerm": "whooped"
+    },
+    {
+      "part": 79,
+      "fileName": "term_bank_20_part_79.json",
+      "count": 50,
+      "startIndex": 3900,
+      "endIndexExclusive": 3950,
+      "firstTerm": "whoopee",
+      "lastTerm": "whsle"
+    },
+    {
+      "part": 80,
+      "fileName": "term_bank_20_part_80.json",
+      "count": 50,
+      "startIndex": 3950,
+      "endIndexExclusive": 4000,
+      "firstTerm": "wht",
+      "lastTerm": "Wicke"
+    },
+    {
+      "part": 81,
+      "fileName": "term_bank_20_part_81.json",
+      "count": 50,
+      "startIndex": 4000,
+      "endIndexExclusive": 4050,
+      "firstTerm": "wicked",
+      "lastTerm": "wide"
+    },
+    {
+      "part": 82,
+      "fileName": "term_bank_20_part_82.json",
+      "count": 50,
+      "startIndex": 4050,
+      "endIndexExclusive": 4100,
+      "firstTerm": "wideband",
+      "lastTerm": "Wiederhold"
+    },
+    {
+      "part": 83,
+      "fileName": "term_bank_20_part_83.json",
+      "count": 50,
+      "startIndex": 4100,
+      "endIndexExclusive": 4150,
+      "firstTerm": "Wiederkehr",
+      "lastTerm": "WiFi"
+    },
+    {
+      "part": 84,
+      "fileName": "term_bank_20_part_84.json",
+      "count": 50,
+      "startIndex": 4150,
+      "endIndexExclusive": 4200,
+      "firstTerm": "wig",
+      "lastTerm": "Wijchen"
+    },
+    {
+      "part": 85,
+      "fileName": "term_bank_20_part_85.json",
+      "count": 50,
+      "startIndex": 4200,
+      "endIndexExclusive": 4250,
+      "firstTerm": "Wik",
+      "lastTerm": "wilco"
+    },
+    {
+      "part": 86,
+      "fileName": "term_bank_20_part_86.json",
+      "count": 50,
+      "startIndex": 4250,
+      "endIndexExclusive": 4300,
+      "firstTerm": "wilco",
+      "lastTerm": "wildly"
+    },
+    {
+      "part": 87,
+      "fileName": "term_bank_20_part_87.json",
+      "count": 50,
+      "startIndex": 4300,
+      "endIndexExclusive": 4350,
+      "firstTerm": "wildman",
+      "lastTerm": "Wilkey"
+    },
+    {
+      "part": 88,
+      "fileName": "term_bank_20_part_88.json",
+      "count": 50,
+      "startIndex": 4350,
+      "endIndexExclusive": 4400,
+      "firstTerm": "Wilkie",
+      "lastTerm": "willful"
+    },
+    {
+      "part": 89,
+      "fileName": "term_bank_20_part_89.json",
+      "count": 50,
+      "startIndex": 4400,
+      "endIndexExclusive": 4450,
+      "firstTerm": "willfully",
+      "lastTerm": "willow"
+    },
+    {
+      "part": 90,
+      "fileName": "term_bank_20_part_90.json",
+      "count": 50,
+      "startIndex": 4450,
+      "endIndexExclusive": 4500,
+      "firstTerm": "willow",
+      "lastTerm": "wilts"
+    },
+    {
+      "part": 91,
+      "fileName": "term_bank_20_part_91.json",
+      "count": 50,
+      "startIndex": 4500,
+      "endIndexExclusive": 4550,
+      "firstTerm": "Wilts",
+      "lastTerm": "winch"
+    },
+    {
+      "part": 92,
+      "fileName": "term_bank_20_part_92.json",
+      "count": 50,
+      "startIndex": 4550,
+      "endIndexExclusive": 4600,
+      "firstTerm": "Winch",
+      "lastTerm": "winding"
+    },
+    {
+      "part": 93,
+      "fileName": "term_bank_20_part_93.json",
+      "count": 50,
+      "startIndex": 4600,
+      "endIndexExclusive": 4650,
+      "firstTerm": "Winding",
+      "lastTerm": "windshear"
+    },
+    {
+      "part": 94,
+      "fileName": "term_bank_20_part_94.json",
+      "count": 50,
+      "startIndex": 4650,
+      "endIndexExclusive": 4700,
+      "firstTerm": "windshield",
+      "lastTerm": "Wineman"
+    },
+    {
+      "part": 95,
+      "fileName": "term_bank_20_part_95.json",
+      "count": 50,
+      "startIndex": 4700,
+      "endIndexExclusive": 4750,
+      "firstTerm": "Winemiller",
+      "lastTerm": "Wingrove"
+    },
+    {
+      "part": 96,
+      "fileName": "term_bank_20_part_96.json",
+      "count": 50,
+      "startIndex": 4750,
+      "endIndexExclusive": 4800,
+      "firstTerm": "wings",
+      "lastTerm": "Winner"
+    },
+    {
+      "part": 97,
+      "fileName": "term_bank_20_part_97.json",
+      "count": 50,
+      "startIndex": 4800,
+      "endIndexExclusive": 4850,
+      "firstTerm": "winners",
+      "lastTerm": "Winstead"
+    },
+    {
+      "part": 98,
+      "fileName": "term_bank_20_part_98.json",
+      "count": 50,
+      "startIndex": 4850,
+      "endIndexExclusive": 4900,
+      "firstTerm": "Winster",
+      "lastTerm": "wipe"
+    },
+    {
+      "part": 99,
+      "fileName": "term_bank_20_part_99.json",
+      "count": 50,
+      "startIndex": 4900,
+      "endIndexExclusive": 4950,
+      "firstTerm": "wipeout",
+      "lastTerm": "WIS"
+    },
+    {
+      "part": 100,
+      "fileName": "term_bank_20_part_100.json",
+      "count": 50,
+      "startIndex": 4950,
+      "endIndexExclusive": 5000,
+      "firstTerm": "WISA",
+      "lastTerm": "wishlists"
+    },
+    {
+      "part": 101,
+      "fileName": "term_bank_20_part_101.json",
+      "count": 50,
+      "startIndex": 5000,
+      "endIndexExclusive": 5050,
+      "firstTerm": "Wishon",
+      "lastTerm": "witching"
+    },
+    {
+      "part": 102,
+      "fileName": "term_bank_20_part_102.json",
+      "count": 50,
+      "startIndex": 5050,
+      "endIndexExclusive": 5100,
+      "firstTerm": "witching",
+      "lastTerm": "without"
+    },
+    {
+      "part": 103,
+      "fileName": "term_bank_20_part_103.json",
+      "count": 50,
+      "startIndex": 5100,
+      "endIndexExclusive": 5150,
+      "firstTerm": "Withrow",
+      "lastTerm": "Wittrock"
+    },
+    {
+      "part": 104,
+      "fileName": "term_bank_20_part_104.json",
+      "count": 50,
+      "startIndex": 5150,
+      "endIndexExclusive": 5200,
+      "firstTerm": "witts",
+      "lastTerm": "WLANs"
+    },
+    {
+      "part": 105,
+      "fileName": "term_bank_20_part_105.json",
+      "count": 50,
+      "startIndex": 5200,
+      "endIndexExclusive": 5250,
+      "firstTerm": "WLB",
+      "lastTerm": "woah"
+    },
+    {
+      "part": 106,
+      "fileName": "term_bank_20_part_106.json",
+      "count": 50,
+      "startIndex": 5250,
+      "endIndexExclusive": 5300,
+      "firstTerm": "Wob",
+      "lastTerm": "Wojcicki"
+    },
+    {
+      "part": 107,
+      "fileName": "term_bank_20_part_107.json",
+      "count": 50,
+      "startIndex": 5300,
+      "endIndexExclusive": 5350,
+      "firstTerm": "Wojcik",
+      "lastTerm": "Wolford"
+    },
+    {
+      "part": 108,
+      "fileName": "term_bank_20_part_108.json",
+      "count": 50,
+      "startIndex": 5350,
+      "endIndexExclusive": 5400,
+      "firstTerm": "wolfpack",
+      "lastTerm": "wolverines"
+    },
+    {
+      "part": 109,
+      "fileName": "term_bank_20_part_109.json",
+      "count": 50,
+      "startIndex": 5400,
+      "endIndexExclusive": 5450,
+      "firstTerm": "Wolverines",
+      "lastTerm": "wondered"
+    },
+    {
+      "part": 110,
+      "fileName": "term_bank_20_part_110.json",
+      "count": 50,
+      "startIndex": 5450,
+      "endIndexExclusive": 5500,
+      "firstTerm": "wonderer",
+      "lastTerm": "wood"
+    },
+    {
+      "part": 111,
+      "fileName": "term_bank_20_part_111.json",
+      "count": 50,
+      "startIndex": 5500,
+      "endIndexExclusive": 5550,
+      "firstTerm": "wood",
+      "lastTerm": "woodenware"
+    },
+    {
+      "part": 112,
+      "fileName": "term_bank_20_part_112.json",
+      "count": 50,
+      "startIndex": 5550,
+      "endIndexExclusive": 5600,
+      "firstTerm": "Woodfield",
+      "lastTerm": "Woodruff"
+    },
+    {
+      "part": 113,
+      "fileName": "term_bank_20_part_113.json",
+      "count": 50,
+      "startIndex": 5600,
+      "endIndexExclusive": 5650,
+      "firstTerm": "Woodrum",
+      "lastTerm": "WOOF"
+    },
+    {
+      "part": 114,
+      "fileName": "term_bank_20_part_114.json",
+      "count": 50,
+      "startIndex": 5650,
+      "endIndexExclusive": 5700,
+      "firstTerm": "woofer",
+      "lastTerm": "woolpack"
+    },
+    {
+      "part": 115,
+      "fileName": "term_bank_20_part_115.json",
+      "count": 50,
+      "startIndex": 5700,
+      "endIndexExclusive": 5750,
+      "firstTerm": "Woolrich",
+      "lastTerm": "wordbook"
+    },
+    {
+      "part": 116,
+      "fileName": "term_bank_20_part_116.json",
+      "count": 50,
+      "startIndex": 5750,
+      "endIndexExclusive": 5800,
+      "firstTerm": "wordcount",
+      "lastTerm": "workbooks"
+    },
+    {
+      "part": 117,
+      "fileName": "term_bank_20_part_117.json",
+      "count": 50,
+      "startIndex": 5800,
+      "endIndexExclusive": 5850,
+      "firstTerm": "workboots",
+      "lastTerm": "workpapers"
+    },
+    {
+      "part": 118,
+      "fileName": "term_bank_20_part_118.json",
+      "count": 50,
+      "startIndex": 5850,
+      "endIndexExclusive": 5900,
+      "firstTerm": "workpiece",
+      "lastTerm": "worldly"
+    },
+    {
+      "part": 119,
+      "fileName": "term_bank_20_part_119.json",
+      "count": 50,
+      "startIndex": 5900,
+      "endIndexExclusive": 5950,
+      "firstTerm": "worldly",
+      "lastTerm": "worry"
+    },
+    {
+      "part": 120,
+      "fileName": "term_bank_20_part_120.json",
+      "count": 50,
+      "startIndex": 5950,
+      "endIndexExclusive": 6000,
+      "firstTerm": "worry",
+      "lastTerm": "worthwile"
+    },
+    {
+      "part": 121,
+      "fileName": "term_bank_20_part_121.json",
+      "count": 50,
+      "startIndex": 6000,
+      "endIndexExclusive": 6050,
+      "firstTerm": "worthy",
+      "lastTerm": "Woz"
+    },
+    {
+      "part": 122,
+      "fileName": "term_bank_20_part_122.json",
+      "count": 50,
+      "startIndex": 6050,
+      "endIndexExclusive": 6100,
+      "firstTerm": "Wozniak",
+      "lastTerm": "wraparound"
+    },
+    {
+      "part": 123,
+      "fileName": "term_bank_20_part_123.json",
+      "count": 50,
+      "startIndex": 6100,
+      "endIndexExclusive": 6150,
+      "firstTerm": "wraparound",
+      "lastTerm": "Wrenn"
+    },
+    {
+      "part": 124,
+      "fileName": "term_bank_20_part_124.json",
+      "count": 50,
+      "startIndex": 6150,
+      "endIndexExclusive": 6200,
+      "firstTerm": "wrens",
+      "lastTerm": "wrinkly"
+    },
+    {
+      "part": 125,
+      "fileName": "term_bank_20_part_125.json",
+      "count": 50,
+      "startIndex": 6200,
+      "endIndexExclusive": 6250,
+      "firstTerm": "wrist",
+      "lastTerm": "wrong"
+    },
+    {
+      "part": 126,
+      "fileName": "term_bank_20_part_126.json",
+      "count": 50,
+      "startIndex": 6250,
+      "endIndexExclusive": 6300,
+      "firstTerm": "wrong",
+      "lastTerm": "WSL"
+    },
+    {
+      "part": 127,
+      "fileName": "term_bank_20_part_127.json",
+      "count": 50,
+      "startIndex": 6300,
+      "endIndexExclusive": 6350,
+      "firstTerm": "WSM",
+      "lastTerm": "Wuhan"
+    },
+    {
+      "part": 128,
+      "fileName": "term_bank_20_part_128.json",
+      "count": 50,
+      "startIndex": 6350,
+      "endIndexExclusive": 6400,
+      "firstTerm": "Wuhu",
+      "lastTerm": "WVR"
+    },
+    {
+      "part": 129,
+      "fileName": "term_bank_20_part_129.json",
+      "count": 50,
+      "startIndex": 6400,
+      "endIndexExclusive": 6450,
+      "firstTerm": "WVS",
+      "lastTerm": "Wye"
+    },
+    {
+      "part": 130,
+      "fileName": "term_bank_20_part_130.json",
+      "count": 50,
+      "startIndex": 6450,
+      "endIndexExclusive": 6500,
+      "firstTerm": "wyer",
+      "lastTerm": "Wyrick"
+    },
+    {
+      "part": 131,
+      "fileName": "term_bank_20_part_131.json",
+      "count": 50,
+      "startIndex": 6500,
+      "endIndexExclusive": 6550,
+      "firstTerm": "wyrm",
+      "lastTerm": "xats"
+    },
+    {
+      "part": 132,
+      "fileName": "term_bank_20_part_132.json",
+      "count": 50,
+      "startIndex": 6550,
+      "endIndexExclusive": 6600,
+      "firstTerm": "Xav",
+      "lastTerm": "xenon"
+    },
+    {
+      "part": 133,
+      "fileName": "term_bank_20_part_133.json",
+      "count": 50,
+      "startIndex": 6600,
+      "endIndexExclusive": 6650,
+      "firstTerm": "Xenophanes",
+      "lastTerm": "Xiangyang"
+    },
+    {
+      "part": 134,
+      "fileName": "term_bank_20_part_134.json",
+      "count": 50,
+      "startIndex": 6650,
+      "endIndexExclusive": 6700,
+      "firstTerm": "xiao",
+      "lastTerm": "XMI"
+    },
+    {
+      "part": 135,
+      "fileName": "term_bank_20_part_135.json",
+      "count": 50,
+      "startIndex": 6700,
+      "endIndexExclusive": 6750,
+      "firstTerm": "xmit",
+      "lastTerm": "Xs"
+    },
+    {
+      "part": 136,
+      "fileName": "term_bank_20_part_136.json",
+      "count": 50,
+      "startIndex": 6750,
+      "endIndexExclusive": 6800,
+      "firstTerm": "XS",
+      "lastTerm": "xylan"
+    },
+    {
+      "part": 137,
+      "fileName": "term_bank_20_part_137.json",
+      "count": 50,
+      "startIndex": 6800,
+      "endIndexExclusive": 6850,
+      "firstTerm": "xylanase",
+      "lastTerm": "Yacoub"
+    },
+    {
+      "part": 138,
+      "fileName": "term_bank_20_part_138.json",
+      "count": 50,
+      "startIndex": 6850,
+      "endIndexExclusive": 6900,
+      "firstTerm": "yad",
+      "lastTerm": "Yaka"
+    },
+    {
+      "part": 139,
+      "fileName": "term_bank_20_part_139.json",
+      "count": 50,
+      "startIndex": 6900,
+      "endIndexExclusive": 6950,
+      "firstTerm": "Yakama",
+      "lastTerm": "Yamashita"
+    },
+    {
+      "part": 140,
+      "fileName": "term_bank_20_part_140.json",
+      "count": 50,
+      "startIndex": 6950,
+      "endIndexExclusive": 7000,
+      "firstTerm": "Yamato",
+      "lastTerm": "yank"
+    },
+    {
+      "part": 141,
+      "fileName": "term_bank_20_part_141.json",
+      "count": 50,
+      "startIndex": 7000,
+      "endIndexExclusive": 7050,
+      "firstTerm": "Yank",
+      "lastTerm": "yaps"
+    },
+    {
+      "part": 142,
+      "fileName": "term_bank_20_part_142.json",
+      "count": 50,
+      "startIndex": 7050,
+      "endIndexExclusive": 7100,
+      "firstTerm": "Yaqui",
+      "lastTerm": "Yarnton"
+    },
+    {
+      "part": 143,
+      "fileName": "term_bank_20_part_143.json",
+      "count": 50,
+      "startIndex": 7100,
+      "endIndexExclusive": 7150,
+      "firstTerm": "Yaroslav",
+      "lastTerm": "Yauco"
+    },
+    {
+      "part": 144,
+      "fileName": "term_bank_20_part_144.json",
+      "count": 50,
+      "startIndex": 7150,
+      "endIndexExclusive": 7200,
+      "firstTerm": "yaupon",
+      "lastTerm": "YCL"
+    },
+    {
+      "part": 145,
+      "fileName": "term_bank_20_part_145.json",
+      "count": 50,
+      "startIndex": 7200,
+      "endIndexExclusive": 7250,
+      "firstTerm": "YCP",
+      "lastTerm": "yeast"
+    },
+    {
+      "part": 146,
+      "fileName": "term_bank_20_part_146.json",
+      "count": 50,
+      "startIndex": 7250,
+      "endIndexExclusive": 7300,
+      "firstTerm": "Yeast",
+      "lastTerm": "Yellen"
+    },
+    {
+      "part": 147,
+      "fileName": "term_bank_20_part_147.json",
+      "count": 50,
+      "startIndex": 7300,
+      "endIndexExclusive": 7350,
+      "firstTerm": "yeller",
+      "lastTerm": "yemen"
+    },
+    {
+      "part": 148,
+      "fileName": "term_bank_20_part_148.json",
+      "count": 50,
+      "startIndex": 7350,
+      "endIndexExclusive": 7400,
+      "firstTerm": "Yemen",
+      "lastTerm": "yersinia"
+    },
+    {
+      "part": 149,
+      "fileName": "term_bank_20_part_149.json",
+      "count": 50,
+      "startIndex": 7400,
+      "endIndexExclusive": 7450,
+      "firstTerm": "Yerushalmi",
+      "lastTerm": "YHA"
+    },
+    {
+      "part": 150,
+      "fileName": "term_bank_20_part_150.json",
+      "count": 50,
+      "startIndex": 7450,
+      "endIndexExclusive": 7500,
+      "firstTerm": "YHVH",
+      "lastTerm": "Yippy"
+    },
+    {
+      "part": 151,
+      "fileName": "term_bank_20_part_151.json",
+      "count": 50,
+      "startIndex": 7500,
+      "endIndexExclusive": 7550,
+      "firstTerm": "yips",
+      "lastTerm": "yobo"
+    },
+    {
+      "part": 152,
+      "fileName": "term_bank_20_part_152.json",
+      "count": 50,
+      "startIndex": 7550,
+      "endIndexExclusive": 7600,
+      "firstTerm": "yobs",
+      "lastTerm": "yoke"
+    },
+    {
+      "part": 153,
+      "fileName": "term_bank_20_part_153.json",
+      "count": 50,
+      "startIndex": 7600,
+      "endIndexExclusive": 7650,
+      "firstTerm": "yoke",
+      "lastTerm": "yoong"
+    },
+    {
+      "part": 154,
+      "fileName": "term_bank_20_part_154.json",
+      "count": 50,
+      "startIndex": 7650,
+      "endIndexExclusive": 7700,
+      "firstTerm": "Yoong",
+      "lastTerm": "Yoshinaga"
+    },
+    {
+      "part": 155,
+      "fileName": "term_bank_20_part_155.json",
+      "count": 50,
+      "startIndex": 7700,
+      "endIndexExclusive": 7750,
+      "firstTerm": "Yoshino",
+      "lastTerm": "Youngs"
+    },
+    {
+      "part": 156,
+      "fileName": "term_bank_20_part_156.json",
+      "count": 50,
+      "startIndex": 7750,
+      "endIndexExclusive": 7800,
+      "firstTerm": "Youngson",
+      "lastTerm": "yowling"
+    },
+    {
+      "part": 157,
+      "fileName": "term_bank_20_part_157.json",
+      "count": 50,
+      "startIndex": 7800,
+      "endIndexExclusive": 7850,
+      "firstTerm": "yowza",
+      "lastTerm": "yu"
+    },
+    {
+      "part": 158,
+      "fileName": "term_bank_20_part_158.json",
+      "count": 50,
+      "startIndex": 7850,
+      "endIndexExclusive": 7900,
+      "firstTerm": "Yu",
+      "lastTerm": "yuk"
+    },
+    {
+      "part": 159,
+      "fileName": "term_bank_20_part_159.json",
+      "count": 50,
+      "startIndex": 7900,
+      "endIndexExclusive": 7950,
+      "firstTerm": "yuka",
+      "lastTerm": "YUP"
+    },
+    {
+      "part": 160,
+      "fileName": "term_bank_20_part_160.json",
+      "count": 50,
+      "startIndex": 7950,
+      "endIndexExclusive": 8000,
+      "firstTerm": "Yupanqui",
+      "lastTerm": "Zabka"
+    },
+    {
+      "part": 161,
+      "fileName": "term_bank_20_part_161.json",
+      "count": 50,
+      "startIndex": 8000,
+      "endIndexExclusive": 8050,
+      "firstTerm": "Zablocki",
+      "lastTerm": "Zahra"
+    },
+    {
+      "part": 162,
+      "fileName": "term_bank_20_part_162.json",
+      "count": 50,
+      "startIndex": 8050,
+      "endIndexExclusive": 8100,
+      "firstTerm": "zai",
+      "lastTerm": "Zambo"
+    },
+    {
+      "part": 163,
+      "fileName": "term_bank_20_part_163.json",
+      "count": 50,
+      "startIndex": 8100,
+      "endIndexExclusive": 8150,
+      "firstTerm": "Zamboanga",
+      "lastTerm": "Zanzibari"
+    },
+    {
+      "part": 164,
+      "fileName": "term_bank_20_part_164.json",
+      "count": 50,
+      "startIndex": 8150,
+      "endIndexExclusive": 8200,
+      "firstTerm": "Zanzibari",
+      "lastTerm": "Zartman"
+    },
+    {
+      "part": 165,
+      "fileName": "term_bank_20_part_165.json",
+      "count": 50,
+      "startIndex": 8200,
+      "endIndexExclusive": 8250,
+      "firstTerm": "zarzuela",
+      "lastTerm": "zealotry"
+    },
+    {
+      "part": 166,
+      "fileName": "term_bank_20_part_166.json",
+      "count": 50,
+      "startIndex": 8250,
+      "endIndexExclusive": 8300,
+      "firstTerm": "zealots",
+      "lastTerm": "Zeigler"
+    },
+    {
+      "part": 167,
+      "fileName": "term_bank_20_part_167.json",
+      "count": 50,
+      "startIndex": 8300,
+      "endIndexExclusive": 8350,
+      "firstTerm": "Zeiler",
+      "lastTerm": "zendo"
+    },
+    {
+      "part": 168,
+      "fileName": "term_bank_20_part_168.json",
+      "count": 50,
+      "startIndex": 8350,
+      "endIndexExclusive": 8400,
+      "firstTerm": "Zener",
+      "lastTerm": "zero"
+    },
+    {
+      "part": 169,
+      "fileName": "term_bank_20_part_169.json",
+      "count": 50,
+      "startIndex": 8400,
+      "endIndexExclusive": 8450,
+      "firstTerm": "zeroconf",
+      "lastTerm": "Zhen"
+    },
+    {
+      "part": 170,
+      "fileName": "term_bank_20_part_170.json",
+      "count": 50,
+      "startIndex": 8450,
+      "endIndexExclusive": 8500,
+      "firstTerm": "zheng",
+      "lastTerm": "Ziggy"
+    },
+    {
+      "part": 171,
+      "fileName": "term_bank_20_part_171.json",
+      "count": 50,
+      "startIndex": 8500,
+      "endIndexExclusive": 8550,
+      "firstTerm": "Ziglar",
+      "lastTerm": "Zinaida"
+    },
+    {
+      "part": 172,
+      "fileName": "term_bank_20_part_172.json",
+      "count": 50,
+      "startIndex": 8550,
+      "endIndexExclusive": 8600,
+      "firstTerm": "zinc",
+      "lastTerm": "zip"
+    },
+    {
+      "part": 173,
+      "fileName": "term_bank_20_part_173.json",
+      "count": 50,
+      "startIndex": 8600,
+      "endIndexExclusive": 8650,
+      "firstTerm": "zip",
+      "lastTerm": "zis"
+    },
+    {
+      "part": 174,
+      "fileName": "term_bank_20_part_174.json",
+      "count": 50,
+      "startIndex": 8650,
+      "endIndexExclusive": 8700,
+      "firstTerm": "zis",
+      "lastTerm": "Zoie"
+    },
+    {
+      "part": 175,
+      "fileName": "term_bank_20_part_175.json",
+      "count": 50,
+      "startIndex": 8700,
+      "endIndexExclusive": 8750,
+      "firstTerm": "zoilus",
+      "lastTerm": "zonked"
+    },
+    {
+      "part": 176,
+      "fileName": "term_bank_20_part_176.json",
+      "count": 50,
+      "startIndex": 8750,
+      "endIndexExclusive": 8800,
+      "firstTerm": "zonker",
+      "lastTerm": "zorbing"
+    },
+    {
+      "part": 177,
+      "fileName": "term_bank_20_part_177.json",
+      "count": 50,
+      "startIndex": 8800,
+      "endIndexExclusive": 8850,
+      "firstTerm": "zori",
+      "lastTerm": "zucchino"
+    },
+    {
+      "part": 178,
+      "fileName": "term_bank_20_part_178.json",
+      "count": 50,
+      "startIndex": 8850,
+      "endIndexExclusive": 8900,
+      "firstTerm": "Zucco",
+      "lastTerm": "zurek"
+    },
+    {
+      "part": 179,
+      "fileName": "term_bank_20_part_179.json",
+      "count": 41,
+      "startIndex": 8900,
+      "endIndexExclusive": 8941,
+      "firstTerm": "Zurek",
+      "lastTerm": "zzz"
+    }
+  ]
+}

@@ -1,0 +1,1809 @@
+{
+  "source": "C:/aa/Project/kamus/wiktionary-en-en/wiktionary_filter/term_bank_10.json",
+  "bank": 10,
+  "totalEntries": 10000,
+  "splitCount": 200,
+  "partSize": 50,
+  "parts": [
+    {
+      "part": 1,
+      "fileName": "term_bank_10_part_01.json",
+      "count": 50,
+      "startIndex": 0,
+      "endIndexExclusive": 50,
+      "firstTerm": "Janousek",
+      "lastTerm": "Japonesque"
+    },
+    {
+      "part": 2,
+      "fileName": "term_bank_10_part_02.json",
+      "count": 50,
+      "startIndex": 50,
+      "endIndexExclusive": 100,
+      "firstTerm": "japonica",
+      "lastTerm": "Jarrahdale"
+    },
+    {
+      "part": 3,
+      "fileName": "term_bank_10_part_03.json",
+      "count": 50,
+      "startIndex": 100,
+      "endIndexExclusive": 150,
+      "firstTerm": "Jarrard",
+      "lastTerm": "jat"
+    },
+    {
+      "part": 4,
+      "fileName": "term_bank_10_part_04.json",
+      "count": 50,
+      "startIndex": 150,
+      "endIndexExclusive": 200,
+      "firstTerm": "Jat",
+      "lastTerm": "Javon"
+    },
+    {
+      "part": 5,
+      "fileName": "term_bank_10_part_05.json",
+      "count": 50,
+      "startIndex": 200,
+      "endIndexExclusive": 250,
+      "firstTerm": "jaw",
+      "lastTerm": "jays"
+    },
+    {
+      "part": 6,
+      "fileName": "term_bank_10_part_06.json",
+      "count": 50,
+      "startIndex": 250,
+      "endIndexExclusive": 300,
+      "firstTerm": "Jays",
+      "lastTerm": "JDAM"
+    },
+    {
+      "part": 7,
+      "fileName": "term_bank_10_part_07.json",
+      "count": 50,
+      "startIndex": 300,
+      "endIndexExclusive": 350,
+      "firstTerm": "JDBC",
+      "lastTerm": "JEDI"
+    },
+    {
+      "part": 8,
+      "fileName": "term_bank_10_part_08.json",
+      "count": 50,
+      "startIndex": 350,
+      "endIndexExclusive": 400,
+      "firstTerm": "Jedidiah",
+      "lastTerm": "Jeffry"
+    },
+    {
+      "part": 9,
+      "fileName": "term_bank_10_part_09.json",
+      "count": 50,
+      "startIndex": 400,
+      "endIndexExclusive": 450,
+      "firstTerm": "Jeffs",
+      "lastTerm": "Jemez"
+    },
+    {
+      "part": 10,
+      "fileName": "term_bank_10_part_10.json",
+      "count": 50,
+      "startIndex": 450,
+      "endIndexExclusive": 500,
+      "firstTerm": "Jemima",
+      "lastTerm": "Jeolla"
+    },
+    {
+      "part": 11,
+      "fileName": "term_bank_10_part_11.json",
+      "count": 50,
+      "startIndex": 500,
+      "endIndexExclusive": 550,
+      "firstTerm": "jeon",
+      "lastTerm": "Jeronimo"
+    },
+    {
+      "part": 12,
+      "fileName": "term_bank_10_part_12.json",
+      "count": 50,
+      "startIndex": 550,
+      "endIndexExclusive": 600,
+      "firstTerm": "Jerrell",
+      "lastTerm": "Jessops"
+    },
+    {
+      "part": 13,
+      "fileName": "term_bank_10_part_13.json",
+      "count": 50,
+      "startIndex": 600,
+      "endIndexExclusive": 650,
+      "firstTerm": "Jessore",
+      "lastTerm": "jetsetter"
+    },
+    {
+      "part": 14,
+      "fileName": "term_bank_10_part_14.json",
+      "count": 50,
+      "startIndex": 650,
+      "endIndexExclusive": 700,
+      "firstTerm": "jetski",
+      "lastTerm": "Jewess"
+    },
+    {
+      "part": 15,
+      "fileName": "term_bank_10_part_15.json",
+      "count": 50,
+      "startIndex": 700,
+      "endIndexExclusive": 750,
+      "firstTerm": "Jewett",
+      "lastTerm": "JHS"
+    },
+    {
+      "part": 16,
+      "fileName": "term_bank_10_part_16.json",
+      "count": 50,
+      "startIndex": 750,
+      "endIndexExclusive": 800,
+      "firstTerm": "Ji",
+      "lastTerm": "jig"
+    },
+    {
+      "part": 17,
+      "fileName": "term_bank_10_part_17.json",
+      "count": 50,
+      "startIndex": 800,
+      "endIndexExclusive": 850,
+      "firstTerm": "Jig",
+      "lastTerm": "jiminy"
+    },
+    {
+      "part": 18,
+      "fileName": "term_bank_10_part_18.json",
+      "count": 50,
+      "startIndex": 850,
+      "endIndexExclusive": 900,
+      "firstTerm": "Jimmerson",
+      "lastTerm": "jinni"
+    },
+    {
+      "part": 19,
+      "fileName": "term_bank_10_part_19.json",
+      "count": 50,
+      "startIndex": 900,
+      "endIndexExclusive": 950,
+      "firstTerm": "jinns",
+      "lastTerm": "JK"
+    },
+    {
+      "part": 20,
+      "fileName": "term_bank_10_part_20.json",
+      "count": 50,
+      "startIndex": 950,
+      "endIndexExclusive": 1000,
+      "firstTerm": "JKD",
+      "lastTerm": "Joao"
+    },
+    {
+      "part": 21,
+      "fileName": "term_bank_10_part_21.json",
+      "count": 50,
+      "startIndex": 1000,
+      "endIndexExclusive": 1050,
+      "firstTerm": "Joaquin",
+      "lastTerm": "Jocks"
+    },
+    {
+      "part": 22,
+      "fileName": "term_bank_10_part_22.json",
+      "count": 50,
+      "startIndex": 1050,
+      "endIndexExclusive": 1100,
+      "firstTerm": "jockstrap",
+      "lastTerm": "Johal"
+    },
+    {
+      "part": 23,
+      "fileName": "term_bank_10_part_23.json",
+      "count": 50,
+      "startIndex": 1100,
+      "endIndexExclusive": 1150,
+      "firstTerm": "Johan",
+      "lastTerm": "Johnsville"
+    },
+    {
+      "part": 24,
+      "fileName": "term_bank_10_part_24.json",
+      "count": 50,
+      "startIndex": 1150,
+      "endIndexExclusive": 1200,
+      "firstTerm": "Johny",
+      "lastTerm": "jol"
+    },
+    {
+      "part": 25,
+      "fileName": "term_bank_10_part_25.json",
+      "count": 50,
+      "startIndex": 1200,
+      "endIndexExclusive": 1250,
+      "firstTerm": "jol",
+      "lastTerm": "jonathans"
+    },
+    {
+      "part": 26,
+      "fileName": "term_bank_10_part_26.json",
+      "count": 50,
+      "startIndex": 1250,
+      "endIndexExclusive": 1300,
+      "firstTerm": "Jonathans",
+      "lastTerm": "Jordans"
+    },
+    {
+      "part": 27,
+      "fileName": "term_bank_10_part_27.json",
+      "count": 50,
+      "startIndex": 1300,
+      "endIndexExclusive": 1350,
+      "firstTerm": "Jordanstown",
+      "lastTerm": "Joss"
+    },
+    {
+      "part": 28,
+      "fileName": "term_bank_10_part_28.json",
+      "count": 50,
+      "startIndex": 1350,
+      "endIndexExclusive": 1400,
+      "firstTerm": "Josselyn",
+      "lastTerm": "journeymen"
+    },
+    {
+      "part": 29,
+      "fileName": "term_bank_10_part_29.json",
+      "count": 50,
+      "startIndex": 1400,
+      "endIndexExclusive": 1450,
+      "firstTerm": "journeyperson",
+      "lastTerm": "joyous"
+    },
+    {
+      "part": 30,
+      "fileName": "term_bank_10_part_30.json",
+      "count": 50,
+      "startIndex": 1450,
+      "endIndexExclusive": 1500,
+      "firstTerm": "joyously",
+      "lastTerm": "JRM"
+    },
+    {
+      "part": 31,
+      "fileName": "term_bank_10_part_31.json",
+      "count": 50,
+      "startIndex": 1500,
+      "endIndexExclusive": 1550,
+      "firstTerm": "JROTC",
+      "lastTerm": "Jubail"
+    },
+    {
+      "part": 32,
+      "fileName": "term_bank_10_part_32.json",
+      "count": 50,
+      "startIndex": 1550,
+      "endIndexExclusive": 1600,
+      "firstTerm": "Jubal",
+      "lastTerm": "judgements"
+    },
+    {
+      "part": 33,
+      "fileName": "term_bank_10_part_33.json",
+      "count": 50,
+      "startIndex": 1600,
+      "endIndexExclusive": 1650,
+      "firstTerm": "judger",
+      "lastTerm": "juggler"
+    },
+    {
+      "part": 34,
+      "fileName": "term_bank_10_part_34.json",
+      "count": 50,
+      "startIndex": 1650,
+      "endIndexExclusive": 1700,
+      "firstTerm": "jugglers",
+      "lastTerm": "Juliaetta"
+    },
+    {
+      "part": 35,
+      "fileName": "term_bank_10_part_35.json",
+      "count": 50,
+      "startIndex": 1700,
+      "endIndexExclusive": 1750,
+      "firstTerm": "Julian",
+      "lastTerm": "jumper"
+    },
+    {
+      "part": 36,
+      "fileName": "term_bank_10_part_36.json",
+      "count": 50,
+      "startIndex": 1750,
+      "endIndexExclusive": 1800,
+      "firstTerm": "jumper",
+      "lastTerm": "Juniata"
+    },
+    {
+      "part": 37,
+      "fileName": "term_bank_10_part_37.json",
+      "count": 50,
+      "startIndex": 1800,
+      "endIndexExclusive": 1850,
+      "firstTerm": "Junichi",
+      "lastTerm": "Jupiter"
+    },
+    {
+      "part": 38,
+      "fileName": "term_bank_10_part_38.json",
+      "count": 50,
+      "startIndex": 1850,
+      "endIndexExclusive": 1900,
+      "firstTerm": "jupiters",
+      "lastTerm": "justiciable"
+    },
+    {
+      "part": 39,
+      "fileName": "term_bank_10_part_39.json",
+      "count": 50,
+      "startIndex": 1900,
+      "endIndexExclusive": 1950,
+      "firstTerm": "justiciary",
+      "lastTerm": "juxtapose"
+    },
+    {
+      "part": 40,
+      "fileName": "term_bank_10_part_40.json",
+      "count": 50,
+      "startIndex": 1950,
+      "endIndexExclusive": 2000,
+      "firstTerm": "juxtaposed",
+      "lastTerm": "kabbalist"
+    },
+    {
+      "part": 41,
+      "fileName": "term_bank_10_part_41.json",
+      "count": 50,
+      "startIndex": 2000,
+      "endIndexExclusive": 2050,
+      "firstTerm": "kabbalistic",
+      "lastTerm": "kadhi"
+    },
+    {
+      "part": 42,
+      "fileName": "term_bank_10_part_42.json",
+      "count": 50,
+      "startIndex": 2050,
+      "endIndexExclusive": 2100,
+      "firstTerm": "kadi",
+      "lastTerm": "Kahle"
+    },
+    {
+      "part": 43,
+      "fileName": "term_bank_10_part_43.json",
+      "count": 50,
+      "startIndex": 2100,
+      "endIndexExclusive": 2150,
+      "firstTerm": "Kahler",
+      "lastTerm": "kaiso"
+    },
+    {
+      "part": 44,
+      "fileName": "term_bank_10_part_44.json",
+      "count": 50,
+      "startIndex": 2150,
+      "endIndexExclusive": 2200,
+      "firstTerm": "KAIST",
+      "lastTerm": "Kalash"
+    },
+    {
+      "part": 45,
+      "fileName": "term_bank_10_part_45.json",
+      "count": 50,
+      "startIndex": 2200,
+      "endIndexExclusive": 2250,
+      "firstTerm": "Kalash",
+      "lastTerm": "Kalkbrenner"
+    },
+    {
+      "part": 46,
+      "fileName": "term_bank_10_part_46.json",
+      "count": 50,
+      "startIndex": 2250,
+      "endIndexExclusive": 2300,
+      "firstTerm": "Kalki",
+      "lastTerm": "Kamara"
+    },
+    {
+      "part": 47,
+      "fileName": "term_bank_10_part_47.json",
+      "count": 50,
+      "startIndex": 2300,
+      "endIndexExclusive": 2350,
+      "firstTerm": "Kamarck",
+      "lastTerm": "kampong"
+    },
+    {
+      "part": 48,
+      "fileName": "term_bank_10_part_48.json",
+      "count": 50,
+      "startIndex": 2350,
+      "endIndexExclusive": 2400,
+      "firstTerm": "Kampuchea",
+      "lastTerm": "kang"
+    },
+    {
+      "part": 49,
+      "fileName": "term_bank_10_part_49.json",
+      "count": 50,
+      "startIndex": 2400,
+      "endIndexExclusive": 2450,
+      "firstTerm": "kang",
+      "lastTerm": "Kante"
+    },
+    {
+      "part": 50,
+      "fileName": "term_bank_10_part_50.json",
+      "count": 50,
+      "startIndex": 2450,
+      "endIndexExclusive": 2500,
+      "firstTerm": "kantele",
+      "lastTerm": "Kappa"
+    },
+    {
+      "part": 51,
+      "fileName": "term_bank_10_part_51.json",
+      "count": 50,
+      "startIndex": 2500,
+      "endIndexExclusive": 2550,
+      "firstTerm": "kappas",
+      "lastTerm": "karavan"
+    },
+    {
+      "part": 52,
+      "fileName": "term_bank_10_part_52.json",
+      "count": 50,
+      "startIndex": 2550,
+      "endIndexExclusive": 2600,
+      "firstTerm": "Karbala",
+      "lastTerm": "Karli"
+    },
+    {
+      "part": 53,
+      "fileName": "term_bank_10_part_53.json",
+      "count": 50,
+      "startIndex": 2600,
+      "endIndexExclusive": 2650,
+      "firstTerm": "Karlie",
+      "lastTerm": "KARs"
+    },
+    {
+      "part": 54,
+      "fileName": "term_bank_10_part_54.json",
+      "count": 50,
+      "startIndex": 2650,
+      "endIndexExclusive": 2700,
+      "firstTerm": "Karson",
+      "lastTerm": "Kashgar"
+    },
+    {
+      "part": 55,
+      "fileName": "term_bank_10_part_55.json",
+      "count": 50,
+      "startIndex": 2700,
+      "endIndexExclusive": 2750,
+      "firstTerm": "Kashi",
+      "lastTerm": "Kasumi"
+    },
+    {
+      "part": 56,
+      "fileName": "term_bank_10_part_56.json",
+      "count": 50,
+      "startIndex": 2750,
+      "endIndexExclusive": 2800,
+      "firstTerm": "Kasza",
+      "lastTerm": "Katipunan"
+    },
+    {
+      "part": 57,
+      "fileName": "term_bank_10_part_57.json",
+      "count": 50,
+      "startIndex": 2800,
+      "endIndexExclusive": 2850,
+      "firstTerm": "Katmandu",
+      "lastTerm": "Kaus"
+    },
+    {
+      "part": 58,
+      "fileName": "term_bank_10_part_58.json",
+      "count": 50,
+      "startIndex": 2850,
+      "endIndexExclusive": 2900,
+      "firstTerm": "Kaushal",
+      "lastTerm": "kayaking"
+    },
+    {
+      "part": 59,
+      "fileName": "term_bank_10_part_59.json",
+      "count": 50,
+      "startIndex": 2900,
+      "endIndexExclusive": 2950,
+      "firstTerm": "kayaks",
+      "lastTerm": "Kazue"
+    },
+    {
+      "part": 60,
+      "fileName": "term_bank_10_part_60.json",
+      "count": 50,
+      "startIndex": 2950,
+      "endIndexExclusive": 3000,
+      "firstTerm": "Kazuhisa",
+      "lastTerm": "KD"
+    },
+    {
+      "part": 61,
+      "fileName": "term_bank_10_part_61.json",
+      "count": 50,
+      "startIndex": 3000,
+      "endIndexExclusive": 3050,
+      "firstTerm": "KDB",
+      "lastTerm": "Keck"
+    },
+    {
+      "part": 62,
+      "fileName": "term_bank_10_part_62.json",
+      "count": 50,
+      "startIndex": 3050,
+      "endIndexExclusive": 3100,
+      "firstTerm": "Keckler",
+      "lastTerm": "Keena"
+    },
+    {
+      "part": 63,
+      "fileName": "term_bank_10_part_63.json",
+      "count": 50,
+      "startIndex": 3100,
+      "endIndexExclusive": 3150,
+      "firstTerm": "Keenan",
+      "lastTerm": "kegel"
+    },
+    {
+      "part": 64,
+      "fileName": "term_bank_10_part_64.json",
+      "count": 50,
+      "startIndex": 3150,
+      "endIndexExclusive": 3200,
+      "firstTerm": "kegel",
+      "lastTerm": "Keizer"
+    },
+    {
+      "part": 65,
+      "fileName": "term_bank_10_part_65.json",
+      "count": 50,
+      "startIndex": 3200,
+      "endIndexExclusive": 3250,
+      "firstTerm": "kek",
+      "lastTerm": "Kelly"
+    },
+    {
+      "part": 66,
+      "fileName": "term_bank_10_part_66.json",
+      "count": 50,
+      "startIndex": 3250,
+      "endIndexExclusive": 3300,
+      "firstTerm": "Kellyanne",
+      "lastTerm": "Kemmerer"
+    },
+    {
+      "part": 67,
+      "fileName": "term_bank_10_part_67.json",
+      "count": 50,
+      "startIndex": 3300,
+      "endIndexExclusive": 3350,
+      "firstTerm": "Kemnitz",
+      "lastTerm": "Kenelm"
+    },
+    {
+      "part": 68,
+      "fileName": "term_bank_10_part_68.json",
+      "count": 50,
+      "startIndex": 3350,
+      "endIndexExclusive": 3400,
+      "firstTerm": "Kenema",
+      "lastTerm": "keno"
+    },
+    {
+      "part": 69,
+      "fileName": "term_bank_10_part_69.json",
+      "count": 50,
+      "startIndex": 3400,
+      "endIndexExclusive": 3450,
+      "firstTerm": "Keno",
+      "lastTerm": "Kepler"
+    },
+    {
+      "part": 70,
+      "fileName": "term_bank_10_part_70.json",
+      "count": 50,
+      "startIndex": 3450,
+      "endIndexExclusive": 3500,
+      "firstTerm": "keplerian",
+      "lastTerm": "Keren"
+    },
+    {
+      "part": 71,
+      "fileName": "term_bank_10_part_71.json",
+      "count": 50,
+      "startIndex": 3500,
+      "endIndexExclusive": 3550,
+      "firstTerm": "Kerens",
+      "lastTerm": "Kernville"
+    },
+    {
+      "part": 72,
+      "fileName": "term_bank_10_part_72.json",
+      "count": 50,
+      "startIndex": 3550,
+      "endIndexExclusive": 3600,
+      "firstTerm": "kero",
+      "lastTerm": "Kessell"
+    },
+    {
+      "part": 73,
+      "fileName": "term_bank_10_part_73.json",
+      "count": 50,
+      "startIndex": 3600,
+      "endIndexExclusive": 3650,
+      "firstTerm": "Kesselman",
+      "lastTerm": "ketoprofen"
+    },
+    {
+      "part": 74,
+      "fileName": "term_bank_10_part_74.json",
+      "count": 50,
+      "startIndex": 3650,
+      "endIndexExclusive": 3700,
+      "firstTerm": "ketorolac",
+      "lastTerm": "kewl"
+    },
+    {
+      "part": 75,
+      "fileName": "term_bank_10_part_75.json",
+      "count": 50,
+      "startIndex": 3700,
+      "endIndexExclusive": 3750,
+      "firstTerm": "kewpie",
+      "lastTerm": "keymaps"
+    },
+    {
+      "part": 76,
+      "fileName": "term_bank_10_part_76.json",
+      "count": 50,
+      "startIndex": 3750,
+      "endIndexExclusive": 3800,
+      "firstTerm": "keymaster",
+      "lastTerm": "KF"
+    },
+    {
+      "part": 77,
+      "fileName": "term_bank_10_part_77.json",
+      "count": 50,
+      "startIndex": 3800,
+      "endIndexExclusive": 3850,
+      "firstTerm": "KFC",
+      "lastTerm": "Khanate"
+    },
+    {
+      "part": 78,
+      "fileName": "term_bank_10_part_78.json",
+      "count": 50,
+      "startIndex": 3850,
+      "endIndexExclusive": 3900,
+      "firstTerm": "Khandelwal",
+      "lastTerm": "Khiva"
+    },
+    {
+      "part": 79,
+      "fileName": "term_bank_10_part_79.json",
+      "count": 50,
+      "startIndex": 3900,
+      "endIndexExclusive": 3950,
+      "firstTerm": "KHL",
+      "lastTerm": "KI"
+    },
+    {
+      "part": 80,
+      "fileName": "term_bank_10_part_80.json",
+      "count": 50,
+      "startIndex": 3950,
+      "endIndexExclusive": 4000,
+      "firstTerm": "Kia",
+      "lastTerm": "kickers"
+    },
+    {
+      "part": 81,
+      "fileName": "term_bank_10_part_81.json",
+      "count": 50,
+      "startIndex": 4000,
+      "endIndexExclusive": 4050,
+      "firstTerm": "kickflip",
+      "lastTerm": "kidney"
+    },
+    {
+      "part": 82,
+      "fileName": "term_bank_10_part_82.json",
+      "count": 50,
+      "startIndex": 4050,
+      "endIndexExclusive": 4100,
+      "firstTerm": "Kidney",
+      "lastTerm": "Kiev"
+    },
+    {
+      "part": 83,
+      "fileName": "term_bank_10_part_83.json",
+      "count": 50,
+      "startIndex": 4100,
+      "endIndexExclusive": 4150,
+      "firstTerm": "Kievan",
+      "lastTerm": "kile"
+    },
+    {
+      "part": 84,
+      "fileName": "term_bank_10_part_84.json",
+      "count": 50,
+      "startIndex": 4150,
+      "endIndexExclusive": 4200,
+      "firstTerm": "Kile",
+      "lastTerm": "Killin"
+    },
+    {
+      "part": 85,
+      "fileName": "term_bank_10_part_85.json",
+      "count": 50,
+      "startIndex": 4200,
+      "endIndexExclusive": 4250,
+      "firstTerm": "Killiney",
+      "lastTerm": "kilopascals"
+    },
+    {
+      "part": 86,
+      "fileName": "term_bank_10_part_86.json",
+      "count": 50,
+      "startIndex": 4250,
+      "endIndexExclusive": 4300,
+      "firstTerm": "kilos",
+      "lastTerm": "Kime"
+    },
+    {
+      "part": 87,
+      "fileName": "term_bank_10_part_87.json",
+      "count": 50,
+      "startIndex": 4300,
+      "endIndexExclusive": 4350,
+      "firstTerm": "Kimes",
+      "lastTerm": "kindergarten"
+    },
+    {
+      "part": 88,
+      "fileName": "term_bank_10_part_88.json",
+      "count": 50,
+      "startIndex": 4350,
+      "endIndexExclusive": 4400,
+      "firstTerm": "kindergarteners",
+      "lastTerm": "kinetin"
+    },
+    {
+      "part": 89,
+      "fileName": "term_bank_10_part_89.json",
+      "count": 50,
+      "startIndex": 4400,
+      "endIndexExclusive": 4450,
+      "firstTerm": "kinetochore",
+      "lastTerm": "kingsman"
+    },
+    {
+      "part": 90,
+      "fileName": "term_bank_10_part_90.json",
+      "count": 50,
+      "startIndex": 4450,
+      "endIndexExclusive": 4500,
+      "firstTerm": "kingsmen",
+      "lastTerm": "Kinnan"
+    },
+    {
+      "part": 91,
+      "fileName": "term_bank_10_part_91.json",
+      "count": 50,
+      "startIndex": 4500,
+      "endIndexExclusive": 4550,
+      "firstTerm": "Kinnard",
+      "lastTerm": "kiosks"
+    },
+    {
+      "part": 92,
+      "fileName": "term_bank_10_part_92.json",
+      "count": 50,
+      "startIndex": 4550,
+      "endIndexExclusive": 4600,
+      "firstTerm": "kiosque",
+      "lastTerm": "Kirin"
+    },
+    {
+      "part": 93,
+      "fileName": "term_bank_10_part_93.json",
+      "count": 50,
+      "startIndex": 4600,
+      "endIndexExclusive": 4650,
+      "firstTerm": "Kirishima",
+      "lastTerm": "Kirman"
+    },
+    {
+      "part": 94,
+      "fileName": "term_bank_10_part_94.json",
+      "count": 50,
+      "startIndex": 4650,
+      "endIndexExclusive": 4700,
+      "firstTerm": "Kirn",
+      "lastTerm": "kismet"
+    },
+    {
+      "part": 95,
+      "fileName": "term_bank_10_part_95.json",
+      "count": 50,
+      "startIndex": 4700,
+      "endIndexExclusive": 4750,
+      "firstTerm": "Kismet",
+      "lastTerm": "kitchenettes"
+    },
+    {
+      "part": 96,
+      "fileName": "term_bank_10_part_96.json",
+      "count": 50,
+      "startIndex": 4750,
+      "endIndexExclusive": 4800,
+      "firstTerm": "kitchens",
+      "lastTerm": "Kittitas"
+    },
+    {
+      "part": 97,
+      "fileName": "term_bank_10_part_97.json",
+      "count": 50,
+      "startIndex": 4800,
+      "endIndexExclusive": 4850,
+      "firstTerm": "kittiwake",
+      "lastTerm": "KKR"
+    },
+    {
+      "part": 98,
+      "fileName": "term_bank_10_part_98.json",
+      "count": 50,
+      "startIndex": 4850,
+      "endIndexExclusive": 4900,
+      "firstTerm": "KL",
+      "lastTerm": "Kleiman"
+    },
+    {
+      "part": 99,
+      "fileName": "term_bank_10_part_99.json",
+      "count": 50,
+      "startIndex": 4900,
+      "endIndexExclusive": 4950,
+      "firstTerm": "Klein",
+      "lastTerm": "Kling"
+    },
+    {
+      "part": 100,
+      "fileName": "term_bank_10_part_100.json",
+      "count": 50,
+      "startIndex": 4950,
+      "endIndexExclusive": 5000,
+      "firstTerm": "Kling",
+      "lastTerm": "Kluck"
+    },
+    {
+      "part": 101,
+      "fileName": "term_bank_10_part_101.json",
+      "count": 50,
+      "startIndex": 5000,
+      "endIndexExclusive": 5050,
+      "firstTerm": "kludge",
+      "lastTerm": "knack"
+    },
+    {
+      "part": 102,
+      "fileName": "term_bank_10_part_102.json",
+      "count": 50,
+      "startIndex": 5050,
+      "endIndexExclusive": 5100,
+      "firstTerm": "knack",
+      "lastTerm": "kneel"
+    },
+    {
+      "part": 103,
+      "fileName": "term_bank_10_part_103.json",
+      "count": 50,
+      "startIndex": 5100,
+      "endIndexExclusive": 5150,
+      "firstTerm": "Kneeland",
+      "lastTerm": "Knights"
+    },
+    {
+      "part": 104,
+      "fileName": "term_bank_10_part_104.json",
+      "count": 50,
+      "startIndex": 5150,
+      "endIndexExclusive": 5200,
+      "firstTerm": "Knightsbridge",
+      "lastTerm": "knockdown"
+    },
+    {
+      "part": 105,
+      "fileName": "term_bank_10_part_105.json",
+      "count": 50,
+      "startIndex": 5200,
+      "endIndexExclusive": 5250,
+      "firstTerm": "knockdown",
+      "lastTerm": "knowen"
+    },
+    {
+      "part": 106,
+      "fileName": "term_bank_10_part_106.json",
+      "count": 50,
+      "startIndex": 5250,
+      "endIndexExclusive": 5300,
+      "firstTerm": "knower",
+      "lastTerm": "Knute"
+    },
+    {
+      "part": 107,
+      "fileName": "term_bank_10_part_107.json",
+      "count": 50,
+      "startIndex": 5300,
+      "endIndexExclusive": 5350,
+      "firstTerm": "Knuth",
+      "lastTerm": "Kodiak"
+    },
+    {
+      "part": 108,
+      "fileName": "term_bank_10_part_108.json",
+      "count": 50,
+      "startIndex": 5350,
+      "endIndexExclusive": 5400,
+      "firstTerm": "Kodiak",
+      "lastTerm": "Kohala"
+    },
+    {
+      "part": 109,
+      "fileName": "term_bank_10_part_109.json",
+      "count": 50,
+      "startIndex": 5400,
+      "endIndexExclusive": 5450,
+      "firstTerm": "Kohan",
+      "lastTerm": "Koko"
+    },
+    {
+      "part": 110,
+      "fileName": "term_bank_10_part_110.json",
+      "count": 50,
+      "startIndex": 5450,
+      "endIndexExclusive": 5500,
+      "firstTerm": "kokoda",
+      "lastTerm": "Kolyma"
+    },
+    {
+      "part": 111,
+      "fileName": "term_bank_10_part_111.json",
+      "count": 50,
+      "startIndex": 5500,
+      "endIndexExclusive": 5550,
+      "firstTerm": "KOM",
+      "lastTerm": "Kono"
+    },
+    {
+      "part": 112,
+      "fileName": "term_bank_10_part_112.json",
+      "count": 50,
+      "startIndex": 5550,
+      "endIndexExclusive": 5600,
+      "firstTerm": "Konopka",
+      "lastTerm": "Kootenay"
+    },
+    {
+      "part": 113,
+      "fileName": "term_bank_10_part_113.json",
+      "count": 50,
+      "startIndex": 5600,
+      "endIndexExclusive": 5650,
+      "firstTerm": "Kooyman",
+      "lastTerm": "Koreans"
+    },
+    {
+      "part": 114,
+      "fileName": "term_bank_10_part_114.json",
+      "count": 50,
+      "startIndex": 5650,
+      "endIndexExclusive": 5700,
+      "firstTerm": "Koreas",
+      "lastTerm": "Koryak"
+    },
+    {
+      "part": 115,
+      "fileName": "term_bank_10_part_115.json",
+      "count": 50,
+      "startIndex": 5700,
+      "endIndexExclusive": 5750,
+      "firstTerm": "Koryo",
+      "lastTerm": "Kostas"
+    },
+    {
+      "part": 116,
+      "fileName": "term_bank_10_part_116.json",
+      "count": 50,
+      "startIndex": 5750,
+      "endIndexExclusive": 5800,
+      "firstTerm": "Kostecki",
+      "lastTerm": "Kovalchuk"
+    },
+    {
+      "part": 117,
+      "fileName": "term_bank_10_part_117.json",
+      "count": 50,
+      "startIndex": 5800,
+      "endIndexExclusive": 5850,
+      "firstTerm": "Kovalenko",
+      "lastTerm": "kps"
+    },
+    {
+      "part": 118,
+      "fileName": "term_bank_10_part_118.json",
+      "count": 50,
+      "startIndex": 5850,
+      "endIndexExclusive": 5900,
+      "firstTerm": "KPs",
+      "lastTerm": "Krasinski"
+    },
+    {
+      "part": 119,
+      "fileName": "term_bank_10_part_119.json",
+      "count": 50,
+      "startIndex": 5900,
+      "endIndexExclusive": 5950,
+      "firstTerm": "Krasner",
+      "lastTerm": "Kreger"
+    },
+    {
+      "part": 120,
+      "fileName": "term_bank_10_part_120.json",
+      "count": 50,
+      "startIndex": 5950,
+      "endIndexExclusive": 6000,
+      "firstTerm": "Krehbiel",
+      "lastTerm": "krill"
+    },
+    {
+      "part": 121,
+      "fileName": "term_bank_10_part_121.json",
+      "count": 50,
+      "startIndex": 6000,
+      "endIndexExclusive": 6050,
+      "firstTerm": "Krill",
+      "lastTerm": "Kroeber"
+    },
+    {
+      "part": 122,
+      "fileName": "term_bank_10_part_122.json",
+      "count": 50,
+      "startIndex": 6050,
+      "endIndexExclusive": 6100,
+      "firstTerm": "Kroeger",
+      "lastTerm": "Krugers"
+    },
+    {
+      "part": 123,
+      "fileName": "term_bank_10_part_123.json",
+      "count": 50,
+      "startIndex": 6100,
+      "endIndexExclusive": 6150,
+      "firstTerm": "Krugersdorp",
+      "lastTerm": "ksi"
+    },
+    {
+      "part": 124,
+      "fileName": "term_bank_10_part_124.json",
+      "count": 50,
+      "startIndex": 6150,
+      "endIndexExclusive": 6200,
+      "firstTerm": "KSI",
+      "lastTerm": "Kuchta"
+    },
+    {
+      "part": 125,
+      "fileName": "term_bank_10_part_125.json",
+      "count": 50,
+      "startIndex": 6200,
+      "endIndexExclusive": 6250,
+      "firstTerm": "Kucinich",
+      "lastTerm": "Kujala"
+    },
+    {
+      "part": 126,
+      "fileName": "term_bank_10_part_126.json",
+      "count": 50,
+      "startIndex": 6250,
+      "endIndexExclusive": 6300,
+      "firstTerm": "Kujawa",
+      "lastTerm": "Kumasi"
+    },
+    {
+      "part": 127,
+      "fileName": "term_bank_10_part_127.json",
+      "count": 50,
+      "startIndex": 6300,
+      "endIndexExclusive": 6350,
+      "firstTerm": "Kumbakonam",
+      "lastTerm": "Kuomintang"
+    },
+    {
+      "part": 128,
+      "fileName": "term_bank_10_part_128.json",
+      "count": 50,
+      "startIndex": 6350,
+      "endIndexExclusive": 6400,
+      "firstTerm": "Kuopio",
+      "lastTerm": "kurti"
+    },
+    {
+      "part": 129,
+      "fileName": "term_bank_10_part_129.json",
+      "count": 50,
+      "startIndex": 6400,
+      "endIndexExclusive": 6450,
+      "firstTerm": "kurtis",
+      "lastTerm": "Kuyper"
+    },
+    {
+      "part": 130,
+      "fileName": "term_bank_10_part_130.json",
+      "count": 50,
+      "startIndex": 6450,
+      "endIndexExclusive": 6500,
+      "firstTerm": "Kuzma",
+      "lastTerm": "KY"
+    },
+    {
+      "part": 131,
+      "fileName": "term_bank_10_part_131.json",
+      "count": 50,
+      "startIndex": 6500,
+      "endIndexExclusive": 6550,
+      "firstTerm": "kya",
+      "lastTerm": "Kyriakos"
+    },
+    {
+      "part": 132,
+      "fileName": "term_bank_10_part_132.json",
+      "count": 50,
+      "startIndex": 6550,
+      "endIndexExclusive": 6600,
+      "firstTerm": "kyrie",
+      "lastTerm": "labcoat"
+    },
+    {
+      "part": 133,
+      "fileName": "term_bank_10_part_133.json",
+      "count": 50,
+      "startIndex": 6600,
+      "endIndexExclusive": 6650,
+      "firstTerm": "label",
+      "lastTerm": "labour"
+    },
+    {
+      "part": 134,
+      "fileName": "term_bank_10_part_134.json",
+      "count": 50,
+      "startIndex": 6650,
+      "endIndexExclusive": 6700,
+      "firstTerm": "labour",
+      "lastTerm": "Lacanian"
+    },
+    {
+      "part": 135,
+      "fileName": "term_bank_10_part_135.json",
+      "count": 50,
+      "startIndex": 6700,
+      "endIndexExclusive": 6750,
+      "firstTerm": "Lacasse",
+      "lastTerm": "lacis"
+    },
+    {
+      "part": 136,
+      "fileName": "term_bank_10_part_136.json",
+      "count": 50,
+      "startIndex": 6750,
+      "endIndexExclusive": 6800,
+      "firstTerm": "lack",
+      "lastTerm": "lacs"
+    },
+    {
+      "part": 137,
+      "fileName": "term_bank_10_part_137.json",
+      "count": 50,
+      "startIndex": 6800,
+      "endIndexExclusive": 6850,
+      "firstTerm": "Lacs",
+      "lastTerm": "lade"
+    },
+    {
+      "part": 138,
+      "fileName": "term_bank_10_part_138.json",
+      "count": 50,
+      "startIndex": 6850,
+      "endIndexExclusive": 6900,
+      "firstTerm": "lade",
+      "lastTerm": "Ladysmith"
+    },
+    {
+      "part": 139,
+      "fileName": "term_bank_10_part_139.json",
+      "count": 50,
+      "startIndex": 6900,
+      "endIndexExclusive": 6950,
+      "firstTerm": "Ladywell",
+      "lastTerm": "lag"
+    },
+    {
+      "part": 140,
+      "fileName": "term_bank_10_part_140.json",
+      "count": 50,
+      "startIndex": 6950,
+      "endIndexExclusive": 7000,
+      "firstTerm": "lag",
+      "lastTerm": "Lahaie"
+    },
+    {
+      "part": 141,
+      "fileName": "term_bank_10_part_141.json",
+      "count": 50,
+      "startIndex": 7000,
+      "endIndexExclusive": 7050,
+      "firstTerm": "Lahaina",
+      "lastTerm": "Laist"
+    },
+    {
+      "part": 142,
+      "fileName": "term_bank_10_part_142.json",
+      "count": 50,
+      "startIndex": 7050,
+      "endIndexExclusive": 7100,
+      "firstTerm": "lait",
+      "lastTerm": "Lakeview"
+    },
+    {
+      "part": 143,
+      "fileName": "term_bank_10_part_143.json",
+      "count": 50,
+      "startIndex": 7100,
+      "endIndexExclusive": 7150,
+      "firstTerm": "Lakewood",
+      "lastTerm": "Laman"
+    },
+    {
+      "part": 144,
+      "fileName": "term_bank_10_part_144.json",
+      "count": 50,
+      "startIndex": 7150,
+      "endIndexExclusive": 7200,
+      "firstTerm": "Lamanites",
+      "lastTerm": "Lambertson"
+    },
+    {
+      "part": 145,
+      "fileName": "term_bank_10_part_145.json",
+      "count": 50,
+      "startIndex": 7200,
+      "endIndexExclusive": 7250,
+      "firstTerm": "Lambeth",
+      "lastTerm": "Lamere"
+    },
+    {
+      "part": 146,
+      "fileName": "term_bank_10_part_146.json",
+      "count": 50,
+      "startIndex": 7250,
+      "endIndexExclusive": 7300,
+      "firstTerm": "lamers",
+      "lastTerm": "lamotrigine"
+    },
+    {
+      "part": 147,
+      "fileName": "term_bank_10_part_147.json",
+      "count": 50,
+      "startIndex": 7300,
+      "endIndexExclusive": 7350,
+      "firstTerm": "Lamotte",
+      "lastTerm": "lampwork"
+    },
+    {
+      "part": 148,
+      "fileName": "term_bank_10_part_148.json",
+      "count": 50,
+      "startIndex": 7350,
+      "endIndexExclusive": 7400,
+      "firstTerm": "lampwork",
+      "lastTerm": "land"
+    },
+    {
+      "part": 149,
+      "fileName": "term_bank_10_part_149.json",
+      "count": 50,
+      "startIndex": 7400,
+      "endIndexExclusive": 7450,
+      "firstTerm": "land",
+      "lastTerm": "landlording"
+    },
+    {
+      "part": 150,
+      "fileName": "term_bank_10_part_150.json",
+      "count": 50,
+      "startIndex": 7450,
+      "endIndexExclusive": 7500,
+      "firstTerm": "landlords",
+      "lastTerm": "Landsman"
+    },
+    {
+      "part": 151,
+      "fileName": "term_bank_10_part_151.json",
+      "count": 50,
+      "startIndex": 7500,
+      "endIndexExclusive": 7550,
+      "firstTerm": "Landstrom",
+      "lastTerm": "langlauf"
+    },
+    {
+      "part": 152,
+      "fileName": "term_bank_10_part_152.json",
+      "count": 50,
+      "startIndex": 7550,
+      "endIndexExclusive": 7600,
+      "firstTerm": "langlauf",
+      "lastTerm": "Lanius"
+    },
+    {
+      "part": 153,
+      "fileName": "term_bank_10_part_153.json",
+      "count": 50,
+      "startIndex": 7600,
+      "endIndexExclusive": 7650,
+      "firstTerm": "lank",
+      "lastTerm": "Lanterman"
+    },
+    {
+      "part": 154,
+      "fileName": "term_bank_10_part_154.json",
+      "count": 50,
+      "startIndex": 7650,
+      "endIndexExclusive": 7700,
+      "firstTerm": "lantern",
+      "lastTerm": "lapdog"
+    },
+    {
+      "part": 155,
+      "fileName": "term_bank_10_part_155.json",
+      "count": 50,
+      "startIndex": 7700,
+      "endIndexExclusive": 7750,
+      "firstTerm": "lapdogs",
+      "lastTerm": "Lapps"
+    },
+    {
+      "part": 156,
+      "fileName": "term_bank_10_part_156.json",
+      "count": 50,
+      "startIndex": 7750,
+      "endIndexExclusive": 7800,
+      "firstTerm": "lappy",
+      "lastTerm": "lare"
+    },
+    {
+      "part": 157,
+      "fileName": "term_bank_10_part_157.json",
+      "count": 50,
+      "startIndex": 7800,
+      "endIndexExclusive": 7850,
+      "firstTerm": "lare",
+      "lastTerm": "lark"
+    },
+    {
+      "part": 158,
+      "fileName": "term_bank_10_part_158.json",
+      "count": 50,
+      "startIndex": 7850,
+      "endIndexExclusive": 7900,
+      "firstTerm": "lark",
+      "lastTerm": "LART"
+    },
+    {
+      "part": 159,
+      "fileName": "term_bank_10_part_159.json",
+      "count": 50,
+      "startIndex": 7900,
+      "endIndexExclusive": 7950,
+      "firstTerm": "LART",
+      "lastTerm": "Laserdiscs"
+    },
+    {
+      "part": 160,
+      "fileName": "term_bank_10_part_160.json",
+      "count": 50,
+      "startIndex": 7950,
+      "endIndexExclusive": 8000,
+      "firstTerm": "lasergun",
+      "lastTerm": "lassi"
+    },
+    {
+      "part": 161,
+      "fileName": "term_bank_10_part_161.json",
+      "count": 50,
+      "startIndex": 8000,
+      "endIndexExclusive": 8050,
+      "firstTerm": "lassie",
+      "lastTerm": "LATE"
+    },
+    {
+      "part": 162,
+      "fileName": "term_bank_10_part_162.json",
+      "count": 50,
+      "startIndex": 8050,
+      "endIndexExclusive": 8100,
+      "firstTerm": "latecomer",
+      "lastTerm": "Latin"
+    },
+    {
+      "part": 163,
+      "fileName": "term_bank_10_part_163.json",
+      "count": 50,
+      "startIndex": 8100,
+      "endIndexExclusive": 8150,
+      "firstTerm": "Latin",
+      "lastTerm": "Latta"
+    },
+    {
+      "part": 164,
+      "fileName": "term_bank_10_part_164.json",
+      "count": 50,
+      "startIndex": 8150,
+      "endIndexExclusive": 8200,
+      "firstTerm": "Lattanzi",
+      "lastTerm": "laugh"
+    },
+    {
+      "part": 165,
+      "fileName": "term_bank_10_part_165.json",
+      "count": 50,
+      "startIndex": 8200,
+      "endIndexExclusive": 8250,
+      "firstTerm": "laughable",
+      "lastTerm": "laureate"
+    },
+    {
+      "part": 166,
+      "fileName": "term_bank_10_part_166.json",
+      "count": 50,
+      "startIndex": 8250,
+      "endIndexExclusive": 8300,
+      "firstTerm": "laureate",
+      "lastTerm": "Lautoka"
+    },
+    {
+      "part": 167,
+      "fileName": "term_bank_10_part_167.json",
+      "count": 50,
+      "startIndex": 8300,
+      "endIndexExclusive": 8350,
+      "firstTerm": "Lauver",
+      "lastTerm": "Laverton"
+    },
+    {
+      "part": 168,
+      "fileName": "term_bank_10_part_168.json",
+      "count": 50,
+      "startIndex": 8350,
+      "endIndexExclusive": 8400,
+      "firstTerm": "Laverty",
+      "lastTerm": "lawfull"
+    },
+    {
+      "part": 169,
+      "fileName": "term_bank_10_part_169.json",
+      "count": 50,
+      "startIndex": 8400,
+      "endIndexExclusive": 8450,
+      "firstTerm": "lawfully",
+      "lastTerm": "Lawther"
+    },
+    {
+      "part": 170,
+      "fileName": "term_bank_10_part_170.json",
+      "count": 50,
+      "startIndex": 8450,
+      "endIndexExclusive": 8500,
+      "firstTerm": "Lawton",
+      "lastTerm": "layette"
+    },
+    {
+      "part": 171,
+      "fileName": "term_bank_10_part_171.json",
+      "count": 50,
+      "startIndex": 8500,
+      "endIndexExclusive": 8550,
+      "firstTerm": "layettes",
+      "lastTerm": "Lazio"
+    },
+    {
+      "part": 172,
+      "fileName": "term_bank_10_part_172.json",
+      "count": 50,
+      "startIndex": 8550,
+      "endIndexExclusive": 8600,
+      "firstTerm": "Lazlo",
+      "lastTerm": "LCBO"
+    },
+    {
+      "part": 173,
+      "fileName": "term_bank_10_part_173.json",
+      "count": 50,
+      "startIndex": 8600,
+      "endIndexExclusive": 8650,
+      "firstTerm": "LCBO",
+      "lastTerm": "LDPE"
+    },
+    {
+      "part": 174,
+      "fileName": "term_bank_10_part_174.json",
+      "count": 50,
+      "startIndex": 8650,
+      "endIndexExclusive": 8700,
+      "firstTerm": "LDPs",
+      "lastTerm": "leadless"
+    },
+    {
+      "part": 175,
+      "fileName": "term_bank_10_part_175.json",
+      "count": 50,
+      "startIndex": 8700,
+      "endIndexExclusive": 8750,
+      "firstTerm": "leadlight",
+      "lastTerm": "Leakesville"
+    },
+    {
+      "part": 176,
+      "fileName": "term_bank_10_part_176.json",
+      "count": 50,
+      "startIndex": 8750,
+      "endIndexExclusive": 8800,
+      "firstTerm": "Leakey",
+      "lastTerm": "leapfrogging"
+    },
+    {
+      "part": 177,
+      "fileName": "term_bank_10_part_177.json",
+      "count": 50,
+      "startIndex": 8800,
+      "endIndexExclusive": 8850,
+      "firstTerm": "leaps",
+      "lastTerm": "least"
+    },
+    {
+      "part": 178,
+      "fileName": "term_bank_10_part_178.json",
+      "count": 50,
+      "startIndex": 8850,
+      "endIndexExclusive": 8900,
+      "firstTerm": "least",
+      "lastTerm": "Leaver"
+    },
+    {
+      "part": 179,
+      "fileName": "term_bank_10_part_179.json",
+      "count": 50,
+      "startIndex": 8900,
+      "endIndexExclusive": 8950,
+      "firstTerm": "leavers",
+      "lastTerm": "Lechlade"
+    },
+    {
+      "part": 180,
+      "fileName": "term_bank_10_part_180.json",
+      "count": 50,
+      "startIndex": 8950,
+      "endIndexExclusive": 9000,
+      "firstTerm": "Lechner",
+      "lastTerm": "lede"
+    },
+    {
+      "part": 181,
+      "fileName": "term_bank_10_part_181.json",
+      "count": 50,
+      "startIndex": 9000,
+      "endIndexExclusive": 9050,
+      "firstTerm": "lede",
+      "lastTerm": "leef"
+    },
+    {
+      "part": 182,
+      "fileName": "term_bank_10_part_182.json",
+      "count": 50,
+      "startIndex": 9050,
+      "endIndexExclusive": 9100,
+      "firstTerm": "leek",
+      "lastTerm": "Lefferts"
+    },
+    {
+      "part": 183,
+      "fileName": "term_bank_10_part_183.json",
+      "count": 50,
+      "startIndex": 9100,
+      "endIndexExclusive": 9150,
+      "firstTerm": "Leffingwell",
+      "lastTerm": "legal"
+    },
+    {
+      "part": 184,
+      "fileName": "term_bank_10_part_184.json",
+      "count": 50,
+      "startIndex": 9150,
+      "endIndexExclusive": 9200,
+      "firstTerm": "legal",
+      "lastTerm": "leger"
+    },
+    {
+      "part": 185,
+      "fileName": "term_bank_10_part_185.json",
+      "count": 50,
+      "startIndex": 9200,
+      "endIndexExclusive": 9250,
+      "firstTerm": "leger",
+      "lastTerm": "legislator"
+    },
+    {
+      "part": 186,
+      "fileName": "term_bank_10_part_186.json",
+      "count": 50,
+      "startIndex": 9250,
+      "endIndexExclusive": 9300,
+      "firstTerm": "legislators",
+      "lastTerm": "Lehn"
+    },
+    {
+      "part": 187,
+      "fileName": "term_bank_10_part_187.json",
+      "count": 50,
+      "startIndex": 9300,
+      "endIndexExclusive": 9350,
+      "firstTerm": "Lehner",
+      "lastTerm": "leiomyomas"
+    },
+    {
+      "part": 188,
+      "fileName": "term_bank_10_part_188.json",
+      "count": 50,
+      "startIndex": 9350,
+      "endIndexExclusive": 9400,
+      "firstTerm": "leiomyosarcoma",
+      "lastTerm": "Lem"
+    },
+    {
+      "part": 189,
+      "fileName": "term_bank_10_part_189.json",
+      "count": 50,
+      "startIndex": 9400,
+      "endIndexExclusive": 9450,
+      "firstTerm": "LEM",
+      "lastTerm": "lemonade"
+    },
+    {
+      "part": 190,
+      "fileName": "term_bank_10_part_190.json",
+      "count": 50,
+      "startIndex": 9450,
+      "endIndexExclusive": 9500,
+      "firstTerm": "Lemond",
+      "lastTerm": "lengthways"
+    },
+    {
+      "part": 191,
+      "fileName": "term_bank_10_part_191.json",
+      "count": 50,
+      "startIndex": 9500,
+      "endIndexExclusive": 9550,
+      "firstTerm": "lengthways",
+      "lastTerm": "lensman"
+    },
+    {
+      "part": 192,
+      "fileName": "term_bank_10_part_192.json",
+      "count": 50,
+      "startIndex": 9550,
+      "endIndexExclusive": 9600,
+      "firstTerm": "lent",
+      "lastTerm": "Leonhart"
+    },
+    {
+      "part": 193,
+      "fileName": "term_bank_10_part_193.json",
+      "count": 50,
+      "startIndex": 9600,
+      "endIndexExclusive": 9650,
+      "firstTerm": "Leonid",
+      "lastTerm": "lepper"
+    },
+    {
+      "part": 194,
+      "fileName": "term_bank_10_part_194.json",
+      "count": 50,
+      "startIndex": 9650,
+      "endIndexExclusive": 9700,
+      "firstTerm": "Lepper",
+      "lastTerm": "Lesbians"
+    },
+    {
+      "part": 195,
+      "fileName": "term_bank_10_part_195.json",
+      "count": 50,
+      "startIndex": 9700,
+      "endIndexExclusive": 9750,
+      "firstTerm": "lesbie",
+      "lastTerm": "Lessner"
+    },
+    {
+      "part": 196,
+      "fileName": "term_bank_10_part_196.json",
+      "count": 50,
+      "startIndex": 9750,
+      "endIndexExclusive": 9800,
+      "firstTerm": "lessness",
+      "lastTerm": "letterboxing"
+    },
+    {
+      "part": 197,
+      "fileName": "term_bank_10_part_197.json",
+      "count": 50,
+      "startIndex": 9800,
+      "endIndexExclusive": 9850,
+      "firstTerm": "lettered",
+      "lastTerm": "leukocytosis"
+    },
+    {
+      "part": 198,
+      "fileName": "term_bank_10_part_198.json",
+      "count": 50,
+      "startIndex": 9850,
+      "endIndexExclusive": 9900,
+      "firstTerm": "leukodystrophy",
+      "lastTerm": "leven"
+    },
+    {
+      "part": 199,
+      "fileName": "term_bank_10_part_199.json",
+      "count": 50,
+      "startIndex": 9900,
+      "endIndexExclusive": 9950,
+      "firstTerm": "leven",
+      "lastTerm": "Levis"
+    },
+    {
+      "part": 200,
+      "fileName": "term_bank_10_part_200.json",
+      "count": 50,
+      "startIndex": 9950,
+      "endIndexExclusive": 10000,
+      "firstTerm": "Levison",
+      "lastTerm": "Lewin"
+    }
+  ]
+}
