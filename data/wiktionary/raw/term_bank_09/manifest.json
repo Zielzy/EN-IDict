@@ -1,0 +1,1809 @@
+{
+  "source": "C:/aa/Project/kamus/wiktionary-en-en/wiktionary_filter/term_bank_9.json",
+  "bank": 9,
+  "totalEntries": 10000,
+  "splitCount": 200,
+  "partSize": 50,
+  "parts": [
+    {
+      "part": 1,
+      "fileName": "term_bank_09_part_01.json",
+      "count": 50,
+      "startIndex": 0,
+      "endIndexExclusive": 50,
+      "firstTerm": "Hinkel",
+      "lastTerm": "hipped"
+    },
+    {
+      "part": 2,
+      "fileName": "term_bank_09_part_02.json",
+      "count": 50,
+      "startIndex": 50,
+      "endIndexExclusive": 100,
+      "firstTerm": "hippie",
+      "lastTerm": "hire"
+    },
+    {
+      "part": 3,
+      "fileName": "term_bank_09_part_03.json",
+      "count": 50,
+      "startIndex": 100,
+      "endIndexExclusive": 150,
+      "firstTerm": "hire",
+      "lastTerm": "Hiser"
+    },
+    {
+      "part": 4,
+      "fileName": "term_bank_09_part_04.json",
+      "count": 50,
+      "startIndex": 150,
+      "endIndexExclusive": 200,
+      "firstTerm": "Hisey",
+      "lastTerm": "histopathologic"
+    },
+    {
+      "part": 5,
+      "fileName": "term_bank_09_part_05.json",
+      "count": 50,
+      "startIndex": 200,
+      "endIndexExclusive": 250,
+      "firstTerm": "histopathological",
+      "lastTerm": "hitchhikers"
+    },
+    {
+      "part": 6,
+      "fileName": "term_bank_09_part_06.json",
+      "count": 50,
+      "startIndex": 250,
+      "endIndexExclusive": 300,
+      "firstTerm": "hitchhiking",
+      "lastTerm": "hizb"
+    },
+    {
+      "part": 7,
+      "fileName": "term_bank_09_part_07.json",
+      "count": 50,
+      "startIndex": 300,
+      "endIndexExclusive": 350,
+      "firstTerm": "Hizballah",
+      "lastTerm": "hmmph"
+    },
+    {
+      "part": 8,
+      "fileName": "term_bank_09_part_08.json",
+      "count": 50,
+      "startIndex": 350,
+      "endIndexExclusive": 400,
+      "firstTerm": "HMMs",
+      "lastTerm": "hoagie"
+    },
+    {
+      "part": 9,
+      "fileName": "term_bank_09_part_09.json",
+      "count": 50,
+      "startIndex": 400,
+      "endIndexExclusive": 450,
+      "firstTerm": "hoagies",
+      "lastTerm": "hobble"
+    },
+    {
+      "part": 10,
+      "fileName": "term_bank_09_part_10.json",
+      "count": 50,
+      "startIndex": 450,
+      "endIndexExclusive": 500,
+      "firstTerm": "hobble",
+      "lastTerm": "Hockett"
+    },
+    {
+      "part": 11,
+      "fileName": "term_bank_09_part_11.json",
+      "count": 50,
+      "startIndex": 500,
+      "endIndexExclusive": 550,
+      "firstTerm": "hockey",
+      "lastTerm": "hods"
+    },
+    {
+      "part": 12,
+      "fileName": "term_bank_09_part_12.json",
+      "count": 50,
+      "startIndex": 550,
+      "endIndexExclusive": 600,
+      "firstTerm": "HODs",
+      "lastTerm": "Hofman"
+    },
+    {
+      "part": 13,
+      "fileName": "term_bank_09_part_13.json",
+      "count": 50,
+      "startIndex": 600,
+      "endIndexExclusive": 650,
+      "firstTerm": "Hofmann",
+      "lastTerm": "Hogue"
+    },
+    {
+      "part": 14,
+      "fileName": "term_bank_09_part_14.json",
+      "count": 50,
+      "startIndex": 650,
+      "endIndexExclusive": 700,
+      "firstTerm": "Hogwarts",
+      "lastTerm": "Hokuriku"
+    },
+    {
+      "part": 15,
+      "fileName": "term_bank_09_part_15.json",
+      "count": 50,
+      "startIndex": 700,
+      "endIndexExclusive": 750,
+      "firstTerm": "Hol",
+      "lastTerm": "holdouts"
+    },
+    {
+      "part": 16,
+      "fileName": "term_bank_09_part_16.json",
+      "count": 50,
+      "startIndex": 750,
+      "endIndexExclusive": 800,
+      "firstTerm": "holdover",
+      "lastTerm": "hollandaise"
+    },
+    {
+      "part": 17,
+      "fileName": "term_bank_09_part_17.json",
+      "count": 50,
+      "startIndex": 800,
+      "endIndexExclusive": 850,
+      "firstTerm": "hollander",
+      "lastTerm": "Hollinwood"
+    },
+    {
+      "part": 18,
+      "fileName": "term_bank_09_part_18.json",
+      "count": 50,
+      "startIndex": 850,
+      "endIndexExclusive": 900,
+      "firstTerm": "Hollis",
+      "lastTerm": "holms"
+    },
+    {
+      "part": 19,
+      "fileName": "term_bank_09_part_19.json",
+      "count": 50,
+      "startIndex": 900,
+      "endIndexExclusive": 950,
+      "firstTerm": "Holmstrom",
+      "lastTerm": "holster"
+    },
+    {
+      "part": 20,
+      "fileName": "term_bank_09_part_20.json",
+      "count": 50,
+      "startIndex": 950,
+      "endIndexExclusive": 1000,
+      "firstTerm": "holster",
+      "lastTerm": "homage"
+    },
+    {
+      "part": 21,
+      "fileName": "term_bank_09_part_21.json",
+      "count": 50,
+      "startIndex": 1000,
+      "endIndexExclusive": 1050,
+      "firstTerm": "homages",
+      "lastTerm": "homegrown"
+    },
+    {
+      "part": 22,
+      "fileName": "term_bank_09_part_22.json",
+      "count": 50,
+      "startIndex": 1050,
+      "endIndexExclusive": 1100,
+      "firstTerm": "Homel",
+      "lastTerm": "homescape"
+    },
+    {
+      "part": 23,
+      "fileName": "term_bank_09_part_23.json",
+      "count": 50,
+      "startIndex": 1100,
+      "endIndexExclusive": 1150,
+      "firstTerm": "homeschool",
+      "lastTerm": "homie"
+    },
+    {
+      "part": 24,
+      "fileName": "term_bank_09_part_24.json",
+      "count": 50,
+      "startIndex": 1150,
+      "endIndexExclusive": 1200,
+      "firstTerm": "homies",
+      "lastTerm": "homolog"
+    },
+    {
+      "part": 25,
+      "fileName": "term_bank_09_part_25.json",
+      "count": 50,
+      "startIndex": 1200,
+      "endIndexExclusive": 1250,
+      "firstTerm": "homologation",
+      "lastTerm": "Hon"
+    },
+    {
+      "part": 26,
+      "fileName": "term_bank_09_part_26.json",
+      "count": 50,
+      "startIndex": 1250,
+      "endIndexExclusive": 1300,
+      "firstTerm": "Honaker",
+      "lastTerm": "honeycombed"
+    },
+    {
+      "part": 27,
+      "fileName": "term_bank_09_part_27.json",
+      "count": 50,
+      "startIndex": 1300,
+      "endIndexExclusive": 1350,
+      "firstTerm": "honeycombs",
+      "lastTerm": "Honley"
+    },
+    {
+      "part": 28,
+      "fileName": "term_bank_09_part_28.json",
+      "count": 50,
+      "startIndex": 1350,
+      "endIndexExclusive": 1400,
+      "firstTerm": "Honnold",
+      "lastTerm": "hoo"
+    },
+    {
+      "part": 29,
+      "fileName": "term_bank_09_part_29.json",
+      "count": 50,
+      "startIndex": 1400,
+      "endIndexExclusive": 1450,
+      "firstTerm": "Hoo",
+      "lastTerm": "hooked"
+    },
+    {
+      "part": 30,
+      "fileName": "term_bank_09_part_30.json",
+      "count": 50,
+      "startIndex": 1450,
+      "endIndexExclusive": 1500,
+      "firstTerm": "hooker",
+      "lastTerm": "Hoose"
+    },
+    {
+      "part": 31,
+      "fileName": "term_bank_09_part_31.json",
+      "count": 50,
+      "startIndex": 1500,
+      "endIndexExclusive": 1550,
+      "firstTerm": "Hooser",
+      "lastTerm": "Hopewell"
+    },
+    {
+      "part": 32,
+      "fileName": "term_bank_09_part_32.json",
+      "count": 50,
+      "startIndex": 1550,
+      "endIndexExclusive": 1600,
+      "firstTerm": "Hopf",
+      "lastTerm": "Horan"
+    },
+    {
+      "part": 33,
+      "fileName": "term_bank_09_part_33.json",
+      "count": 50,
+      "startIndex": 1600,
+      "endIndexExclusive": 1650,
+      "firstTerm": "horary",
+      "lastTerm": "horn"
+    },
+    {
+      "part": 34,
+      "fileName": "term_bank_09_part_34.json",
+      "count": 50,
+      "startIndex": 1650,
+      "endIndexExclusive": 1700,
+      "firstTerm": "Horn",
+      "lastTerm": "Hornstein"
+    },
+    {
+      "part": 35,
+      "fileName": "term_bank_09_part_35.json",
+      "count": 50,
+      "startIndex": 1700,
+      "endIndexExclusive": 1750,
+      "firstTerm": "horny",
+      "lastTerm": "horsehair"
+    },
+    {
+      "part": 36,
+      "fileName": "term_bank_09_part_36.json",
+      "count": 50,
+      "startIndex": 1750,
+      "endIndexExclusive": 1800,
+      "firstTerm": "horsehead",
+      "lastTerm": "horticultural"
+    },
+    {
+      "part": 37,
+      "fileName": "term_bank_09_part_37.json",
+      "count": 50,
+      "startIndex": 1800,
+      "endIndexExclusive": 1850,
+      "firstTerm": "horticulturalists",
+      "lastTerm": "Hosley"
+    },
+    {
+      "part": 38,
+      "fileName": "term_bank_09_part_38.json",
+      "count": 50,
+      "startIndex": 1850,
+      "endIndexExclusive": 1900,
+      "firstTerm": "Hosmer",
+      "lastTerm": "Hostetler"
+    },
+    {
+      "part": 39,
+      "fileName": "term_bank_09_part_39.json",
+      "count": 50,
+      "startIndex": 1900,
+      "endIndexExclusive": 1950,
+      "firstTerm": "Hostetter",
+      "lastTerm": "Hotevilla"
+    },
+    {
+      "part": 40,
+      "fileName": "term_bank_09_part_40.json",
+      "count": 50,
+      "startIndex": 1950,
+      "endIndexExclusive": 2000,
+      "firstTerm": "hotfix",
+      "lastTerm": "Hottentots"
+    },
+    {
+      "part": 41,
+      "fileName": "term_bank_09_part_41.json",
+      "count": 50,
+      "startIndex": 2000,
+      "endIndexExclusive": 2050,
+      "firstTerm": "hottie",
+      "lastTerm": "hourglass"
+    },
+    {
+      "part": 42,
+      "fileName": "term_bank_09_part_42.json",
+      "count": 50,
+      "startIndex": 2050,
+      "endIndexExclusive": 2100,
+      "firstTerm": "Hourigan",
+      "lastTerm": "Housel"
+    },
+    {
+      "part": 43,
+      "fileName": "term_bank_09_part_43.json",
+      "count": 50,
+      "startIndex": 2100,
+      "endIndexExclusive": 2150,
+      "firstTerm": "housemaid",
+      "lastTerm": "houts"
+    },
+    {
+      "part": 44,
+      "fileName": "term_bank_09_part_44.json",
+      "count": 50,
+      "startIndex": 2150,
+      "endIndexExclusive": 2200,
+      "firstTerm": "Houts",
+      "lastTerm": "Howell"
+    },
+    {
+      "part": 45,
+      "fileName": "term_bank_09_part_45.json",
+      "count": 50,
+      "startIndex": 2200,
+      "endIndexExclusive": 2250,
+      "firstTerm": "Howells",
+      "lastTerm": "Hoxton"
+    },
+    {
+      "part": 46,
+      "fileName": "term_bank_09_part_46.json",
+      "count": 50,
+      "startIndex": 2250,
+      "endIndexExclusive": 2300,
+      "firstTerm": "hoy",
+      "lastTerm": "HPV"
+    },
+    {
+      "part": 47,
+      "fileName": "term_bank_09_part_47.json",
+      "count": 50,
+      "startIndex": 2300,
+      "endIndexExclusive": 2350,
+      "firstTerm": "HPVs",
+      "lastTerm": "HSBC"
+    },
+    {
+      "part": 48,
+      "fileName": "term_bank_09_part_48.json",
+      "count": 50,
+      "startIndex": 2350,
+      "endIndexExclusive": 2400,
+      "firstTerm": "HSC",
+      "lastTerm": "HTF"
+    },
+    {
+      "part": 49,
+      "fileName": "term_bank_09_part_49.json",
+      "count": 50,
+      "startIndex": 2400,
+      "endIndexExclusive": 2450,
+      "firstTerm": "HTLV",
+      "lastTerm": "Hubbert"
+    },
+    {
+      "part": 50,
+      "fileName": "term_bank_09_part_50.json",
+      "count": 50,
+      "startIndex": 2450,
+      "endIndexExclusive": 2500,
+      "firstTerm": "hubbie",
+      "lastTerm": "Hudak"
+    },
+    {
+      "part": 51,
+      "fileName": "term_bank_09_part_51.json",
+      "count": 50,
+      "startIndex": 2500,
+      "endIndexExclusive": 2550,
+      "firstTerm": "Hudd",
+      "lastTerm": "huevos"
+    },
+    {
+      "part": 52,
+      "fileName": "term_bank_09_part_52.json",
+      "count": 50,
+      "startIndex": 2550,
+      "endIndexExclusive": 2600,
+      "firstTerm": "Huevos",
+      "lastTerm": "HUGO"
+    },
+    {
+      "part": 53,
+      "fileName": "term_bank_09_part_53.json",
+      "count": 50,
+      "startIndex": 2600,
+      "endIndexExclusive": 2650,
+      "firstTerm": "Hugoniot",
+      "lastTerm": "hulking"
+    },
+    {
+      "part": 54,
+      "fileName": "term_bank_09_part_54.json",
+      "count": 50,
+      "startIndex": 2650,
+      "endIndexExclusive": 2700,
+      "firstTerm": "hulks",
+      "lastTerm": "humanitarian"
+    },
+    {
+      "part": 55,
+      "fileName": "term_bank_09_part_55.json",
+      "count": 50,
+      "startIndex": 2700,
+      "endIndexExclusive": 2750,
+      "firstTerm": "humanitarian",
+      "lastTerm": "humectant"
+    },
+    {
+      "part": 56,
+      "fileName": "term_bank_09_part_56.json",
+      "count": 50,
+      "startIndex": 2750,
+      "endIndexExclusive": 2800,
+      "firstTerm": "humectants",
+      "lastTerm": "humor"
+    },
+    {
+      "part": 57,
+      "fileName": "term_bank_09_part_57.json",
+      "count": 50,
+      "startIndex": 2800,
+      "endIndexExclusive": 2850,
+      "firstTerm": "humoral",
+      "lastTerm": "humulin"
+    },
+    {
+      "part": 58,
+      "fileName": "term_bank_09_part_58.json",
+      "count": 50,
+      "startIndex": 2850,
+      "endIndexExclusive": 2900,
+      "firstTerm": "Humulin",
+      "lastTerm": "hungry"
+    },
+    {
+      "part": 59,
+      "fileName": "term_bank_09_part_59.json",
+      "count": 50,
+      "startIndex": 2900,
+      "endIndexExclusive": 2950,
+      "firstTerm": "hunh",
+      "lastTerm": "Huntoon"
+    },
+    {
+      "part": 60,
+      "fileName": "term_bank_09_part_60.json",
+      "count": 50,
+      "startIndex": 2950,
+      "endIndexExclusive": 3000,
+      "firstTerm": "huntress",
+      "lastTerm": "Huron"
+    },
+    {
+      "part": 61,
+      "fileName": "term_bank_09_part_61.json",
+      "count": 50,
+      "startIndex": 3000,
+      "endIndexExclusive": 3050,
+      "firstTerm": "Huron",
+      "lastTerm": "hurts"
+    },
+    {
+      "part": 62,
+      "fileName": "term_bank_09_part_62.json",
+      "count": 50,
+      "startIndex": 3050,
+      "endIndexExclusive": 3100,
+      "firstTerm": "Hurts",
+      "lastTerm": "Husky"
+    },
+    {
+      "part": 63,
+      "fileName": "term_bank_09_part_63.json",
+      "count": 50,
+      "startIndex": 3100,
+      "endIndexExclusive": 3150,
+      "firstTerm": "husman",
+      "lastTerm": "hutong"
+    },
+    {
+      "part": 64,
+      "fileName": "term_bank_09_part_64.json",
+      "count": 50,
+      "startIndex": 3150,
+      "endIndexExclusive": 3200,
+      "firstTerm": "huts",
+      "lastTerm": "Hwange"
+    },
+    {
+      "part": 65,
+      "fileName": "term_bank_09_part_65.json",
+      "count": 50,
+      "startIndex": 3200,
+      "endIndexExclusive": 3250,
+      "firstTerm": "HWB",
+      "lastTerm": "hybris"
+    },
+    {
+      "part": 66,
+      "fileName": "term_bank_09_part_66.json",
+      "count": 50,
+      "startIndex": 3250,
+      "endIndexExclusive": 3300,
+      "firstTerm": "Hyche",
+      "lastTerm": "hydrobromide"
+    },
+    {
+      "part": 67,
+      "fileName": "term_bank_09_part_67.json",
+      "count": 50,
+      "startIndex": 3300,
+      "endIndexExclusive": 3350,
+      "firstTerm": "hydrocarbon",
+      "lastTerm": "hydrological"
+    },
+    {
+      "part": 68,
+      "fileName": "term_bank_09_part_68.json",
+      "count": 50,
+      "startIndex": 3350,
+      "endIndexExclusive": 3400,
+      "firstTerm": "hydrologically",
+      "lastTerm": "hydrosphere"
+    },
+    {
+      "part": 69,
+      "fileName": "term_bank_09_part_69.json",
+      "count": 50,
+      "startIndex": 3400,
+      "endIndexExclusive": 3450,
+      "firstTerm": "hydrostatic",
+      "lastTerm": "hyer"
+    },
+    {
+      "part": 70,
+      "fileName": "term_bank_09_part_70.json",
+      "count": 50,
+      "startIndex": 3450,
+      "endIndexExclusive": 3500,
+      "firstTerm": "Hyer",
+      "lastTerm": "Hyne"
+    },
+    {
+      "part": 71,
+      "fileName": "term_bank_09_part_71.json",
+      "count": 50,
+      "startIndex": 3500,
+      "endIndexExclusive": 3550,
+      "firstTerm": "Hynes",
+      "lastTerm": "hyperelliptic"
+    },
+    {
+      "part": 72,
+      "fileName": "term_bank_09_part_72.json",
+      "count": 50,
+      "startIndex": 3550,
+      "endIndexExclusive": 3600,
+      "firstTerm": "hyperemesis",
+      "lastTerm": "hyperopic"
+    },
+    {
+      "part": 73,
+      "fileName": "term_bank_09_part_73.json",
+      "count": 50,
+      "startIndex": 3600,
+      "endIndexExclusive": 3650,
+      "firstTerm": "hyperosmolar",
+      "lastTerm": "hyperthyroid"
+    },
+    {
+      "part": 74,
+      "fileName": "term_bank_09_part_74.json",
+      "count": 50,
+      "startIndex": 3650,
+      "endIndexExclusive": 3700,
+      "firstTerm": "hyperthyroidism",
+      "lastTerm": "hypocenter"
+    },
+    {
+      "part": 75,
+      "fileName": "term_bank_09_part_75.json",
+      "count": 50,
+      "startIndex": 3700,
+      "endIndexExclusive": 3750,
+      "firstTerm": "hypocentral",
+      "lastTerm": "hypophysis"
+    },
+    {
+      "part": 76,
+      "fileName": "term_bank_09_part_76.json",
+      "count": 50,
+      "startIndex": 3750,
+      "endIndexExclusive": 3800,
+      "firstTerm": "hypopituitarism",
+      "lastTerm": "hyssop"
+    },
+    {
+      "part": 77,
+      "fileName": "term_bank_09_part_77.json",
+      "count": 50,
+      "startIndex": 3800,
+      "endIndexExclusive": 3850,
+      "firstTerm": "hysterectomies",
+      "lastTerm": "Iafrate"
+    },
+    {
+      "part": 78,
+      "fileName": "term_bank_09_part_78.json",
+      "count": 50,
+      "startIndex": 3850,
+      "endIndexExclusive": 3900,
+      "firstTerm": "Iago",
+      "lastTerm": "IBA"
+    },
+    {
+      "part": 79,
+      "fileName": "term_bank_09_part_79.json",
+      "count": 50,
+      "startIndex": 3900,
+      "endIndexExclusive": 3950,
+      "firstTerm": "Ibad",
+      "lastTerm": "IBO"
+    },
+    {
+      "part": 80,
+      "fileName": "term_bank_09_part_80.json",
+      "count": 50,
+      "startIndex": 3950,
+      "endIndexExclusive": 4000,
+      "firstTerm": "iboga",
+      "lastTerm": "Ice"
+    },
+    {
+      "part": 81,
+      "fileName": "term_bank_09_part_81.json",
+      "count": 50,
+      "startIndex": 4000,
+      "endIndexExclusive": 4050,
+      "firstTerm": "ICE",
+      "lastTerm": "Ich"
+    },
+    {
+      "part": 82,
+      "fileName": "term_bank_09_part_82.json",
+      "count": 50,
+      "startIndex": 4050,
+      "endIndexExclusive": 4100,
+      "firstTerm": "ICH",
+      "lastTerm": "iconoclasm"
+    },
+    {
+      "part": 83,
+      "fileName": "term_bank_09_part_83.json",
+      "count": 50,
+      "startIndex": 4100,
+      "endIndexExclusive": 4150,
+      "firstTerm": "iconoclast",
+      "lastTerm": "id"
+    },
+    {
+      "part": 84,
+      "fileName": "term_bank_09_part_84.json",
+      "count": 50,
+      "startIndex": 4150,
+      "endIndexExclusive": 4200,
+      "firstTerm": "Id",
+      "lastTerm": "idem"
+    },
+    {
+      "part": 85,
+      "fileName": "term_bank_09_part_85.json",
+      "count": 50,
+      "startIndex": 4200,
+      "endIndexExclusive": 4250,
+      "firstTerm": "idempotent",
+      "lastTerm": "idiocies"
+    },
+    {
+      "part": 86,
+      "fileName": "term_bank_09_part_86.json",
+      "count": 50,
+      "startIndex": 4250,
+      "endIndexExclusive": 4300,
+      "firstTerm": "idiocy",
+      "lastTerm": "idolize"
+    },
+    {
+      "part": 87,
+      "fileName": "term_bank_09_part_87.json",
+      "count": 50,
+      "startIndex": 4300,
+      "endIndexExclusive": 4350,
+      "firstTerm": "idols",
+      "lastTerm": "IESG"
+    },
+    {
+      "part": 88,
+      "fileName": "term_bank_09_part_88.json",
+      "count": 50,
+      "startIndex": 4350,
+      "endIndexExclusive": 4400,
+      "firstTerm": "IESNA",
+      "lastTerm": "IFU"
+    },
+    {
+      "part": 89,
+      "fileName": "term_bank_09_part_89.json",
+      "count": 50,
+      "startIndex": 4400,
+      "endIndexExclusive": 4450,
+      "firstTerm": "Ifugao",
+      "lastTerm": "igniters"
+    },
+    {
+      "part": 90,
+      "fileName": "term_bank_09_part_90.json",
+      "count": 50,
+      "startIndex": 4450,
+      "endIndexExclusive": 4500,
+      "firstTerm": "ignition",
+      "lastTerm": "IHO"
+    },
+    {
+      "part": 91,
+      "fileName": "term_bank_09_part_91.json",
+      "count": 50,
+      "startIndex": 4500,
+      "endIndexExclusive": 4550,
+      "firstTerm": "IHOP",
+      "lastTerm": "Ike"
+    },
+    {
+      "part": 92,
+      "fileName": "term_bank_09_part_92.json",
+      "count": 50,
+      "startIndex": 4550,
+      "endIndexExclusive": 4600,
+      "firstTerm": "Ike",
+      "lastTerm": "Ilia"
+    },
+    {
+      "part": 93,
+      "fileName": "term_bank_09_part_93.json",
+      "count": 50,
+      "startIndex": 4600,
+      "endIndexExclusive": 4650,
+      "firstTerm": "iliac",
+      "lastTerm": "illiberal"
+    },
+    {
+      "part": 94,
+      "fileName": "term_bank_09_part_94.json",
+      "count": 50,
+      "startIndex": 4650,
+      "endIndexExclusive": 4700,
+      "firstTerm": "illicit",
+      "lastTerm": "illuminators"
+    },
+    {
+      "part": 95,
+      "fileName": "term_bank_09_part_95.json",
+      "count": 50,
+      "startIndex": 4700,
+      "endIndexExclusive": 4750,
+      "firstTerm": "Illuminatus",
+      "lastTerm": "ILS"
+    },
+    {
+      "part": 96,
+      "fileName": "term_bank_09_part_96.json",
+      "count": 50,
+      "startIndex": 4750,
+      "endIndexExclusive": 4800,
+      "firstTerm": "Ilsa",
+      "lastTerm": "imagining"
+    },
+    {
+      "part": 97,
+      "fileName": "term_bank_09_part_97.json",
+      "count": 50,
+      "startIndex": 4800,
+      "endIndexExclusive": 4850,
+      "firstTerm": "imaginings",
+      "lastTerm": "IMDb"
+    },
+    {
+      "part": 98,
+      "fileName": "term_bank_09_part_98.json",
+      "count": 50,
+      "startIndex": 4850,
+      "endIndexExclusive": 4900,
+      "firstTerm": "IMDB",
+      "lastTerm": "Immanuel"
+    },
+    {
+      "part": 99,
+      "fileName": "term_bank_09_part_99.json",
+      "count": 50,
+      "startIndex": 4900,
+      "endIndexExclusive": 4950,
+      "firstTerm": "immaterial",
+      "lastTerm": "immobilized"
+    },
+    {
+      "part": 100,
+      "fileName": "term_bank_09_part_100.json",
+      "count": 50,
+      "startIndex": 4950,
+      "endIndexExclusive": 5000,
+      "firstTerm": "immobilizer",
+      "lastTerm": "immunocompetence"
+    },
+    {
+      "part": 101,
+      "fileName": "term_bank_09_part_101.json",
+      "count": 50,
+      "startIndex": 5000,
+      "endIndexExclusive": 5050,
+      "firstTerm": "immunocompetent",
+      "lastTerm": "immunoprecipitate"
+    },
+    {
+      "part": 102,
+      "fileName": "term_bank_09_part_102.json",
+      "count": 50,
+      "startIndex": 5050,
+      "endIndexExclusive": 5100,
+      "firstTerm": "immunoprecipitate",
+      "lastTerm": "impaired"
+    },
+    {
+      "part": 103,
+      "fileName": "term_bank_09_part_103.json",
+      "count": 50,
+      "startIndex": 5100,
+      "endIndexExclusive": 5150,
+      "firstTerm": "impaired",
+      "lastTerm": "impellers"
+    },
+    {
+      "part": 104,
+      "fileName": "term_bank_09_part_104.json",
+      "count": 50,
+      "startIndex": 5150,
+      "endIndexExclusive": 5200,
+      "firstTerm": "impending",
+      "lastTerm": "imperiously"
+    },
+    {
+      "part": 105,
+      "fileName": "term_bank_09_part_105.json",
+      "count": 50,
+      "startIndex": 5200,
+      "endIndexExclusive": 5250,
+      "firstTerm": "imperishable",
+      "lastTerm": "implantation"
+    },
+    {
+      "part": 106,
+      "fileName": "term_bank_09_part_106.json",
+      "count": 50,
+      "startIndex": 5250,
+      "endIndexExclusive": 5300,
+      "firstTerm": "implantations",
+      "lastTerm": "importation"
+    },
+    {
+      "part": 107,
+      "fileName": "term_bank_09_part_107.json",
+      "count": 50,
+      "startIndex": 5300,
+      "endIndexExclusive": 5350,
+      "firstTerm": "importations",
+      "lastTerm": "imprecision"
+    },
+    {
+      "part": 108,
+      "fileName": "term_bank_09_part_108.json",
+      "count": 50,
+      "startIndex": 5350,
+      "endIndexExclusive": 5400,
+      "firstTerm": "impregnable",
+      "lastTerm": "improperly"
+    },
+    {
+      "part": 109,
+      "fileName": "term_bank_09_part_109.json",
+      "count": 50,
+      "startIndex": 5400,
+      "endIndexExclusive": 5450,
+      "firstTerm": "improprieties",
+      "lastTerm": "impute"
+    },
+    {
+      "part": 110,
+      "fileName": "term_bank_09_part_110.json",
+      "count": 50,
+      "startIndex": 5450,
+      "endIndexExclusive": 5500,
+      "firstTerm": "imputed",
+      "lastTerm": "inadequate"
+    },
+    {
+      "part": 111,
+      "fileName": "term_bank_09_part_111.json",
+      "count": 50,
+      "startIndex": 5500,
+      "endIndexExclusive": 5550,
+      "firstTerm": "inadequately",
+      "lastTerm": "inauthentic"
+    },
+    {
+      "part": 112,
+      "fileName": "term_bank_09_part_112.json",
+      "count": 50,
+      "startIndex": 5550,
+      "endIndexExclusive": 5600,
+      "firstTerm": "inband",
+      "lastTerm": "incarcerate"
+    },
+    {
+      "part": 113,
+      "fileName": "term_bank_09_part_113.json",
+      "count": 50,
+      "startIndex": 5600,
+      "endIndexExclusive": 5650,
+      "firstTerm": "incarcerate",
+      "lastTerm": "inchers"
+    },
+    {
+      "part": 114,
+      "fileName": "term_bank_09_part_114.json",
+      "count": 50,
+      "startIndex": 5650,
+      "endIndexExclusive": 5700,
+      "firstTerm": "inches",
+      "lastTerm": "inclined"
+    },
+    {
+      "part": 115,
+      "fileName": "term_bank_09_part_115.json",
+      "count": 50,
+      "startIndex": 5700,
+      "endIndexExclusive": 5750,
+      "firstTerm": "inclines",
+      "lastTerm": "incompatible"
+    },
+    {
+      "part": 116,
+      "fileName": "term_bank_09_part_116.json",
+      "count": 50,
+      "startIndex": 5750,
+      "endIndexExclusive": 5800,
+      "firstTerm": "incompatible",
+      "lastTerm": "incontinent"
+    },
+    {
+      "part": 117,
+      "fileName": "term_bank_09_part_117.json",
+      "count": 50,
+      "startIndex": 5800,
+      "endIndexExclusive": 5850,
+      "firstTerm": "incontinent",
+      "lastTerm": "incrementally"
+    },
+    {
+      "part": 118,
+      "fileName": "term_bank_09_part_118.json",
+      "count": 50,
+      "startIndex": 5850,
+      "endIndexExclusive": 5900,
+      "firstTerm": "increments",
+      "lastTerm": "indecisive"
+    },
+    {
+      "part": 119,
+      "fileName": "term_bank_09_part_119.json",
+      "count": 50,
+      "startIndex": 5900,
+      "endIndexExclusive": 5950,
+      "firstTerm": "indecisiveness",
+      "lastTerm": "indentures"
+    },
+    {
+      "part": 120,
+      "fileName": "term_bank_09_part_120.json",
+      "count": 50,
+      "startIndex": 5950,
+      "endIndexExclusive": 6000,
+      "firstTerm": "independance",
+      "lastTerm": "Indias"
+    },
+    {
+      "part": 121,
+      "fileName": "term_bank_09_part_121.json",
+      "count": 50,
+      "startIndex": 6000,
+      "endIndexExclusive": 6050,
+      "firstTerm": "Indic",
+      "lastTerm": "Indigo"
+    },
+    {
+      "part": 122,
+      "fileName": "term_bank_09_part_122.json",
+      "count": 50,
+      "startIndex": 6050,
+      "endIndexExclusive": 6100,
+      "firstTerm": "indigos",
+      "lastTerm": "individualized"
+    },
+    {
+      "part": 123,
+      "fileName": "term_bank_09_part_123.json",
+      "count": 50,
+      "startIndex": 6100,
+      "endIndexExclusive": 6150,
+      "firstTerm": "individually",
+      "lastTerm": "inducements"
+    },
+    {
+      "part": 124,
+      "fileName": "term_bank_09_part_124.json",
+      "count": 50,
+      "startIndex": 6150,
+      "endIndexExclusive": 6200,
+      "firstTerm": "inducer",
+      "lastTerm": "indwelling"
+    },
+    {
+      "part": 125,
+      "fileName": "term_bank_09_part_125.json",
+      "count": 50,
+      "startIndex": 6200,
+      "endIndexExclusive": 6250,
+      "firstTerm": "indwelling",
+      "lastTerm": "inerts"
+    },
+    {
+      "part": 126,
+      "fileName": "term_bank_09_part_126.json",
+      "count": 50,
+      "startIndex": 6250,
+      "endIndexExclusive": 6300,
+      "firstTerm": "inescapable",
+      "lastTerm": "infanta"
+    },
+    {
+      "part": 127,
+      "fileName": "term_bank_09_part_127.json",
+      "count": 50,
+      "startIndex": 6300,
+      "endIndexExclusive": 6350,
+      "firstTerm": "infante",
+      "lastTerm": "inferno"
+    },
+    {
+      "part": 128,
+      "fileName": "term_bank_09_part_128.json",
+      "count": 50,
+      "startIndex": 6350,
+      "endIndexExclusive": 6400,
+      "firstTerm": "infernos",
+      "lastTerm": "infinito"
+    },
+    {
+      "part": 129,
+      "fileName": "term_bank_09_part_129.json",
+      "count": 50,
+      "startIndex": 6400,
+      "endIndexExclusive": 6450,
+      "firstTerm": "infinitude",
+      "lastTerm": "inflowing"
+    },
+    {
+      "part": 130,
+      "fileName": "term_bank_09_part_130.json",
+      "count": 50,
+      "startIndex": 6450,
+      "endIndexExclusive": 6500,
+      "firstTerm": "inflowing",
+      "lastTerm": "informativity"
+    },
+    {
+      "part": 131,
+      "fileName": "term_bank_09_part_131.json",
+      "count": 50,
+      "startIndex": 6500,
+      "endIndexExclusive": 6550,
+      "firstTerm": "informatization",
+      "lastTerm": "infuriating"
+    },
+    {
+      "part": 132,
+      "fileName": "term_bank_09_part_132.json",
+      "count": 50,
+      "startIndex": 6550,
+      "endIndexExclusive": 6600,
+      "firstTerm": "infuriatingly",
+      "lastTerm": "ingo"
+    },
+    {
+      "part": 133,
+      "fileName": "term_bank_09_part_133.json",
+      "count": 50,
+      "startIndex": 6600,
+      "endIndexExclusive": 6650,
+      "firstTerm": "INGO",
+      "lastTerm": "inhabitants"
+    },
+    {
+      "part": 134,
+      "fileName": "term_bank_09_part_134.json",
+      "count": 50,
+      "startIndex": 6650,
+      "endIndexExclusive": 6700,
+      "firstTerm": "inhabitation",
+      "lastTerm": "Inigo"
+    },
+    {
+      "part": 135,
+      "fileName": "term_bank_09_part_135.json",
+      "count": 50,
+      "startIndex": 6700,
+      "endIndexExclusive": 6750,
+      "firstTerm": "inimical",
+      "lastTerm": "Injen"
+    },
+    {
+      "part": 136,
+      "fileName": "term_bank_09_part_136.json",
+      "count": 50,
+      "startIndex": 6750,
+      "endIndexExclusive": 6800,
+      "firstTerm": "injera",
+      "lastTerm": "inky"
+    },
+    {
+      "part": 137,
+      "fileName": "term_bank_09_part_137.json",
+      "count": 50,
+      "startIndex": 6800,
+      "endIndexExclusive": 6850,
+      "firstTerm": "Inky",
+      "lastTerm": "innermost"
+    },
+    {
+      "part": 138,
+      "fileName": "term_bank_09_part_138.json",
+      "count": 50,
+      "startIndex": 6850,
+      "endIndexExclusive": 6900,
+      "firstTerm": "innermost",
+      "lastTerm": "innumerable"
+    },
+    {
+      "part": 139,
+      "fileName": "term_bank_09_part_139.json",
+      "count": 50,
+      "startIndex": 6900,
+      "endIndexExclusive": 6950,
+      "firstTerm": "inny",
+      "lastTerm": "inquiring"
+    },
+    {
+      "part": 140,
+      "fileName": "term_bank_09_part_140.json",
+      "count": 50,
+      "startIndex": 6950,
+      "endIndexExclusive": 7000,
+      "firstTerm": "inquiringly",
+      "lastTerm": "insectivores"
+    },
+    {
+      "part": 141,
+      "fileName": "term_bank_09_part_141.json",
+      "count": 50,
+      "startIndex": 7000,
+      "endIndexExclusive": 7050,
+      "firstTerm": "insectivorous",
+      "lastTerm": "inside"
+    },
+    {
+      "part": 142,
+      "fileName": "term_bank_09_part_142.json",
+      "count": 50,
+      "startIndex": 7050,
+      "endIndexExclusive": 7100,
+      "firstTerm": "inside",
+      "lastTerm": "insolvency"
+    },
+    {
+      "part": 143,
+      "fileName": "term_bank_09_part_143.json",
+      "count": 50,
+      "startIndex": 7100,
+      "endIndexExclusive": 7150,
+      "firstTerm": "insolvent",
+      "lastTerm": "installable"
+    },
+    {
+      "part": 144,
+      "fileName": "term_bank_09_part_144.json",
+      "count": 50,
+      "startIndex": 7150,
+      "endIndexExclusive": 7200,
+      "firstTerm": "installation",
+      "lastTerm": "instinctual"
+    },
+    {
+      "part": 145,
+      "fileName": "term_bank_09_part_145.json",
+      "count": 50,
+      "startIndex": 7200,
+      "endIndexExclusive": 7250,
+      "firstTerm": "instinctually",
+      "lastTerm": "instrumentally"
+    },
+    {
+      "part": 146,
+      "fileName": "term_bank_09_part_146.json",
+      "count": 50,
+      "startIndex": 7250,
+      "endIndexExclusive": 7300,
+      "firstTerm": "instrumentals",
+      "lastTerm": "insured"
+    },
+    {
+      "part": 147,
+      "fileName": "term_bank_09_part_147.json",
+      "count": 50,
+      "startIndex": 7300,
+      "endIndexExclusive": 7350,
+      "firstTerm": "insured",
+      "lastTerm": "integrations"
+    },
+    {
+      "part": 148,
+      "fileName": "term_bank_09_part_148.json",
+      "count": 50,
+      "startIndex": 7350,
+      "endIndexExclusive": 7400,
+      "firstTerm": "integrative",
+      "lastTerm": "intensions"
+    },
+    {
+      "part": 149,
+      "fileName": "term_bank_09_part_149.json",
+      "count": 50,
+      "startIndex": 7400,
+      "endIndexExclusive": 7450,
+      "firstTerm": "intensities",
+      "lastTerm": "interaural"
+    },
+    {
+      "part": 150,
+      "fileName": "term_bank_09_part_150.json",
+      "count": 50,
+      "startIndex": 7450,
+      "endIndexExclusive": 7500,
+      "firstTerm": "interband",
+      "lastTerm": "intercivic"
+    },
+    {
+      "part": 151,
+      "fileName": "term_bank_09_part_151.json",
+      "count": 50,
+      "startIndex": 7500,
+      "endIndexExclusive": 7550,
+      "firstTerm": "interclub",
+      "lastTerm": "interdependencies"
+    },
+    {
+      "part": 152,
+      "fileName": "term_bank_09_part_152.json",
+      "count": 50,
+      "startIndex": 7550,
+      "endIndexExclusive": 7600,
+      "firstTerm": "interdependency",
+      "lastTerm": "interflow"
+    },
+    {
+      "part": 153,
+      "fileName": "term_bank_09_part_153.json",
+      "count": 50,
+      "startIndex": 7600,
+      "endIndexExclusive": 7650,
+      "firstTerm": "interflow",
+      "lastTerm": "interlayer"
+    },
+    {
+      "part": 154,
+      "fileName": "term_bank_09_part_154.json",
+      "count": 50,
+      "startIndex": 7650,
+      "endIndexExclusive": 7700,
+      "firstTerm": "interleaf",
+      "lastTerm": "intermediates"
+    },
+    {
+      "part": 155,
+      "fileName": "term_bank_09_part_155.json",
+      "count": 50,
+      "startIndex": 7700,
+      "endIndexExclusive": 7750,
+      "firstTerm": "intermediation",
+      "lastTerm": "international"
+    },
+    {
+      "part": 156,
+      "fileName": "term_bank_09_part_156.json",
+      "count": 50,
+      "startIndex": 7750,
+      "endIndexExclusive": 7800,
+      "firstTerm": "international",
+      "lastTerm": "interoperability"
+    },
+    {
+      "part": 157,
+      "fileName": "term_bank_09_part_157.json",
+      "count": 50,
+      "startIndex": 7800,
+      "endIndexExclusive": 7850,
+      "firstTerm": "interoperable",
+      "lastTerm": "interprovincial"
+    },
+    {
+      "part": 158,
+      "fileName": "term_bank_09_part_158.json",
+      "count": 50,
+      "startIndex": 7850,
+      "endIndexExclusive": 7900,
+      "firstTerm": "interquartile",
+      "lastTerm": "intersegment"
+    },
+    {
+      "part": 159,
+      "fileName": "term_bank_09_part_159.json",
+      "count": 50,
+      "startIndex": 7900,
+      "endIndexExclusive": 7950,
+      "firstTerm": "intersegmental",
+      "lastTerm": "intertribal"
+    },
+    {
+      "part": 160,
+      "fileName": "term_bank_09_part_160.json",
+      "count": 50,
+      "startIndex": 7950,
+      "endIndexExclusive": 8000,
+      "firstTerm": "intertwine",
+      "lastTerm": "interzone"
+    },
+    {
+      "part": 161,
+      "fileName": "term_bank_09_part_161.json",
+      "count": 50,
+      "startIndex": 8000,
+      "endIndexExclusive": 8050,
+      "firstTerm": "interzone",
+      "lastTerm": "intown"
+    },
+    {
+      "part": 162,
+      "fileName": "term_bank_09_part_162.json",
+      "count": 50,
+      "startIndex": 8050,
+      "endIndexExclusive": 8100,
+      "firstTerm": "intoxicant",
+      "lastTerm": "Intramuros"
+    },
+    {
+      "part": 163,
+      "fileName": "term_bank_09_part_163.json",
+      "count": 50,
+      "startIndex": 8100,
+      "endIndexExclusive": 8150,
+      "firstTerm": "intramuscular",
+      "lastTerm": "intricacy"
+    },
+    {
+      "part": 164,
+      "fileName": "term_bank_09_part_164.json",
+      "count": 50,
+      "startIndex": 8150,
+      "endIndexExclusive": 8200,
+      "firstTerm": "intricate",
+      "lastTerm": "intrust"
+    },
+    {
+      "part": 165,
+      "fileName": "term_bank_09_part_165.json",
+      "count": 50,
+      "startIndex": 8200,
+      "endIndexExclusive": 8250,
+      "firstTerm": "ints",
+      "lastTerm": "invalid"
+    },
+    {
+      "part": 166,
+      "fileName": "term_bank_09_part_166.json",
+      "count": 50,
+      "startIndex": 8250,
+      "endIndexExclusive": 8300,
+      "firstTerm": "invalid",
+      "lastTerm": "Inverness"
+    },
+    {
+      "part": 167,
+      "fileName": "term_bank_09_part_167.json",
+      "count": 50,
+      "startIndex": 8300,
+      "endIndexExclusive": 8350,
+      "firstTerm": "Inverness",
+      "lastTerm": "invex"
+    },
+    {
+      "part": 168,
+      "fileName": "term_bank_09_part_168.json",
+      "count": 50,
+      "startIndex": 8350,
+      "endIndexExclusive": 8400,
+      "firstTerm": "inviable",
+      "lastTerm": "invoicer"
+    },
+    {
+      "part": 169,
+      "fileName": "term_bank_09_part_169.json",
+      "count": 50,
+      "startIndex": 8400,
+      "endIndexExclusive": 8450,
+      "firstTerm": "invoices",
+      "lastTerm": "iodide"
+    },
+    {
+      "part": 170,
+      "fileName": "term_bank_09_part_170.json",
+      "count": 50,
+      "startIndex": 8450,
+      "endIndexExclusive": 8500,
+      "firstTerm": "iodides",
+      "lastTerm": "ionosphere"
+    },
+    {
+      "part": 171,
+      "fileName": "term_bank_09_part_171.json",
+      "count": 50,
+      "startIndex": 8500,
+      "endIndexExclusive": 8550,
+      "firstTerm": "ionospheric",
+      "lastTerm": "IPF"
+    },
+    {
+      "part": 172,
+      "fileName": "term_bank_09_part_172.json",
+      "count": 50,
+      "startIndex": 8550,
+      "endIndexExclusive": 8600,
+      "firstTerm": "Iphigenia",
+      "lastTerm": "IPX"
+    },
+    {
+      "part": 173,
+      "fileName": "term_bank_09_part_173.json",
+      "count": 50,
+      "startIndex": 8600,
+      "endIndexExclusive": 8650,
+      "firstTerm": "IPY",
+      "lastTerm": "ire"
+    },
+    {
+      "part": 174,
+      "fileName": "term_bank_09_part_174.json",
+      "count": 50,
+      "startIndex": 8650,
+      "endIndexExclusive": 8700,
+      "firstTerm": "IrE",
+      "lastTerm": "iritis"
+    },
+    {
+      "part": 175,
+      "fileName": "term_bank_09_part_175.json",
+      "count": 50,
+      "startIndex": 8700,
+      "endIndexExclusive": 8750,
+      "firstTerm": "Irizarry",
+      "lastTerm": "Ironside"
+    },
+    {
+      "part": 176,
+      "fileName": "term_bank_09_part_176.json",
+      "count": 50,
+      "startIndex": 8750,
+      "endIndexExclusive": 8800,
+      "firstTerm": "Ironside",
+      "lastTerm": "irreducible"
+    },
+    {
+      "part": 177,
+      "fileName": "term_bank_09_part_177.json",
+      "count": 50,
+      "startIndex": 8800,
+      "endIndexExclusive": 8850,
+      "firstTerm": "irreducible",
+      "lastTerm": "irrigable"
+    },
+    {
+      "part": 178,
+      "fileName": "term_bank_09_part_178.json",
+      "count": 50,
+      "startIndex": 8850,
+      "endIndexExclusive": 8900,
+      "firstTerm": "irrigate",
+      "lastTerm": "is"
+    },
+    {
+      "part": 179,
+      "fileName": "term_bank_09_part_179.json",
+      "count": 50,
+      "startIndex": 8900,
+      "endIndexExclusive": 8950,
+      "firstTerm": "Is",
+      "lastTerm": "ischia"
+    },
+    {
+      "part": 180,
+      "fileName": "term_bank_09_part_180.json",
+      "count": 50,
+      "startIndex": 8950,
+      "endIndexExclusive": 9000,
+      "firstTerm": "Ischia",
+      "lastTerm": "Ishiyama"
+    },
+    {
+      "part": 181,
+      "fileName": "term_bank_09_part_181.json",
+      "count": 50,
+      "startIndex": 9000,
+      "endIndexExclusive": 9050,
+      "firstTerm": "Ishizaki",
+      "lastTerm": "island"
+    },
+    {
+      "part": 182,
+      "fileName": "term_bank_09_part_182.json",
+      "count": 50,
+      "startIndex": 9050,
+      "endIndexExclusive": 9100,
+      "firstTerm": "Island",
+      "lastTerm": "isobaric"
+    },
+    {
+      "part": 183,
+      "fileName": "term_bank_09_part_183.json",
+      "count": 50,
+      "startIndex": 9100,
+      "endIndexExclusive": 9150,
+      "firstTerm": "isobars",
+      "lastTerm": "isomer"
+    },
+    {
+      "part": 184,
+      "fileName": "term_bank_09_part_184.json",
+      "count": 50,
+      "startIndex": 9150,
+      "endIndexExclusive": 9200,
+      "firstTerm": "isomerase",
+      "lastTerm": "isothiocyanate"
+    },
+    {
+      "part": 185,
+      "fileName": "term_bank_09_part_185.json",
+      "count": 50,
+      "startIndex": 9200,
+      "endIndexExclusive": 9250,
+      "firstTerm": "isotonic",
+      "lastTerm": "Issas"
+    },
+    {
+      "part": 186,
+      "fileName": "term_bank_09_part_186.json",
+      "count": 50,
+      "startIndex": 9250,
+      "endIndexExclusive": 9300,
+      "firstTerm": "Isse",
+      "lastTerm": "it"
+    },
+    {
+      "part": 187,
+      "fileName": "term_bank_09_part_187.json",
+      "count": 50,
+      "startIndex": 9300,
+      "endIndexExclusive": 9350,
+      "firstTerm": "it",
+      "lastTerm": "ITCZ"
+    },
+    {
+      "part": 188,
+      "fileName": "term_bank_09_part_188.json",
+      "count": 50,
+      "startIndex": 9350,
+      "endIndexExclusive": 9400,
+      "firstTerm": "ITE",
+      "lastTerm": "ITM"
+    },
+    {
+      "part": 189,
+      "fileName": "term_bank_09_part_189.json",
+      "count": 50,
+      "startIndex": 9400,
+      "endIndexExclusive": 9450,
+      "firstTerm": "ITMA",
+      "lastTerm": "IUU"
+    },
+    {
+      "part": 190,
+      "fileName": "term_bank_09_part_190.json",
+      "count": 50,
+      "startIndex": 9450,
+      "endIndexExclusive": 9500,
+      "firstTerm": "IV",
+      "lastTerm": "Ivo"
+    },
+    {
+      "part": 191,
+      "fileName": "term_bank_09_part_191.json",
+      "count": 50,
+      "startIndex": 9500,
+      "endIndexExclusive": 9550,
+      "firstTerm": "Ivor",
+      "lastTerm": "iz"
+    },
+    {
+      "part": 192,
+      "fileName": "term_bank_09_part_192.json",
+      "count": 50,
+      "startIndex": 9550,
+      "endIndexExclusive": 9600,
+      "firstTerm": "IZ",
+      "lastTerm": "Jablonsky"
+    },
+    {
+      "part": 193,
+      "fileName": "term_bank_09_part_193.json",
+      "count": 50,
+      "startIndex": 9600,
+      "endIndexExclusive": 9650,
+      "firstTerm": "jabot",
+      "lastTerm": "jackknife"
+    },
+    {
+      "part": 194,
+      "fileName": "term_bank_09_part_194.json",
+      "count": 50,
+      "startIndex": 9650,
+      "endIndexExclusive": 9700,
+      "firstTerm": "jackknife",
+      "lastTerm": "Jacobin"
+    },
+    {
+      "part": 195,
+      "fileName": "term_bank_09_part_195.json",
+      "count": 50,
+      "startIndex": 9700,
+      "endIndexExclusive": 9750,
+      "firstTerm": "Jacobin",
+      "lastTerm": "Jae"
+    },
+    {
+      "part": 196,
+      "fileName": "term_bank_09_part_196.json",
+      "count": 50,
+      "startIndex": 9750,
+      "endIndexExclusive": 9800,
+      "firstTerm": "Jaeckel",
+      "lastTerm": "Jaguar"
+    },
+    {
+      "part": 197,
+      "fileName": "term_bank_09_part_197.json",
+      "count": 50,
+      "startIndex": 9800,
+      "endIndexExclusive": 9850,
+      "firstTerm": "Jaguar",
+      "lastTerm": "jako"
+    },
+    {
+      "part": 198,
+      "fileName": "term_bank_09_part_198.json",
+      "count": 50,
+      "startIndex": 9850,
+      "endIndexExclusive": 9900,
+      "firstTerm": "Jako",
+      "lastTerm": "jambon"
+    },
+    {
+      "part": 199,
+      "fileName": "term_bank_09_part_199.json",
+      "count": 50,
+      "startIndex": 9900,
+      "endIndexExclusive": 9950,
+      "firstTerm": "jamboree",
+      "lastTerm": "Jane"
+    },
+    {
+      "part": 200,
+      "fileName": "term_bank_09_part_200.json",
+      "count": 50,
+      "startIndex": 9950,
+      "endIndexExclusive": 10000,
+      "firstTerm": "Janecek",
+      "lastTerm": "Janoski"
+    }
+  ]
+}

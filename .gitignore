@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+
+# Archive outputs
+*.zip
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
