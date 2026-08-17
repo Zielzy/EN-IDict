@@ -7,14 +7,14 @@ Architecture:
     Python  = injects translations back into entry[5]
 
 Usage:
-    python scripts/translate_raw_ai.py --test          # Translate only the first 1 file (50 entries)
-    python scripts/translate_raw_ai.py --all           # Translate ALL files
-    python scripts/translate_raw_ai.py --part 01 --all # Translate all files in term_bank_01 only
-    python scripts/translate_raw_ai.py --resume --all  # Skip files already translated
+    python scripts/translate_raw_ai.py --test                     # 1 file, preview
+    python scripts/translate_raw_ai.py --all --resume             # Full run, skip done
+    python scripts/translate_raw_ai.py --all --part 01 --workers 8
+    python scripts/translate_raw_ai.py --all --resume --workers 4
 
 Requires:
     pip install openai python-dotenv
-    .env file with: COSMOS_API_KEY=sk-cos-xxx
+    .env file with: AI_API_KEY=sk-cos-xxx
 """
 
 import argparse
@@ -23,82 +23,173 @@ import json
 import os
 import re
 import sys
+import threading
 import time
+import itertools
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# ─── Config ──────────────────────────────────────────────────────────────────
-# Resolve .env from repo root (parent of scripts/) regardless of cwd
+try:
+    from scripts.reorder_pos_priority import sort_entries
+except ImportError:
+    from reorder_pos_priority import sort_entries
+
+# ─── Configuration ──────────────────────────────────────────────────────────────
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(_REPO_ROOT / ".env")
-API_KEY   = os.getenv("COSMOS_API_KEY")
-BASE_URL  = "https://api.cosmoshub.tech/v1"
-MODEL     = "deepseek-3.2"
-RAW_DIR   = "data/wiktionary/raw"
-DONE_LOG  = "scripts/.translate_done.log"
-# Batches are sized by total definition-text length, not a fixed entry count.
-# Some entries (e.g. abbreviations with 50+ senses like "AA") are far longer
-# than a typical entry; a fixed entry-count batch can silently overflow
-# max_tokens and get the response truncated mid-JSON.
-MAX_BATCH_CHARS = 6000
+
+PROVIDERS = {
+    "9router": {
+        "env_key": "9ROUTER_API_KEY",
+        "base_url": "http://localhost:20128/v1",
+        "default_model": "cx/gpt-5.6-luna",
+        "max_batch_chars": 3000,
+        "default_workers": 4,
+    },
+    "gemini": {
+        "env_key": "GEMINI_API_KEY",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "default_model": "gemini-3.7-flash",
+        "max_batch_chars": 10000,
+        "default_workers": 2,
+    }
+}
+
+# These will be populated in main() based on the selected provider
+API_KEY         = ""
+BASE_URL        = ""
+MODEL           = ""
+MAX_BATCH_CHARS = 1000
+WORKERS         = 2
+PROVIDER_NAME   = ""
+
+RAW_DIR         = "data/master/raw"
+DONE_LOG        = "scripts/.translate_done.log"
 
 # ─── System Prompt ────────────────────────────────────────────────────────────
-# AI only sees word + definitions. Python owns everything else.
 SYSTEM_PROMPT = """\
-Kamu adalah penerjemah kamus profesional Inggris-Indonesia.
+Kamu adalah sistem penyusun kamus saku dwibahasa Inggris-Indonesia (EN-ID Pocket Dictionary) yang presisi, ringkas, dan natural untuk pop-up dictionary.
 
-Tugasmu adalah menerjemahkan definisi kamus bahasa Inggris ke bahasa Indonesia yang akurat, natural, dan mudah dipahami oleh penutur asli Indonesia.
+TUGAS:
+1. Berikan terjemahan langsung atau padanan kata (glosarium) dalam bahasa Indonesia berdasarkan kata target (`word`) dan kelas katanya (`pos`).
+2. Berikan nilai integer `score` (10 - 100) yang mencerminkan tingkat kepopuleran/frekuensi penggunaan kata tersebut dalam kelas kata (`pos`) tersebut di percakapan/literatur bahasa Inggris nyata:
+   - 100 = Makna utama/sangat dominan (contoh: "about" (adp) = 100, "run" (verb) = 100, "book" (noun) = 100)
+   - 60-80 = Makna umum sekunder (contoh: "about" (adv) = 80, "run" (noun) = 70, "book" (verb) = 60)
+   - 10-30 = Makna yang sangat jarang/kuno/kiasan khusus (contoh: "about" (adj) = 15, "above" (noun) = 20)
 
 INPUT:
-Array JSON. Setiap elemen memiliki format:
-{"word": "...", "definitions": ["definisi 1", "definisi 2", ...]}
+Array JSON: [{"word": "...", "pos": "..."}]
 
-OUTPUT:
-Array JSON dengan format yang sama persis, hanya ganti key "definitions" menjadi "translations":
-{"word": "...", "translations": ["terjemahan 1", "terjemahan 2", ...]}
+OUTPUT (JSON):
+{"results": [{"word": "...", "pos": "...", "score": 100, "definitions": ["makna 1", "makna 2", ...]}]}
 
-ATURAN WAJIB:
+PEDOMAN KETAT DEFINISI:
+1. RINGKAS & LANGSUNG (Direct Translations Only):
+   - Setiap elemen dalam array "definitions" HARUS berupa kata atau frasa padanan langsung (1 - 4 kata).
+   - DILARANG membuat kalimat penjelasan panjang, definisi ensiklopedia, atau deskripsi bertele-tele.
+   - Contoh BENAR: ["rumah", "tempat tinggal", "kediaman"]
+   - Contoh SALAH: ["bangunan tempat tinggal manusia yang memiliki dinding dan atap"]
 
-1. Jumlah elemen output harus sama persis dengan input.
+2. KESELARASAN KELAS KATA (Part of Speech):
+   - noun  -> kata benda (contoh: "buku", "penyimpanan")
+   - verb  -> kata kerja berimbuhan yang pas (contoh: "memesan", "berlari", "menjalankan")
+   - adj   -> kata sifat (contoh: "cepat", "ramah", "indah")
+   - adv   -> kata keterangan (contoh: "dengan cepat", "secara diam-diam")
+   - adp/prep -> kata depan/preposisi (contoh: "tentang", "di atas", "dengan")
+   - intj  -> kata seru / ungkapan (contoh: "astaga!", "jaga ucapanmu!")
 
-2. Jumlah string dalam "translations" harus sama persis dengan jumlah string dalam "definitions". Jangan menggabungkan, memecah, menghapus, menambah, atau mengubah urutan definisi.
+3. PRIORITAS & CAKUPAN:
+   - Berikan 2 sampai 6 padanan kata yang paling sering dipakai (makna primer di awal, lalu makna sekunder/idiomatik populer).
 
-3. Terjemahkan setiap definisi secara akurat. Jangan meringkas berlebihan. Jangan menghilangkan informasi dari definisi asli.
+4. FORMAT BERSIH:
+   - Gunakan huruf kecil (kecuali singkatan/nama khusus).
+   - Jangan beri tanda titik koma (;) di ujung kata.
+   - Jangan sertakan contoh kalimat, nomor urut, atau bullet point.
+   - Gunakan bahasa Indonesia baku dan natural (KBBI/EYD).
 
-4. Jangan menambahkan informasi, contoh, sinonim, konteks, atau interpretasi yang tidak ada dalam teks asli.
+5. PEMETAAN 1-KE-1 PERSIS & KELENGKAPAN ENTRI (SANGAT PENTING):
+   - Jumlah elemen array "results" pada output HARUS PERSIS SAMA dengan jumlah elemen input.
+   - Jika ada kata yang sama muncul berulang dengan pos berbeda (misal: "run" verb dan "run" noun), JANGAN PERNAH DIGABUNG ATAU DILEWATI! Terjemahkan masing-masing sebagai entri terpisah sesuai urutan input.
 
-5. Pertahankan makna, nuansa, negasi, tingkat kepastian, dan informasi gramatikal dari definisi asli.
-
-6. Pertahankan tag HTML: <i>, <b>, <br>. Jangan membuat tag HTML baru.
-
-7. Hapus metadata historis yang tidak membantu pemahaman, seperti:
-   <small>[from ca. 1350]</small>, <small>[from 1350\u20131470]</small>
-
-8. Terjemahkan label register ke padanan Indonesia yang natural jika padanannya jelas (contoh: obsolete \u2192 usang/kuno, archaic \u2192 arkais/kuno, informal \u2192 informal, slang \u2192 slang). Jika tidak ada padanan yang jelas, pertahankan label aslinya. Pertahankan label tersebut jika penting untuk memahami konteks penggunaan kata.
-
-9. Pertahankan proper noun, istilah teknis, singkatan, dan nama orang/tempat/organisasi. Terjemahkan hanya jika ada padanan Indonesia yang jelas.
-
-10. Pertahankan referensi silang (see, see also, compare) secara natural tanpa menghilangkan referensinya.
-
-11. Jika definisi ambigu, terjemahkan berdasarkan makna paling langsung yang didukung teks asli. Jangan menebak atau menambah konteks.
-
-12. Gunakan "word" hanya sebagai konteks semantik untuk disambiguasi. Jangan menerjemahkan atau mengubah "word".
-
-13. Output HARUS berupa JSON valid, tanpa markdown code block, tanpa komentar, tanpa teks di luar JSON.
-
-CONTOH INPUT:
-[
-  {"word": "charge", "definitions": ["to ask someone to pay a particular amount", "to accuse someone formally"]}
-]
-
-CONTOH OUTPUT:
-[
-  {"word": "charge", "translations": ["meminta seseorang membayar sejumlah tertentu", "menuduh seseorang secara resmi"]}
-]
+6. OUTPUT HARUS BERUPA JSON VALID MURNI TANPA TEKS LAIN.
 """
 
+# ─── Thread-safe locks ───────────────────────────────────────────────────────
+_done_lock  = threading.Lock()
+_print_lock = threading.Lock()
+
+class DailyLimitExceeded(Exception):
+    pass
+
+_key_lock = threading.Lock()
+ACTIVE_KEYS = []
+KEY_MODEL_INDEX = {}
+FALLBACK_MODELS = {
+    "gemini": [
+        "gemini-3.7-flash",
+        "gemini-3.6-flash",
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite"
+    ],
+    "9router": [
+        "cx/gpt-5.6-luna",
+        "cosmoshub/glm-5"
+    ]
+}
+
+def auto_downgrade_key(api_key: str, failed_model: str):
+    with _key_lock:
+        if api_key not in KEY_MODEL_INDEX:
+            return
+        current_idx = KEY_MODEL_INDEX[api_key]
+        fallbacks = FALLBACK_MODELS.get(PROVIDER_NAME, [])
+        if fallbacks:
+            if current_idx < len(fallbacks) and fallbacks[current_idx] != failed_model:
+                # Already downgraded by another thread
+                return
+            
+            next_idx = current_idx + 1
+            if next_idx < len(fallbacks):
+                KEY_MODEL_INDEX[api_key] = next_idx
+                next_model = fallbacks[next_idx]
+                with _print_lock:
+                    print(f"\n  [KEY DOWNGRADE] Kunci (...{api_key[-4:]}) habis di {failed_model} -> Langsung beralih ke {next_model}!\n", flush=True)
+            else:
+                if api_key in ACTIVE_KEYS:
+                    ACTIVE_KEYS.remove(api_key)
+                with _print_lock:
+                    print(f"\n  [KEY RETIRED] Kunci (...{api_key[-4:]}) telah menghabiskan SEMUA model fallback. Sisa kunci aktif: {len(ACTIVE_KEYS)}\n", flush=True)
+                
+                if not ACTIVE_KEYS:
+                    with _print_lock:
+                        print(f"\n  [FATAL] SEMUA API KEY TELAH MENGHABISKAN SELURUH MODEL FALLBACK! Menghentikan proses...\n", flush=True)
+                    os._exit(1)
+        else:
+            if api_key in ACTIVE_KEYS:
+                ACTIVE_KEYS.remove(api_key)
+            if not ACTIVE_KEYS:
+                with _print_lock:
+                    print(f"\n  [FATAL] SEMUA API KEY TELAH HABIS LIMIT HARIANNYA! Menghentikan proses...\n", flush=True)
+                os._exit(1)
+
+def get_next_key_and_model() -> tuple[str, str]:
+    with _key_lock:
+        if not ACTIVE_KEYS:
+            with _print_lock:
+                print("\n  [FATAL] Tidak ada kunci aktif yang tersisa!\n", flush=True)
+            os._exit(1)
+        key = ACTIVE_KEYS[0]
+        ACTIVE_KEYS.append(ACTIVE_KEYS.pop(0))
+        fallbacks = FALLBACK_MODELS.get(PROVIDER_NAME, [])
+        if fallbacks:
+            model = fallbacks[KEY_MODEL_INDEX[key]]
+        else:
+            model = MODEL
+        return key, model
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
 def load_done_log() -> set:
@@ -109,35 +200,16 @@ def load_done_log() -> set:
 
 
 def mark_done(file_path: str):
-    with open(DONE_LOG, "a", encoding="utf-8") as f:
-        f.write(file_path + "\n")
+    with _done_lock:
+        with open(DONE_LOG, "a", encoding="utf-8") as f:
+            f.write(file_path + "\n")
 
 
-def make_batches(entries: list, max_chars: int = MAX_BATCH_CHARS) -> list[list]:
+def make_batches(entries: list, batch_size: int = 25) -> list[list]:
     """
-    Split entries into batches sized by total definition-text length rather
-    than a fixed entry count, so a handful of unusually long entries (e.g.
-    abbreviations with dozens of senses) can't blow past max_tokens and get
-    the AI response truncated mid-JSON. A single entry longer than max_chars
-    still gets its own batch rather than being split (definitions of one
-    entry must never be separated across API calls).
+    Split entries into fixed-size batches (e.g. 25 entries per batch).
     """
-    batches: list[list] = []
-    current: list = []
-    current_len = 0
-
-    for e in entries:
-        e_len = sum(len(d) for d in e[5] if isinstance(d, str))
-        if current and current_len + e_len > max_chars:
-            batches.append(current)
-            current, current_len = [], 0
-        current.append(e)
-        current_len += e_len
-
-    if current:
-        batches.append(current)
-
-    return batches
+    return [entries[i:i + batch_size] for i in range(0, len(entries), batch_size)]
 
 
 def get_all_files(part: str | None = None) -> list[str]:
@@ -152,264 +224,326 @@ def get_all_files(part: str | None = None) -> list[str]:
     return files
 
 
-# Wiktionary template gloss marker: ("t=ante meridiem") — not part of the
-# definition, contains literal " which breaks AI's JSON output.
-# Matches both straight ("...") and curly ("\u201c...\u201d") quote variants so
-# it stays consistent with the cleanup regex in call_api().
-_WIKT_GLOSS_RE = re.compile(r'\(["\u201c]t=[^)\n]{0,200}["\u201d]\)')
-
-# Wiktionary <ref>...</ref> / <ref .../> citation markup — not part of the
-# definition text. Left unstripped, the AI tends to treat it like the
-# whitelisted <i>/<b>/<br> tags and copies it verbatim into the translation.
-_WIKT_REF_RE = re.compile(r'<ref\b[^>]*?/>|<ref\b[^>]*?>.*?</ref>', re.DOTALL | re.IGNORECASE)
+# ─── Input sanitizers ────────────────────────────────────────────────────────
+_GLOSS_RE = re.compile(r'\(["\u201c]t=[^)\n]{0,200}["\u201d]\)')
+_REF_RE   = re.compile(r'<ref\b[^>]*?/>|<ref\b[^>]*?>.*?</ref>', re.DOTALL | re.IGNORECASE)
 
 
 def _sanitize_def(text: str) -> str:
-    """
-    Strip Wiktionary template artifacts and neutralize remaining literal
-    double-quotes before sending definitions to the AI.
-
-    Wiktionary uses ("t=gloss") markers (e.g. ("t=ante meridiem")) that are
-    internal template metadata, not actual definition text. When the AI copies
-    them verbatim, the embedded " characters break its JSON output. Wiktionary
-    also embeds <ref>...</ref> citation markup, which carries no translation
-    value and otherwise leaks straight into the output alongside the tags we
-    do want to keep (<i>, <b>, <br>).
-    """
-    # 1. Remove ("t=...") template markers entirely—they add no translation value
-    text = _WIKT_GLOSS_RE.sub("", text)
-    # 2. Remove <ref>...</ref> / <ref .../> citation markup entirely
-    text = _WIKT_REF_RE.sub("", text)
-    # 3. Replace any remaining literal " with a typographic apostrophe
+    text = _GLOSS_RE.sub("", text)
+    text = _REF_RE.sub("", text)
     text = text.replace('"', "\u2019")
     return text.strip()
 
 
 def build_payload(entries: list) -> list[dict]:
-    """
-    Extract word + definitions for the AI. Python owns everything else.
-    Raises ValueError if any entry is structurally invalid — never silently
-    drops entries, which would cause translations to shift to the wrong entry.
-    """
     payload = []
     for i, e in enumerate(entries):
-        if not isinstance(e, list) or len(e) <= 5:
+        if not isinstance(e, list) or len(e) <= 2:
             raise ValueError(f"Entry {i} memiliki struktur Yomitan tidak valid: {e!r:.80}")
         payload.append({
             "word": e[0],
-            "definitions": [
-                _sanitize_def(d) if isinstance(d, str) else d
-                for d in e[5]
-            ],
+            "pos": e[2],
         })
     return payload
 
 
 def inject_translations(entries: list, results: list[dict]) -> list:
-    """Merge AI translations back into original Yomitan entries at index [5]."""
     merged = []
     for orig, res in zip(entries, results):
-        entry = list(orig)              # copy; never mutate original
-        entry[5] = res["translations"]  # only touch index 5
+        entry = list(orig)
+        try:
+            score_val = int(res.get("score", 0))
+        except (ValueError, TypeError):
+            score_val = 0
+        if len(entry) > 4:
+            entry[4] = score_val
+        defs = res.get("definitions", ["<terjemahan gagal>"])
+        
+        items = []
+        if isinstance(defs, list):
+            for d in defs:
+                if isinstance(d, str):
+                    for part in d.split(","):
+                        p = part.strip()
+                        if p:
+                            items.append(p)
+        elif isinstance(defs, str):
+            items = [p.strip() for p in defs.split(",") if p.strip()]
+        
+        if not items:
+            items = ["<terjemahan gagal>"]
+
+        entry[5] = [{
+            "type": "structured-content",
+            "content": {
+                "tag": "ul",
+                "style": {"listStyleType": "circle"},
+                "content": [{"tag": "li", "content": item} for item in items]
+            }
+        }]
         merged.append(entry)
     return merged
 
 
-def call_api(client: OpenAI, payload: list[dict], retries: int = 3) -> list[dict]:
+# ─── API call with retry ──────────────────────────────────────────────────────
+def call_api(client: OpenAI, payload: list[dict], model: str, retries: int = 3) -> list[dict]:
     """Send payload to AI and return parsed response. Retries on transient errors."""
     last_exc: Exception | None = None
 
     for attempt in range(1, retries + 1):
         try:
             response = client.chat.completions.create(
-                model=MODEL,
+                model=model,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user",   "content": json.dumps(payload, ensure_ascii=False)},
                 ],
                 temperature=0.2,
                 max_tokens=16000,
+                response_format={"type": "json_object"},
+                timeout=60.0
             )
 
             raw = response.choices[0].message.content.strip()
 
-            # Strip markdown code blocks if AI adds them anyway
             if raw.startswith("```"):
                 raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
 
-            # Post-process AI output before JSON parsing:
-            # 1. Strip Wiktionary ("t=...") gloss artifacts the AI hallucinates back
-            raw = re.sub(r'\(["\u201c]t=[^)\n]{0,200}["\u201d]\)', '', raw)
-            # 2. Replace any remaining ("text") unescaped-quote patterns with curly quotes
-            raw = re.sub(
-                r'\("([^"\n]{0,300})"\)',
-                lambda m: '(\u201c' + m.group(1) + '\u201d)',
-                raw,
-            )
-
-            return json.loads(raw)
+            parsed = json.loads(raw)
+            if isinstance(parsed, dict) and "results" in parsed:
+                return parsed["results"]
+            return parsed
 
         except json.JSONDecodeError:
             preview = raw[:500].replace("\n", " ")
-            print(f"\n  [RAW AI OUTPUT]: {preview}...")
-            raise  # JSON errors are not transient — don't retry
+            with _print_lock:
+                print(f"\n  [RAW AI OUTPUT ({model})]: {preview}...")
+            raise
 
         except Exception as exc:
             last_exc = exc
             err_str = str(exc)
-            # Retry on transient server/network errors
+            
+            if any(k in err_str for k in ("GenerateRequestsPerDay", "RESOURCE_EXHAUSTED", "PerDay", "quota exceeded", "limit reached", "rate_limit", "quota")):
+                if hasattr(client, 'api_key'):
+                    auto_downgrade_key(client.api_key, model)
+                raise DailyLimitExceeded(err_str)
+
             is_transient = any(code in err_str for code in ("502", "503", "429", "timeout", "Connection"))
             if is_transient and attempt < retries:
-                wait = 2 ** attempt  # 2s, 4s, 8s
-                print(f"\n  [RETRY {attempt}/{retries}] {err_str[:80]} — tunggu {wait}s...", end="", flush=True)
+                wait = 2 ** attempt
+                # If API tells us how long to wait, respect it
+                m = re.search(r"'retry_after':\s*(\d+)", err_str)
+                m2 = re.search(r"'retryDelay':\s*'(\d+)s'", err_str)
+                if m:
+                    wait = int(m.group(1)) + 1
+                elif m2:
+                    wait = int(m2.group(1)) + 1
+                with _print_lock:
+                    print(f"\n  [RETRY {attempt}/{retries} on {model}] {err_str[:80]} -- tunggu {wait}s...", flush=True)
                 time.sleep(wait)
                 continue
-            raise  # Non-transient or exhausted retries
+            raise
 
-    raise last_exc  # Should not reach here
+    raise last_exc
 
 
+# ─── Validation ───────────────────────────────────────────────────────────────
 def validate(entries: list, results: list[dict]) -> str | None:
-    """
-    Validate AI output. Returns an error message string on failure, None on success.
-    Python guarantees all non-definition fields are untouched (they were never sent).
-    This validation checks translation integrity and uses 'word' as a checksum.
-    """
     if len(results) != len(entries):
         return f"Jumlah entri berbeda: {len(results)} vs {len(entries)}"
-
     for i, (orig, res) in enumerate(zip(entries, results)):
-        # Word checksum — detects index drift or hallucinated responses
-        if res.get("word") != orig[0]:
-            return (
-                f"Entri {i}: word berubah "
-                f"('{orig[0]}' \u2192 '{res.get('word')}')"
-            )
-        if "translations" not in res:
-            return f"Entri {i}: key 'translations' tidak ditemukan"
-        if not isinstance(res["translations"], list):
-            return f"Entri {i}: 'translations' bukan array"
-        if len(res["translations"]) != len(orig[5]):
-            return (
-                f"Entri {i} ('{orig[0]}'): "
-                f"jumlah terjemahan {len(res['translations'])} != "
-                f"jumlah definisi asli {len(orig[5])}"
-            )
-        # All translations must be strings
-        if not all(isinstance(x, str) for x in res["translations"]):
+        if "definitions" not in res:
+            return f"Entri {i}: key 'definitions' tidak ditemukan"
+        if not isinstance(res["definitions"], list):
+            return f"Entri {i}: 'definitions' bukan array"
+        if not all(isinstance(x, str) for x in res["definitions"]):
             return f"Entri {i} ('{orig[0]}'): semua translation harus berupa string"
-
     return None
 
 
 # ─── Core processor ──────────────────────────────────────────────────────────
-def process_file(client: OpenAI, file_path: str, dry_run: bool = False) -> bool:
-    """Process a single file in sub-batches. Returns True on success."""
+def process_file(client: OpenAI, file_path: str, model: str, dry_run: bool = False) -> bool:
+    """Process a single file in character-sized batches. Returns True on success."""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             entries = json.load(f)
     except Exception as e:
-        print(f"  [ERROR] Gagal membaca {file_path}: {e}")
+        with _print_lock:
+            print(f"  [ERROR] Gagal membaca {file_path}: {e}")
         return False
 
     if not isinstance(entries, list) or not entries:
-        print(f"  [SKIP] File kosong atau bukan list: {file_path}")
-        return True
+        return True  # empty/skip
 
     merged: list = []
 
-    for start, sub in enumerate(make_batches(entries)):
-        try:
-            payload = build_payload(sub)
-        except ValueError as e:
-            print(f"  [ERROR] {e}")
-            return False
+    for batch_idx, sub in enumerate(make_batches(entries)):
+
+        def _try_batch(batch: list) -> list[dict] | None:
+            """Try one batch, return results or None on failure."""
+            try:
+                payload = build_payload(batch)
+                results = call_api(client, payload, model=model)
+                err = validate(batch, results)
+                if err:
+                    with _print_lock:
+                        print(f"  [VALIDATION ERROR] {err}")
+                    return None
+                return results
+            except DailyLimitExceeded:
+                raise
+            except (json.JSONDecodeError, ValueError, Exception) as exc:
+                with _print_lock:
+                    print(f"  [API/DECODE ERROR] {exc}")
+                return None
 
         try:
-            results = call_api(client, payload)
-        except json.JSONDecodeError as e:
-            print(f"  [ERROR] AI mengembalikan JSON tidak valid (sub-batch {start}): {e}")
-            return False
-        except Exception as e:
-            print(f"  [ERROR] API error (sub-batch {start}): {e}")
-            return False
+            results = _try_batch(sub)
+        except DailyLimitExceeded:
+            # Propagate up to trigger retry with downgraded key/model
+            raise
 
-        err = validate(sub, results)
-        if err:
-            print(f"  [ERROR] Validasi gagal (sub-batch {start}): {err}")
+        if results is None and len(sub) > 1:
+            mid = len(sub) // 2
+            split_batches = [sub[:mid], sub[mid:]]
+            with _print_lock:
+                print(f"  [RETRY] batch {batch_idx} ({len(sub)} entri) -> split menjadi 2 bagian ...", flush=True)
+            
+            results = []
+            for b in split_batches:
+                try:
+                    r = _try_batch(b)
+                except DailyLimitExceeded:
+                    raise
+                if r is None:
+                    with _print_lock:
+                        print(f"  [ERROR] Sebagian entri dalam batch ini gagal diterjemahkan. Menggugurkan seluruh file.")
+                    return False
+                else:
+                    results.extend(r)
+
+        elif results is None:
+            # Single-entry batch still failed — abort file
+            with _print_lock:
+                print(f"  [ERROR] Entri '{sub[0][0]}' gagal (1-entry batch). Menggugurkan seluruh file.")
             return False
 
         merged.extend(inject_translations(sub, results))
 
     if not dry_run:
+        merged = sort_entries(merged)
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(merged, f, ensure_ascii=False, separators=(",", ":"))
 
     return True
 
 
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(description="Translate raw Yomitan term banks via AI API")
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--test",  action="store_true", help="Translate hanya 1 file pertama untuk preview")
-    group.add_argument("--all",   action="store_true", help="Translate semua file")
-    parser.add_argument("--part",    type=str, default=None, help="Hanya proses folder term_bank_XX (misal: --part 01)")
-    parser.add_argument("--resume",  action="store_true",    help="Lewati file yang sudah diterjemahkan sebelumnya")
-    parser.add_argument("--dry-run", action="store_true",    help="Simulasi tanpa menulis ke file")
+    group.add_argument("--test",    action="store_true", help="Translate hanya 1 file pertama untuk preview")
+    group.add_argument("--all",     action="store_true", help="Translate semua file")
+    parser.add_argument("--provider", type=str, choices=list(PROVIDERS.keys()), default="9router", help="API Provider (9router, gemini)")
+    parser.add_argument("--model",  type=str, default=None, help="Override default model for the provider")
+    parser.add_argument("--part",   type=str,  default=None,    help="Hanya proses folder term_bank_XX (misal: --part 01)")
+    parser.add_argument("--resume", action="store_true",        help="Lewati file yang sudah diterjemahkan sebelumnya")
+    parser.add_argument("--dry-run",action="store_true",        help="Simulasi tanpa menulis ke file")
+    parser.add_argument("--workers",type=int,  default=None,    help="Jumlah parallel workers (default tergantung provider)")
     args = parser.parse_args()
 
-    if not API_KEY:
-        print("[FATAL] COSMOS_API_KEY tidak ditemukan. Isi file .env:\n  COSMOS_API_KEY=sk-cos-xxx")
+    global API_KEYS, BASE_URL, MODEL, MAX_BATCH_CHARS, WORKERS, PROVIDER_NAME, ACTIVE_KEYS, KEY_MODEL_INDEX
+    PROVIDER_NAME = args.provider
+    cfg = PROVIDERS[args.provider]
+    raw_key = os.getenv(cfg["env_key"], "")
+    API_KEYS = [k.strip() for k in raw_key.split(",") if k.strip()]
+    BASE_URL = cfg["base_url"]
+    MODEL = args.model if args.model else cfg["default_model"]
+    MAX_BATCH_CHARS = cfg["max_batch_chars"]
+    WORKERS = args.workers if args.workers is not None else cfg["default_workers"]
+
+    if not API_KEYS:
+        print(f"[FATAL] {cfg['env_key']} tidak ditemukan. Silakan tambahkan di file .env")
         sys.exit(1)
 
-    client   = OpenAI(api_key=API_KEY, base_url=BASE_URL)
-    done_set = load_done_log() if args.resume else set()
+    ACTIVE_KEYS = list(API_KEYS)
+    KEY_MODEL_INDEX = {k: 0 for k in API_KEYS}
+
+    print(f"[INFO] Memuat {len(API_KEYS)} API Key untuk {PROVIDER_NAME} (Per-Key Independent Downgrade Mode)")
+
+    done_set  = load_done_log() if args.resume else set()
     all_files = get_all_files(part=args.part)
 
+    # ── Test mode: single file, single worker ─────────────────────────────────
     if args.test:
-        all_files = all_files[:1]
-        print(f"[TEST MODE] Memproses 1 file: {all_files[0]}\n")
-    else:
-        if args.resume:
-            before = len(all_files)
-            all_files = [f for f in all_files if f not in done_set]
-            print(f"[RESUME] {before - len(all_files)} file sudah selesai, {len(all_files)} tersisa.")
-        print(f"[INFO] Total file yang akan diproses: {len(all_files)}\n")
-
-    success, failed = 0, []
-
-    for i, file_path in enumerate(all_files, 1):
-        print(f"[{i:4d}/{len(all_files)}] {file_path} ... ", end="", flush=True)
-        ok = process_file(client, file_path, dry_run=args.dry_run)
-
-        if ok:
-            success += 1
+        f = all_files[0]
+        print(f"[TEST MODE] Memproses 1 file: {f}\n")
+        key, model = get_next_key_and_model()
+        client = OpenAI(api_key=key, base_url=BASE_URL)
+        ok = process_file(client, f, model=model, dry_run=args.dry_run)
+        print("[OK]" if ok else "[FAIL]")
+        if ok and not args.dry_run:
             if not args.dry_run:
-                mark_done(file_path)
-            print("[OK]")
-        else:
-            failed.append(file_path)
-            print("[FAIL]")
-
-        # Preview in test mode
-        if args.test and ok and not args.dry_run:
-            with open(file_path, "r", encoding="utf-8") as f:
-                result = json.load(f)
+                mark_done(f)
+            with open(f, "r", encoding="utf-8") as fh:
+                result = json.load(fh)
             print("\n--- Preview 5 Entri Pertama ---")
             for entry in result[:5]:
-                print(f"  {entry[0]} ({entry[2]}): {entry[5]}")
+                print(f"  {entry[0]} ({entry[2]}) [score={entry[4]}]: {entry[5]}")
             print("-----------------------------------\n")
+        return
 
-        # Throttle antara request
-        if not args.test and i < len(all_files):
-            time.sleep(0.3)
+    # ── Full mode: parallel ───────────────────────────────────────────────────
+    if args.resume:
+        before = len(all_files)
+        all_files = [f for f in all_files if f not in done_set]
+        print(f"[RESUME] {before - len(all_files)} file sudah selesai, {len(all_files)} tersisa.")
+    print(f"[INFO] Total: {len(all_files)} file | Workers: {WORKERS}\n")
+
+    total   = len(all_files)
+    counter = {"success": 0, "failed": 0, "done": 0}
+    failed  = []
+    c_lock  = threading.Lock()
+
+    def run_one(file_path: str) -> tuple:
+        max_retries = 5
+        for _ in range(max_retries):
+            key, model = get_next_key_and_model()
+            client = OpenAI(api_key=key, base_url=BASE_URL)
+            try:
+                ok = process_file(client, file_path, model=model, dry_run=args.dry_run)
+                return file_path, ok
+            except DailyLimitExceeded:
+                # Key already downgraded in call_api, loop to retry with newly active key/model
+                continue
+        return file_path, False
+
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        futures = {pool.submit(run_one, fp): fp for fp in all_files}
+        for future in as_completed(futures):
+            file_path, ok = future.result()
+            with c_lock:
+                counter["done"] += 1
+                done_n = counter["done"]
+                if ok:
+                    counter["success"] += 1
+                    if not args.dry_run:
+                        mark_done(file_path)
+                else:
+                    counter["failed"] += 1
+                    failed.append(file_path)
+            status = "[OK]" if ok else "[FAIL]"
+            with _print_lock:
+                print(f"[{done_n:5d}/{total}] {file_path} ... {status}", flush=True)
 
     print(f"\n{'='*50}")
-    print(f"Selesai: {success} berhasil, {len(failed)} gagal")
+    print(f"Selesai: {counter['success']} berhasil, {counter['failed']} gagal")
     if failed:
         print("File yang gagal:")
-        for f in failed:
+        for f in sorted(failed):
             print(f"  - {f}")
 
 

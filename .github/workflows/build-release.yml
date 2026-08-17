@@ -111,13 +111,7 @@ jobs:
         with:
           tag_name: ${{ steps.prep.outputs.VERSION }}
           name: ${{ steps.prep.outputs.VERSION }}
-          body: |
-            Kamus Bahasa Inggris - Indonesia siap pakai untuk ekstensi Yomitan.
-
-            ### Cara Install:
-            1. Unduh file `EN-IDict.zip` di bawah.
-            2. Buka ekstensi **Yomitan** -> **Settings** -> **Dictionaries** -> **Configure installed and enabled dictionaries...**
-            3. Klik **Import Dictionary...** dan pilih file `EN-IDict.zip`.
+          generate_release_notes: true
           files: EN-IDict.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

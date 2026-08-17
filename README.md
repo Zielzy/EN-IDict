@@ -1,6 +1,6 @@
 # EN-IDict — Kamus Inggris - Indonesia untuk Yomitan
 
-Kamus Bahasa Inggris - Indonesia untuk **Yomitan**. Berisi **292.000+ entri kosakata**.
+Kamus Bahasa Inggris - Indonesia untuk **Yomitan**.
 
 ---
 

@@ -25,8 +25,8 @@ import re
 import shutil
 import sys
 
-PROCESSED_DIR = "data/wiktionary/processed"
-RAW_DIR       = "data/wiktionary/raw"
+PROCESSED_DIR = "data/master/processed"
+RAW_DIR       = "data/master/raw"
 ENTRIES_PER_FILE = 50
 DONE_LOG      = "scripts/.translate_done.log"
 
