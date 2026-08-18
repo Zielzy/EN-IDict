@@ -55,7 +55,11 @@ jobs:
               if match:
                   print(match.group(1))
               else:
-                  print('1.1.0')
+                  date_match = re.search(r'(\d{4})-(\d{2})-(\d{2})', rev)
+                  if date_match:
+                      print('.'.join(date_match.groups()))
+                  else:
+                      print('1.1.0')
           except Exception:
               print('1.1.0')
           ")
@@ -71,7 +75,7 @@ jobs:
           echo "BUILD_DATE=${BUILD_DATE}" >> $GITHUB_OUTPUT
           echo "::notice ::Building Yomitan Package: ${ZIP_NAME} for version ${VERSION} (${BUILD_DATE})"
 
-      - name: Inject title, revision & auto-update URLs into dict/index.json
+      - name: Inject title & auto-update URLs into dict/index.json
         run: |
           python3 -c "
           import json
@@ -83,7 +87,6 @@ jobs:
               data = json.load(f)
 
           data['title'] = f'EN-IDict [{build_date}]'
-          data['revision'] = f'rev.EN-IDict.{build_date}'
           data['indexUrl'] = 'https://raw.githubusercontent.com/Zielzy/EN-IDict/main/dict/index.json'
           data['downloadUrl'] = 'https://github.com/Zielzy/EN-IDict/releases/latest/download/EN-IDict.zip'
 
@@ -95,11 +98,12 @@ jobs:
           "
 
       - name: Commit updated index.json to main
+        if: ${{ github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dict/index.json
-          git diff --cached --quiet || git commit -m "chore: update index.json revision to rev.EN-IDict.${{ steps.prep.outputs.BUILD_DATE }}"
+          git diff --cached --quiet || git commit -m "chore: update dictionary metadata"
           git push origin HEAD:main
 
       - name: Compress dict directory into single EN-IDict.zip
