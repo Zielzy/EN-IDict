@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Version tag (e.g. 1.1.0 or v1.1.0). Leave blank to auto-detect from dict/index.json'
+        description: 'Version tag (e.g. 1.1.0 or v1.1.0). Leave blank to auto-detect current date (vYYYY-MM-DD)'
         required: false
         default: ''
         type: string
@@ -38,6 +38,7 @@ jobs:
         id: prep
         run: |
           INPUT_VER="${{ github.event.inputs.version }}"
+          BUILD_DATE=$(date +%Y-%m-%d)
           
           if [ -n "$INPUT_VER" ]; then
             CLEAN_VER="${INPUT_VER#v}"
@@ -45,29 +46,11 @@ jobs:
             TAG_NAME="${GITHUB_REF_NAME}"
             CLEAN_VER="${TAG_NAME#v}"
           else
-            CLEAN_VER=$(python3 -c "
-          import json, re
-          try:
-              with open('dict/index.json', 'r', encoding='utf-8') as f:
-                  data = json.load(f)
-              rev = str(data.get('revision', ''))
-              match = re.search(r'(\d+\.\d+(?:\.\d+)?)', rev)
-              if match:
-                  print(match.group(1))
-              else:
-                  date_match = re.search(r'(\d{4})-(\d{2})-(\d{2})', rev)
-                  if date_match:
-                      print('.'.join(date_match.groups()))
-                  else:
-                      print('1.1.0')
-          except Exception:
-              print('1.1.0')
-          ")
+            CLEAN_VER="${BUILD_DATE}"
           fi
 
           VERSION="v${CLEAN_VER}"
           ZIP_NAME="EN-IDict.zip"
-          BUILD_DATE=$(date +%Y-%m-%d)
 
           echo "CLEAN_VER=${CLEAN_VER}" >> $GITHUB_OUTPUT
           echo "VERSION=${VERSION}" >> $GITHUB_OUTPUT
@@ -75,7 +58,7 @@ jobs:
           echo "BUILD_DATE=${BUILD_DATE}" >> $GITHUB_OUTPUT
           echo "::notice ::Building Yomitan Package: ${ZIP_NAME} for version ${VERSION} (${BUILD_DATE})"
 
-      - name: Inject title & auto-update URLs into dict/index.json
+      - name: Inject title, revision & auto-update URLs into dict/index.json
         run: |
           python3 -c "
           import json
@@ -87,6 +70,7 @@ jobs:
               data = json.load(f)
 
           data['title'] = f'EN-IDict [{build_date}]'
+          data['revision'] = f'EN-IDict.{build_date}'
           data['indexUrl'] = 'https://raw.githubusercontent.com/Zielzy/EN-IDict/main/dict/index.json'
           data['downloadUrl'] = 'https://github.com/Zielzy/EN-IDict/releases/latest/download/EN-IDict.zip'
 
